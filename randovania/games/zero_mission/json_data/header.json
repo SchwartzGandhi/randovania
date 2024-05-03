@@ -182,6 +182,11 @@
                 "long_name": "Combat",
                 "description": "Encapsulates a number of more specific tricks related to combat, as well as the player's general skill in dealing damage without taking it. Dictates how many resources the player is expected to have for fights, and whether certain techniques are considered to be in logic.",
                 "extra": {}
+            },
+            "MidairMorph": {
+                "long_name": "Mid-Air Morphs",
+                "description": "Entering Morph Ball mode while in mid air to enter 1 tile high gaps without power grip or bombs",
+                "extra": {}
             }
         },
         "damage": {
@@ -459,6 +464,85 @@
                         {
                             "type": "template",
                             "data": "Destroy Bomb Blocks"
+                        }
+                    ]
+                }
+            },
+            "Have Increased Height": {
+                "type": "or",
+                "data": {
+                    "comment": null,
+                    "items": [
+                        {
+                            "type": "template",
+                            "data": "Use Space Jump"
+                        },
+                        {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "Hi-Jump",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    ]
+                }
+            },
+            "Lay Any Bomb": {
+                "type": "or",
+                "data": {
+                    "comment": null,
+                    "items": [
+                        {
+                            "type": "template",
+                            "data": "Lay Bomb"
+                        },
+                        {
+                            "type": "template",
+                            "data": "Lay Power Bomb"
+                        }
+                    ]
+                }
+            },
+            "Can Bounce in Ball": {
+                "type": "or",
+                "data": {
+                    "comment": null,
+                    "items": [
+                        {
+                            "type": "template",
+                            "data": "Lay Bomb"
+                        },
+                        {
+                            "type": "template",
+                            "data": "Use Spring Ball"
+                        }
+                    ]
+                }
+            },
+            "Use Spring Ball": {
+                "type": "and",
+                "data": {
+                    "comment": null,
+                    "items": [
+                        {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "Morph Ball",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "Hi-Jump",
+                                "amount": 1,
+                                "negate": false
+                            }
                         }
                     ]
                 }

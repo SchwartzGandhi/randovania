@@ -29,6 +29,18 @@ Templates
           Ice Beam and Destroy Bomb Blocks
           Missiles ≥ 5 or Super Missiles
 
+* Have Increased Height:
+      Hi-Jump Boots or Use Space Jump
+
+* Lay Any Bomb:
+      Lay Bomb or Lay Power Bomb
+
+* Can Bounce in Ball:
+      Lay Bomb or Use Spring Ball
+
+* Use Spring Ball:
+      Hi-Jump Boots and Morph Ball
+
 ====================
 Dock Weaknesses
 
