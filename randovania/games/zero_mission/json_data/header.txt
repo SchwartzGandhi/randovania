@@ -1,7 +1,7 @@
 ====================
 Templates
 
-* Destroy Bomb Blocks:
+* Lay Any Bomb:
       Lay Bomb or Lay Power Bomb
 
 * Defeat Charge Beam Beast:
@@ -31,9 +31,6 @@ Templates
 
 * Have Increased Height:
       Hi-Jump Boots or Use Space Jump
-
-* Lay Any Bomb:
-      Lay Bomb or Lay Power Bomb
 
 * Can Bounce in Ball:
       Lay Bomb or Use Spring Ball

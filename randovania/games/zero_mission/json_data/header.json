@@ -215,7 +215,7 @@
         },
         "misc": {},
         "requirement_template": {
-            "Destroy Bomb Blocks": {
+            "Lay Any Bomb": {
                 "type": "or",
                 "data": {
                     "comment": null,
@@ -485,22 +485,6 @@
                                 "amount": 1,
                                 "negate": false
                             }
-                        }
-                    ]
-                }
-            },
-            "Lay Any Bomb": {
-                "type": "or",
-                "data": {
-                    "comment": null,
-                    "items": [
-                        {
-                            "type": "template",
-                            "data": "Lay Bomb"
-                        },
-                        {
-                            "type": "template",
-                            "data": "Lay Power Bomb"
                         }
                     ]
                 }
