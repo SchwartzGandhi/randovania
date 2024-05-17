@@ -135,6 +135,26 @@
             "BrinstarUnderhangChozo": {
                 "long_name": "Brinstar Underhang Corridor Chozo Statue",
                 "extra": {}
+            },
+            "KillAcidWorm": {
+                "long_name": "Acid Worm Defeated",
+                "extra": {}
+            },
+            "Ziplines": {
+                "long_name": "Ziplines Activated",
+                "extra": {}
+            },
+            "RuinsChozoStatue": {
+                "long_name": "Ruins Chozo Statue Item Aquired",
+                "extra": {}
+            },
+            "KraidChozoStatue": {
+                "long_name": "Kraid Chozo Statue Item Aquired",
+                "extra": {}
+            },
+            "RidleyChozoStatue": {
+                "long_name": "Ridley Chozo Statue Item Aquired",
+                "extra": {}
             }
         },
         "tricks": {
@@ -524,6 +544,32 @@
                             "data": {
                                 "type": "items",
                                 "name": "Hi-Jump",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    ]
+                }
+            },
+            "Climb Into 1x1": {
+                "type": "and",
+                "data": {
+                    "comment": null,
+                    "items": [
+                        {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "Power Grip",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        },
+                        {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "Morph Ball",
                                 "amount": 1,
                                 "negate": false
                             }

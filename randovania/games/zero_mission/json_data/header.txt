@@ -38,6 +38,9 @@ Templates
 * Use Spring Ball:
       Hi-Jump Boots and Morph Ball
 
+* Climb Into 1x1:
+      Morph Ball and Power Grip
+
 ====================
 Dock Weaknesses
 
