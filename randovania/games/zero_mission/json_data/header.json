@@ -155,6 +155,10 @@
             "RidleyChozoStatue": {
                 "long_name": "Ridley Chozo Statue Item Aquired",
                 "extra": {}
+            },
+            "NorfairPillbug": {
+                "long_name": "Kiru-Giru Blockade Defeated",
+                "extra": {}
             }
         },
         "tricks": {
