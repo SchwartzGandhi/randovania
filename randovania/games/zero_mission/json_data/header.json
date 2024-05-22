@@ -580,6 +580,27 @@
                         }
                     ]
                 }
+            },
+            "BallSpark": {
+                "type": "and",
+                "data": {
+                    "comment": null,
+                    "items": [
+                        {
+                            "type": "template",
+                            "data": "Use Spring Ball"
+                        },
+                        {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "Speed Booster",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    ]
+                }
             }
         },
         "damage_reductions": [],

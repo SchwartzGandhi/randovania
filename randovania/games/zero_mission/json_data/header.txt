@@ -41,6 +41,9 @@ Templates
 * Climb Into 1x1:
       Morph Ball and Power Grip
 
+* BallSpark:
+      Speed Booster and Use Spring Ball
+
 ====================
 Dock Weaknesses
 
