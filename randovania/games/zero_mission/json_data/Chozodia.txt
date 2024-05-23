@@ -77,16 +77,31 @@ Extra - room_id: 4
   * Layers: default
   * Power Beam Door to Map Station/Door to Save Station (Ship South)
   * Extra - door_idx: 9
+  > Save Station
+      Trivial
 
 > Door to First Stealth Chamber; Heals? False
   * Layers: default
   * Missile Door to First Stealth Chamber/Door to Save Station (Ship South)
   * Extra - door_idx: 10
+  > Save Station
+      Trivial
 
 > Tunnel to First Stealth Chamber; Heals? False
   * Layers: default
   * Tunnel to First Stealth Chamber/Tunnel to Save Station (Ship South)
   * Extra - door_idx: 179
+  > Save Station
+      Trivial
+
+> Save Station; Heals? True
+  * Layers: default
+  > Door to Map Station
+      Trivial
+  > Door to First Stealth Chamber
+      Trivial
+  > Tunnel to First Stealth Chamber
+      Trivial
 
 ----------------
 First Stealth Chamber
@@ -309,6 +324,13 @@ Extra - room_id: 15
   * Layers: default
   * Power Beam Door to Mother Ship Hangar/Door to Save Station (Ship East)
   * Extra - door_idx: 35
+  > Save Station
+      Trivial
+
+> Save Station; Heals? True
+  * Layers: default
+  > Door to Mother Ship Hangar
+      Trivial
 
 ----------------
 Searchlight Shaft
@@ -398,11 +420,22 @@ Extra - room_id: 21
   * Layers: default
   * Power Beam Door to Tripwire Maze/Door to Save Station (Ship Central)
   * Extra - door_idx: 47
+  > Save Station
+      Trivial
 
 > Door to Gate Chamber; Heals? False
   * Layers: default
   * Power Beam Door to Gate Chamber/Door to Save Station (Ship Central)
   * Extra - door_idx: 132
+  > Save Station
+      Trivial
+
+> Save Station; Heals? True
+  * Layers: default
+  > Door to Tripwire Maze
+      Trivial
+  > Door to Gate Chamber
+      Trivial
 
 ----------------
 Hiding Place B
@@ -500,11 +533,22 @@ Extra - room_id: 27
   * Layers: default
   * Access Open to Dark-Blue Alcove/Dock to Save Station (Ruins Southwest)
   * Extra - door_idx: 59
+  > Save Station
+      Trivial
 
 > Dock to Checkpoint; Heals? False
   * Layers: default
   * Access Open to Checkpoint/Dock to Save Station (Ruins Southwest)
   * Extra - door_idx: 60
+  > Save Station
+      Trivial
+
+> Save Station; Heals? True
+  * Layers: default
+  > Dock to Dark-Blue Alcove
+      Trivial
+  > Dock to Checkpoint
+      Trivial
 
 ----------------
 Hall of Lights
@@ -716,11 +760,22 @@ Extra - room_id: 40
   * Layers: default
   * Access Open to Chozo Inner Temple (INITIAL)/Dock to Save Station (Ruins North)
   * Extra - door_idx: 85
+  > Save Station
+      Trivial
 
 > Dock to Flooded Chamber (INITIAL); Heals? False
   * Layers: default
   * Access Open to Flooded Chamber (INITIAL)/Dock to Save Station (Ruins North)
   * Extra - door_idx: 86
+  > Save Station
+      Trivial
+
+> Save Station; Heals? True; Spawn Point
+  * Layers: default
+  > Dock to Chozo Inner Temple (INITIAL)
+      Lay Power Bomb
+  > Dock to Flooded Chamber (INITIAL)
+      Trivial
 
 ----------------
 Flooded Chamber (INITIAL)
@@ -1077,6 +1132,13 @@ Extra - room_id: 61
   * Layers: default
   * Power Beam Door to Upper Antechamber/Door to Save Station (Ship North)
   * Extra - door_idx: 131
+  > Save Station
+      Trivial
+
+> Save Station; Heals? True
+  * Layers: default
+  > Door to Upper Antechamber
+      Trivial
 
 ----------------
 Atomic Shaft
@@ -1270,6 +1332,13 @@ Extra - room_id: 74
   * Layers: default
   * Power Beam Door to Atomic Shaft/Door to Save Station (Ruins Southeast)
   * Extra - door_idx: 162
+  > Save Station
+      Trivial
+
+> Save Station; Heals? True
+  * Layers: default
+  > Door to Atomic Shaft
+      Trivial
 
 ----------------
 Save Station (Ruins West)
@@ -1279,6 +1348,13 @@ Extra - room_id: 75
   * Layers: default
   * Access Open to Chacmool Access/Dock to Save Station (Ruins West)
   * Extra - door_idx: 164
+  > Save Station
+      Trivial
+
+> Save Station; Heals? True
+  * Layers: default
+  > Dock to Chacmool Access
+      Trivial
 
 ----------------
 Checkpoint

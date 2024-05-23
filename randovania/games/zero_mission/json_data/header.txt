@@ -26,7 +26,7 @@ Templates
 
 * Defeat Metroid:
       All of the following:
-          Ice Beam and Destroy Bomb Blocks
+          Ice Beam and Lay Bomb
           Missiles ≥ 5 or Super Missiles
 
 * Have Increased Height:
