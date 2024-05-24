@@ -458,7 +458,7 @@
                                 ]
                             }
                         },
-                        "Chozo Statue": {
+                        "Event - Chozo Statue": {
                             "type": "and",
                             "data": {
                                 "comment": null,
@@ -524,7 +524,7 @@
                         }
                     }
                 },
-                "Chozo Statue": {
+                "Event - Chozo Statue": {
                     "node_type": "event",
                     "heal": false,
                     "coordinates": {
@@ -4560,7 +4560,7 @@
                         }
                     }
                 },
-                "Tangle Fruit": {
+                "Event - Tangle Fruit": {
                     "node_type": "event",
                     "heal": false,
                     "coordinates": {
@@ -4749,7 +4749,7 @@
                                 ]
                             }
                         },
-                        "Chozo Statue": {
+                        "Event - Chozo Statue": {
                             "type": "or",
                             "data": {
                                 "comment": null,
@@ -4815,7 +4815,7 @@
                         }
                     }
                 },
-                "Chozo Statue": {
+                "Event - Chozo Statue": {
                     "node_type": "event",
                     "heal": false,
                     "coordinates": {
@@ -5440,7 +5440,7 @@
                                 ]
                             }
                         },
-                        "Chozo Statue": {
+                        "Event - Chozo Statue": {
                             "type": "or",
                             "data": {
                                 "comment": null,
@@ -5562,7 +5562,7 @@
                         }
                     }
                 },
-                "Chozo Statue": {
+                "Event - Chozo Statue": {
                     "node_type": "event",
                     "heal": false,
                     "coordinates": {

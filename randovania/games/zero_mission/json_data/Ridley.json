@@ -4018,6 +4018,13 @@
                     "pickup_index": 59,
                     "location_category": "minor",
                     "connections": {
+                        "Door to Western Hub": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        },
                         "Pickup (2nd Missile Tank)": {
                             "type": "and",
                             "data": {
@@ -4138,7 +4145,25 @@
                     "valid_starting_location": false,
                     "pickup_index": 96,
                     "location_category": "minor",
-                    "connections": {}
+                    "connections": {
+                        "Pickup (Missile Tank)": {
+                            "type": "or",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Morph Ball",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
                 }
             }
         },

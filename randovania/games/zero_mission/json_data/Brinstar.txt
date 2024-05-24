@@ -84,7 +84,7 @@ Extra - room_id: 2
       Have Increased Height
   > Door to Blue-Tinted Hub
       Morph Ball and After Brinstar Corridor 2 Chozo Statue
-  > Chozo Statue
+  > Event - Chozo Statue
       Morph Ball
 
 > Door to Blue-Tinted Hub; Heals? False
@@ -94,7 +94,7 @@ Extra - room_id: 2
   > Door to Fake Block Fork
       After Brinstar Corridor 2 Chozo Statue
 
-> Chozo Statue; Heals? False
+> Event - Chozo Statue; Heals? False
   * Layers: default
   * Event Brinstar Corridor 2 Chozo Statue
   > Door to Fake Block Fork
@@ -836,7 +836,7 @@ Extra - room_id: 28
   > Door to Varia Chamber Ascent
       Can Bounce in Ball and Destroy Bomb Blocks
 
-> Tangle Fruit; Heals? False
+> Event - Tangle Fruit; Heals? False
   * Layers: default
   * Event Brinstar Acid Tanglefruit Destroyed
 
@@ -874,7 +874,7 @@ Extra - room_id: 30
   * Extra - door_idx: 96
   > Door to Blue-Tinted Hub
       After Brinstar Corridor 5 Chozo Statue
-  > Chozo Statue
+  > Event - Chozo Statue
       Morph Ball
 
 > Door to Blue-Tinted Hub; Heals? False
@@ -884,7 +884,7 @@ Extra - room_id: 30
   > Door to Tourian Gate Access
       After Brinstar Corridor 5 Chozo Statue
 
-> Chozo Statue; Heals? False
+> Event - Chozo Statue; Heals? False
   * Layers: default
   * Event Brinstar Corridor 5 Chozo Statue
   > Door to Tourian Gate Access
@@ -1013,7 +1013,7 @@ Extra - room_id: 38
       Morph Ball and Varia Suit
   > Tunnel to Acid Vine Puzzle (87)
       After Brinstar Underhang Corridor Chozo Statue and Can Bounce in Ball
-  > Chozo Statue
+  > Event - Chozo Statue
       Morph Ball
 
 > Tunnel to Acid Vine Puzzle; Heals? False
@@ -1030,7 +1030,7 @@ Extra - room_id: 38
   > Door to Eastern Hub
       After Brinstar Underhang Corridor Chozo Statue
 
-> Chozo Statue; Heals? False
+> Event - Chozo Statue; Heals? False
   * Layers: default
   * Event Brinstar Underhang Corridor Chozo Statue
   > Door to Eastern Hub

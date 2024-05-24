@@ -44,6 +44,14 @@ Templates
 * BallSpark:
       Speed Booster and Use Spring Ball
 
+* Climb Ledges:
+      Power Grip or Have Increased Height
+
+* Climb High Ledges:
+      Any of the following:
+          Use Space Jump
+          Hi-Jump Boots and Power Grip
+
 ====================
 Dock Weaknesses
 

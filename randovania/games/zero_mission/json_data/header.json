@@ -159,6 +159,14 @@
             "NorfairPillbug": {
                 "long_name": "Kiru-Giru Blockade Defeated",
                 "extra": {}
+            },
+            "Pipe": {
+                "long_name": "Chozodia Pipe Broken",
+                "extra": {}
+            },
+            "MechaDefeated": {
+                "long_name": "Mecha Ridley Defeated",
+                "extra": {}
             }
         },
         "tricks": {
@@ -597,6 +605,65 @@
                                 "name": "Speed Booster",
                                 "amount": 1,
                                 "negate": false
+                            }
+                        }
+                    ]
+                }
+            },
+            "Climb Ledges": {
+                "type": "or",
+                "data": {
+                    "comment": null,
+                    "items": [
+                        {
+                            "type": "template",
+                            "data": "Have Increased Height"
+                        },
+                        {
+                            "type": "resource",
+                            "data": {
+                                "type": "items",
+                                "name": "Power Grip",
+                                "amount": 1,
+                                "negate": false
+                            }
+                        }
+                    ]
+                }
+            },
+            "Climb High Ledges": {
+                "type": "or",
+                "data": {
+                    "comment": null,
+                    "items": [
+                        {
+                            "type": "template",
+                            "data": "Use Space Jump"
+                        },
+                        {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": [
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Hi-Jump",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    },
+                                    {
+                                        "type": "resource",
+                                        "data": {
+                                            "type": "items",
+                                            "name": "Power Grip",
+                                            "amount": 1,
+                                            "negate": false
+                                        }
+                                    }
+                                ]
                             }
                         }
                     ]
