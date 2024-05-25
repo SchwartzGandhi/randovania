@@ -4190,7 +4190,15 @@
                     "valid_starting_location": false,
                     "pickup_index": 60,
                     "location_category": "minor",
-                    "connections": {}
+                    "connections": {
+                        "Door to Eastern Hub": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Eastern Hub": {
                     "node_type": "dock",

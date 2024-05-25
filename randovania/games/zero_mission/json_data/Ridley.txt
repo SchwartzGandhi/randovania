@@ -813,6 +813,8 @@ Extra - room_id: 30
 > Pickup (Missile Tank); Heals? False
   * Layers: default
   * Pickup 60; Category? Minor
+  > Door to Eastern Hub
+      Trivial
 
 > Door to Eastern Hub; Heals? False
   * Layers: default

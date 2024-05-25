@@ -4196,7 +4196,15 @@
                     "valid_starting_location": false,
                     "pickup_index": 9,
                     "location_category": "minor",
-                    "connections": {}
+                    "connections": {
+                        "Door to Bomb Chamber Access": {
+                            "type": "and",
+                            "data": {
+                                "comment": null,
+                                "items": []
+                            }
+                        }
+                    }
                 },
                 "Door to Bomb Chamber Access": {
                     "node_type": "dock",

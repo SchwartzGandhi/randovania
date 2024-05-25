@@ -765,6 +765,8 @@ Extra - room_id: 25
 > Pickup (Missile Tank); Heals? False
   * Layers: default
   * Pickup 9; Category? Minor
+  > Door to Bomb Chamber Access
+      Trivial
 
 > Door to Bomb Chamber Access; Heals? False
   * Layers: default
