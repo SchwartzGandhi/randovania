@@ -20,6 +20,7 @@ _FIELDS = [
     "instant_transitions",
     "anti_softlock",
     "short_intro_text",
+    "screw_attack_nerf",
 ]
 
 

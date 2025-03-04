@@ -404,6 +404,7 @@ class FusionPatchDataFactory(PatchDataFactory):
             "AntiSoftlockRoomEdits": self.configuration.anti_softlock,
             "PowerBombsWithoutBombs": True,
             "SkipDoorTransitions": self.configuration.instant_transitions,
+            "ScrewAttackNerf": self.configuration.screw_attack_nerf,
             "UnexploredMap": self.cosmetic_patches.starting_map,
             "RevealHiddenTiles": self.cosmetic_patches.reveal_blocks,
             "StereoDefault": self.cosmetic_patches.stereo_default,

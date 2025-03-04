@@ -62,6 +62,9 @@ class FusionPresetDescriber(GamePresetDescriber):
                 {
                     "Instant Hatch Transitions": configuration.instant_transitions,
                 },
+                {
+                    "Enables Single Walljumping": configuration.screw_attack_nerf,
+                },
             ],
             "Goal": describe_artifacts(configuration.artifacts),
             "Hints": [

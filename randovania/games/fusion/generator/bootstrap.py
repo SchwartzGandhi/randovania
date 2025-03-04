@@ -43,6 +43,8 @@ class FusionBootstrap(Bootstrap[FusionConfiguration]):
             enabled_resources.add("DoorLockRando")
         enabled_resources.add("BomblessPBs")
         enabled_resources.add("GeneratorHack")
+        if not configuration.screw_attack_nerf:
+            enabled_resources.add("CanSWJ")
         return enabled_resources
 
     def _damage_reduction(self, db: ResourceDatabase, current_resources: ResourceCollection) -> float:

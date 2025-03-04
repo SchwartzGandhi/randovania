@@ -42,9 +42,9 @@
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>0</y>
+         <y>-66</y>
          <width>709</width>
-         <height>422</height>
+         <height>488</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -69,10 +69,10 @@
         <item>
          <spacer name="top_spacer">
           <property name="orientation">
-           <enum>Qt::Vertical</enum>
+           <enum>Qt::Orientation::Vertical</enum>
           </property>
           <property name="sizeType">
-           <enum>QSizePolicy::Fixed</enum>
+           <enum>QSizePolicy::Policy::Fixed</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>
@@ -116,7 +116,7 @@ While logic will respect this value, only the original value (100) has been test
                 <string>Energy per tank:</string>
                </property>
                <property name="alignment">
-                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
                </property>
               </widget>
              </item>
@@ -225,13 +225,30 @@ While logic will respect this value, only the original value (100) has been test
              </property>
             </widget>
            </item>
+           <item>
+            <widget class="QCheckBox" name="screw_attack_nerf_check">
+             <property name="text">
+              <string>Enable Single Wall Jumping</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="screw_attack_nerf_label">
+             <property name="text">
+              <string>Enabling this restores the behavior of wall jumping when you have Screw Attack equipped, but not Space Jump. This will have a big impact on logic</string>
+             </property>
+             <property name="wordWrap">
+              <bool>true</bool>
+             </property>
+            </widget>
+           </item>
           </layout>
          </widget>
         </item>
         <item>
          <spacer name="verticalSpacer">
           <property name="orientation">
-           <enum>Qt::Vertical</enum>
+           <enum>Qt::Orientation::Vertical</enum>
           </property>
           <property name="sizeHint" stdset="0">
            <size>

@@ -163,6 +163,7 @@
         "open_save_recharge_hatches": false,
         "energy_per_tank": 100,
         "short_intro_text": false,
+        "screw_attack_nerf": true,
         "artifacts": {
             "prefer_bosses": true,
             "prefer_anywhere": false,
