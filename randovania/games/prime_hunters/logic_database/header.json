@@ -578,7 +578,56 @@
                 "extra": {}
             }
         },
-        "tricks": {},
+        "tricks": {
+            "BombJump": {
+                "long_name": "BombJump",
+                "description": "The player may be expected to use Morph Ball Bombs to get to higher places.",
+                "require_documentation_above": 0,
+                "extra": {}
+            },
+            "Combat": {
+                "long_name": "Combat",
+                "description": "The player may be expected to fight enemies/bosses with less equipment than usual.",
+                "require_documentation_above": 0,
+                "extra": {}
+            },
+            "Movement": {
+                "long_name": "Movement",
+                "description": "The player may be expected to use unique movement to traverse a room or complete an action.",
+                "require_documentation_above": 0,
+                "extra": {}
+            },
+            "Knowledge": {
+                "long_name": "Knowledge",
+                "description": "The player may be expected to know alternate enemy/block weaknesses or be able to identify potential softlocks risks.",
+                "require_documentation_above": 0,
+                "extra": {}
+            },
+            "OOB": {
+                "long_name": "Single Room Out of Bounds",
+                "description": "The player may be expected to clip out of bounds to reach certain places.",
+                "require_documentation_above": 0,
+                "extra": {}
+            },
+            "JumpOffEnemies": {
+                "long_name": "Jump Off Enemies",
+                "description": "The player may be expected to jump on top of an enemy to reach ceratin areas.",
+                "require_documentation_above": 0,
+                "extra": {}
+            },
+            "Standables": {
+                "long_name": "Standable Terrain",
+                "description": "The player may be expected to stand on unexpected surfaces to reach certain areas.",
+                "require_documentation_above": 0,
+                "extra": {}
+            },
+            "MissileJump": {
+                "long_name": "Missile Jumps",
+                "description": "The player may be expected to use the knockback from the missile launcher to increase their height.",
+                "require_documentation_above": 0,
+                "extra": {}
+            }
+        },
         "damage": {},
         "versions": {},
         "misc": {},
