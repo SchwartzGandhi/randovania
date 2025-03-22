@@ -156,6 +156,9 @@ class EchoesPresetDescriber(GamePresetDescriber):
                 },
                 {"New Patcher": configuration.use_new_patcher},
                 *create_beam_configuration_description(configuration.beam_configuration),
+                {
+                    "April Fools Hints": configuration.april_fools_hints,
+                },
             ],
         }
         fill_template_strings_from_tree(template_strings, extra_message_tree)

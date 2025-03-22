@@ -63,6 +63,7 @@ class EchoesConfiguration(BaseConfiguration):
     use_new_patcher: bool
     inverted_mode: bool
     portal_rando: bool
+    april_fools_hints: bool
 
     blue_save_doors: bool
 

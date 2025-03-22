@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>423</width>
-    <height>259</height>
+    <height>343</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -60,6 +60,20 @@
         <string>Show area and room name</string>
        </property>
       </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="hint_april_fools_label">
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Replace all hints with text generated from Google Translate.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot; font-weight:700;&quot;&gt;This will severely impact the readability of hints.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCheckBox" name="hint_april_fools_check">
+      <property name="text">
+       <string>Use April Fools Hints</string>
+      </property>
      </widget>
     </item>
    </layout>
