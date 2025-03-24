@@ -277,28 +277,28 @@
                 }
             },
             "PowerBomb": {
-                "long_name": "Power Bomb",
+                "long_name": "Nuclear Weapons Device",
                 "max_capacity": 10,
                 "extra": {
                     "item_id": 43
                 }
             },
             "Missile": {
-                "long_name": "Missile",
+                "long_name": "Rocket",
                 "max_capacity": 255,
                 "extra": {
                     "item_id": 44
                 }
             },
             "DarkAmmo": {
-                "long_name": "Dark Ammo",
+                "long_name": "Shady Cartridge",
                 "max_capacity": 250,
                 "extra": {
                     "item_id": 45
                 }
             },
             "LightAmmo": {
-                "long_name": "Light Ammo",
+                "long_name": "Brilliant Cartridge",
                 "max_capacity": 250,
                 "extra": {
                     "item_id": 46
@@ -312,7 +312,7 @@
                 }
             },
             "DoubleDamage": {
-                "long_name": "Double Damage",
+                "long_name": "Twice the harm",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 58
@@ -333,7 +333,7 @@
                 }
             },
             "MissileLauncher": {
-                "long_name": "Missile Launcher",
+                "long_name": "Projectile Tossing Machine",
                 "max_capacity": 255,
                 "extra": {
                     "item_id": 73
@@ -347,49 +347,49 @@
                 }
             },
             "UnlimitedMissiles": {
-                "long_name": "Unlimited Missiles",
+                "long_name": "Boundless projectiles that never cease",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 81
                 }
             },
             "UnlimitedBeamAmmo": {
-                "long_name": "Unlimited Beam Ammo",
+                "long_name": "Boundless Ray Cartridge",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 82
                 }
             },
             "CannonBall": {
-                "long_name": "Cannon Ball",
+                "long_name": "Artillery Orb",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 96
                 }
             },
             "Violet": {
-                "long_name": "Violet Translator",
+                "long_name": "Lavender Lingo Wizard",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 97
                 }
             },
             "Amber": {
-                "long_name": "Amber Translator",
+                "long_name": "Golden Speech Sorcerer",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 98
                 }
             },
             "Emerald": {
-                "long_name": "Emerald Translator",
+                "long_name": "Green Gem Linguist",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 99
                 }
             },
             "Cobalt": {
-                "long_name": "Cobalt Translator",
+                "long_name": "Blue Speaker",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 100
@@ -438,7 +438,7 @@
                 }
             },
             "ETM": {
-                "long_name": "Energy Transfer Module",
+                "long_name": "Module of Variables Energized",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 107
@@ -2983,56 +2983,56 @@
             "long_name": "Half-Pipe",
             "hint_details": [
                 "",
-                "near a Half-Pipe"
+                "beside a semicircular slide"
             ]
         },
         "energy_controller": {
             "long_name": "Energy Controller",
             "hint_details": [
                 "",
-                "near an Energy Controller"
+                "close to a Power Command Wizard"
             ]
         },
         "temple": {
             "long_name": "Temple",
             "hint_details": [
                 "",
-                "in a regional Temple"
+                "within an amphitheater of the province"
             ]
         },
         "echo_lock": {
             "long_name": "Echo Visor Lock",
             "hint_details": [
                 "",
-                "near an Echo Visor Lock"
+                "beside a Whispering Goggles security"
             ]
         },
         "dark_visor_lock": {
             "long_name": "Dark Visor Lock",
             "hint_details": [
                 "",
-                "near a Dark Visor Lock"
+                "near a Shady Goggles security"
             ]
         },
         "spider": {
             "long_name": "Spider Track",
             "hint_details": [
                 "",
-                "near a Spider Track"
+                "close to the title of the Spider's clothes"
             ]
         },
         "boss": {
             "long_name": "Boss",
             "hint_details": [
                 "",
-                "guarded by a Boss"
+                "covered by an Administrator"
             ]
         },
         "boost_spinner": {
             "long_name": "Boost Spinner",
             "hint_details": [
                 "",
-                "near a Boost Spinner"
+                "around a Propel Whirler"
             ],
             "description": "Objects in transdimensional flux are included."
         },
@@ -3040,21 +3040,21 @@
             "long_name": "Abyss",
             "hint_details": [
                 "",
-                "overtop an Abyss"
+                "beyond a chasm of mystery"
             ]
         },
         "portal": {
             "long_name": "Portal",
             "hint_details": [
                 "",
-                "near a Portal"
+                "beside a doorway to other realms"
             ]
         },
         "bomb_slot": {
             "long_name": "Bomb Slot",
             "hint_details": [
                 "",
-                "near a Bomb Slot"
+                "beside an explosive pocket"
             ],
             "description": "Objects in transdimensional flux are included."
         },
@@ -3062,84 +3062,84 @@
             "long_name": "Translator Gate",
             "hint_details": [
                 "",
-                "near a Translator Gate"
+                "close to a Gate of Linguistic Alchemy"
             ]
         },
         "orb_cannon": {
             "long_name": "Kinetic Orb Cannon",
             "hint_details": [
                 "",
-                "near a Kinetic Orb Cannon"
+                "beside a whirlpool of kinetic orbs shooting cannonballs"
             ]
         },
         "phazon": {
             "long_name": "Phazon",
             "hint_details": [
                 "",
-                "near exposed Phazon"
+                "close uncovered fizzazz"
             ]
         },
         "lore": {
             "long_name": "Luminoth Lore",
             "hint_details": [
                 "",
-                "near some Luminoth Lore"
+                "at a radiant nearby tale of glowing beings"
             ]
         },
         "keybearer": {
             "long_name": "Keybearer Corpse",
             "hint_details": [
                 "",
-                "near a Keybearer corpse"
+                "beside a cadaver of a key magician"
             ]
         },
         "elevator": {
             "long_name": "Elevator",
             "hint_details": [
                 "",
-                "near an elevator unit"
+                "in close proximity to a vertical transport device"
             ]
         },
         "morph": {
             "long_name": "Morph Ball Tunnel",
             "hint_details": [
                 "",
-                "in a Morph Ball tunnel"
+                "within a sphere of shifting passageway"
             ]
         },
         "grapple": {
             "long_name": "Grapple Point",
             "hint_details": [
                 "",
-                "near a Grapple Point"
+                "remains close to a Clutching Vertex"
             ]
         },
         "water": {
             "long_name": "Underwater",
             "hint_details": [
                 "",
-                "submerged in water"
+                "hello I am under the water"
             ]
         },
         "luminoth_corpse": {
             "long_name": "Luminoth Corpse",
             "hint_details": [
                 "",
-                "near a Luminoth corpse"
+                "close to a shining phantom"
             ]
         },
         "light_energy_transport": {
             "long_name": "Light Energy Transport",
             "hint_details": [
                 "",
-                "near a Light Energy Transport"
+                "via an Luminous Power Ave."
             ]
         },
         "screw_attack_wall": {
             "long_name": "Screw Attack Wall",
             "hint_details": [
                 "",
-                "near a Screw Attack Wall"
+                "almost beside a Twisted Assault Fence"
             ]
         },
         "specific_hint_keybearer": {
@@ -3170,7 +3170,7 @@
             "long_name": "Flying Ing Cache",
             "hint_details": [
                 "",
-                "in a Flying Ing Cache"
+                "within an airborne treasure trove of whimsy"
             ]
         }
     },
