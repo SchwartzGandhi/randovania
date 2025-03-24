@@ -1,262 +1,262 @@
 {
-    "schema_version": 30,
+    "schema_version": 29,
     "game": "prime2",
     "resource_database": {
         "items": {
             "Power": {
-                "long_name": "Power Beam",
+                "long_name": "Empowered Light Spear",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 0
                 }
             },
             "Dark": {
-                "long_name": "Dark Beam",
+                "long_name": "Shadow Laser",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 1
                 }
             },
             "Light": {
-                "long_name": "Light Beam",
+                "long_name": "Bright Ray of Sparkling Whimsy",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 2
                 }
             },
             "Annihilator": {
-                "long_name": "Annihilator Beam",
+                "long_name": "Beam of Unmaking",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 3
                 }
             },
             "Supers": {
-                "long_name": "Super Missile",
+                "long_name": "Hyper Projectile of Doom",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 4
                 }
             },
             "Darkburst": {
-                "long_name": "Darkburst",
+                "long_name": "ShadowBamf",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 5
                 }
             },
             "Sunburst": {
-                "long_name": "Sunburst",
+                "long_name": "Solar explosion flambé",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 6
                 }
             },
             "SonicBoom": {
-                "long_name": "Sonic Boom",
+                "long_name": "Hedgehog Blare",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 7
                 }
             },
             "Combat": {
-                "long_name": "Combat Visor",
+                "long_name": "Brawl Goggles",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 8
                 }
             },
             "Scan": {
-                "long_name": "Scan Visor",
+                "long_name": "Gaze Goggles",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 9
                 }
             },
             "DarkVisor": {
-                "long_name": "Dark Visor",
+                "long_name": "Shady Goggles",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 10
                 }
             },
             "Echo": {
-                "long_name": "Echo Visor",
+                "long_name": "Whispering Goggles",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 11
                 }
             },
             "Varia": {
-                "long_name": "Varia Suit",
+                "long_name": "Variable Armor",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 12
                 }
             },
             "DarkSuit": {
-                "long_name": "Dark Suit",
+                "long_name": "Shadows Wardrobe",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 13
                 }
             },
             "LightSuit": {
-                "long_name": "Light Suit",
+                "long_name": "Brilliant Attire",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 14
                 }
             },
             "MorphBall": {
-                "long_name": "Morph Ball",
+                "long_name": "Transform Sphere",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 15
                 }
             },
             "Boost": {
-                "long_name": "Boost Ball",
+                "long_name": "Accelerate Orb",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 16
                 }
             },
             "Spider": {
-                "long_name": "Spider Ball",
+                "long_name": "Webbed Spheroid",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 17
                 }
             },
             "Bombs": {
-                "long_name": "Morph Ball Bomb",
+                "long_name": "Transform Spherical Explode",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 18
                 }
             },
             "Charge": {
-                "long_name": "Charge Beam",
+                "long_name": "Sparkle Blaster",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 22
                 }
             },
             "Grapple": {
-                "long_name": "Grapple Beam",
+                "long_name": "Grippy Launch",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 23
                 }
             },
             "SpaceJump": {
-                "long_name": "Space Jump Boots",
+                "long_name": "Cosmic Leap Footwear",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 24
                 }
             },
             "Gravity": {
-                "long_name": "Gravity Boost",
+                "long_name": "Gravity of Gravity",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 25
                 }
             },
             "Seekers": {
-                "long_name": "Seeker Launcher",
+                "long_name": "Skeaka Lancher",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 26
                 }
             },
             "ScrewAttack": {
-                "long_name": "Screw Attack",
+                "long_name": "Twist Assault",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 27
                 }
             },
             "TempleKey1": {
-                "long_name": "Sky Temple Key 1",
+                "long_name": "New York Key 1",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 29
                 }
             },
             "TempleKey2": {
-                "long_name": "Sky Temple Key 2",
+                "long_name": "New York Key 2",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 30
                 }
             },
             "TempleKey3": {
-                "long_name": "Sky Temple Key 3",
+                "long_name": "New York Key 3",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 31
                 }
             },
             "AgonKey1": {
-                "long_name": "Dark Agon Key 1",
+                "long_name": "Gloomy Astonishment Key 1",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 32
                 }
             },
             "AgonKey2": {
-                "long_name": "Dark Agon Key 2",
+                "long_name": "Gloomy Astonishment Key 2",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 33
                 }
             },
             "AgonKey3": {
-                "long_name": "Dark Agon Key 3",
+                "long_name": "Gloomy Astonishment Key 3",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 34
                 }
             },
             "TorvusKey1": {
-                "long_name": "Dark Torvus Key 1",
+                "long_name": "Shadowy Trovus Unlocking 1",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 35
                 }
             },
             "TorvusKey2": {
-                "long_name": "Dark Torvus Key 2",
+                "long_name": "Shadowy Trovus Unlocking 2",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 36
                 }
             },
             "TorvusKey3": {
-                "long_name": "Dark Torvus Key 3",
+                "long_name": "Shadowy Trovus Unlocking 3",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 37
                 }
             },
             "HiveKey1": {
-                "long_name": "Ing Hive Key 1",
+                "long_name": "Buzzing Lock of the Bee 1",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 38
                 }
             },
             "HiveKey2": {
-                "long_name": "Ing Hive Key 2",
+                "long_name": "Buzzing Lock of the Bee 2",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 39
                 }
             },
             "HiveKey3": {
-                "long_name": "Ing Hive Key 3",
+                "long_name": "Buzzing Lock of the Bee 3",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 40
@@ -270,7 +270,7 @@
                 }
             },
             "EnergyTank": {
-                "long_name": "Energy Tank",
+                "long_name": "Battery of Vitality",
                 "max_capacity": 14,
                 "extra": {
                     "item_id": 42
@@ -396,42 +396,42 @@
                 }
             },
             "TempleKey4": {
-                "long_name": "Sky Temple Key 4",
+                "long_name": "New York Key 4",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 101
                 }
             },
             "TempleKey5": {
-                "long_name": "Sky Temple Key 5",
+                "long_name": "New York Key 5",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 102
                 }
             },
             "TempleKey6": {
-                "long_name": "Sky Temple Key 6",
+                "long_name": "New York Key 6",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 103
                 }
             },
             "TempleKey7": {
-                "long_name": "Sky Temple Key 7",
+                "long_name": "New York Key 7",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 104
                 }
             },
             "TempleKey8": {
-                "long_name": "Sky Temple Key 8",
+                "long_name": "New York Key 8",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 105
                 }
             },
             "TempleKey9": {
-                "long_name": "Sky Temple Key 9",
+                "long_name": "New York Key 9",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 106
