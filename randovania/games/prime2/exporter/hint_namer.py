@@ -11,6 +11,8 @@ if TYPE_CHECKING:
     from randovania.game_description.hint_features import HintFeature
     from randovania.interface_common.players_configuration import PlayersConfiguration
 
+#This should eventually be determined from hints preset value in some way
+preset_fools = False
 
 class EchoesHintNamer(PrimeFamilyHintNamer):
     def __init__(self, all_patches: dict[int, GamePatches], players_config: PlayersConfiguration):
@@ -21,16 +23,27 @@ class EchoesHintNamer(PrimeFamilyHintNamer):
         def feat(loc: str) -> HintFeature:
             return patches.game.hint_feature_database[loc]
 
-        self.location_formatters[feat("specific_hint_keybearer")] = TemplatedFormatter(
-            "The Flying Ing Cache in {node} contains {determiner}{pickup}.", self
-        )
+        
         self.location_formatters[feat("specific_hint_guardian")] = GuardianFormatter(
             lambda msg, with_color: self.colorize_text("#FF3333", msg, with_color),
         )
-        self.location_formatters[feat("specific_hint_2mos")] = TemplatedFormatter(
-            "U-Mos's reward for returning the Sanctuary energy is {determiner}{pickup}.",
-            self,
-        )
+
+        if preset_fools == False:
+            self.location_formatters[feat("specific_hint_keybearer")] = TemplatedFormatter(
+                "The Flying Ing Cache in {node} contains {determiner}{pickup}.", self
+            )
+            self.location_formatters[feat("specific_hint_2mos")] = TemplatedFormatter(
+                "U-Mos's reward for returning the Sanctuary energy is {determiner}{pickup}.",
+                self,
+            )
+        else:
+            self.location_formatters[feat("specific_hint_keybearer")] = TemplatedFormatter(
+                "Clever storage {node} contains {determiner}{pickup} articles.", self
+            )
+            self.location_formatters[feat("specific_hint_2mos")] = TemplatedFormatter(
+                "U-Mos gift by giving sanctuary in sanctuary, {determiner}{pickup}.",
+                self,
+            )
 
     def format_temple_name(self, temple_name: str, with_color: bool) -> str:
         return self.colorize_text(self.color_item, temple_name, with_color)
