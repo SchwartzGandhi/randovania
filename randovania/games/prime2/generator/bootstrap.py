@@ -2,15 +2,19 @@ from __future__ import annotations
 
 import copy
 import dataclasses
+import typing
 from typing import TYPE_CHECKING
 
+from randovania.game.game_enum import RandovaniaGame
 from randovania.game_description.db.configurable_node import ConfigurableNode
 from randovania.game_description.requirements.requirement_and import RequirementAnd
 from randovania.game_description.requirements.resource_requirement import ResourceRequirement
 from randovania.game_description.resources import search
 from randovania.game_description.resources.damage_reduction import DamageReduction
+from randovania.game_description.resources.resource_type import ResourceType
 from randovania.games.prime2.layout.echoes_configuration import EchoesConfiguration, LayoutSkyTempleKeyMode
 from randovania.games.prime2.layout.translator_configuration import LayoutTranslatorRequirement
+from randovania.lib import json_lib
 from randovania.resolver.bootstrap import Bootstrap
 from randovania.resolver.energy_tank_damage_state import EnergyTankDamageState
 
@@ -94,10 +98,25 @@ class EchoesBootstrap(Bootstrap):
         damage_reductions = copy.copy(db.damage_reductions)
         damage_reductions[db.get_damage("DarkWorld1")] = [
             DamageReduction(None, configuration.varia_suit_damage / 6.0),
-            DamageReduction(db.get_item_by_name("Dark Suit"), configuration.dark_suit_damage / 6.0),
-            DamageReduction(db.get_item_by_name("Light Suit"), 0.0),
+            DamageReduction(db.get_item("DarkSuit"), configuration.dark_suit_damage / 6.0),
+            DamageReduction(db.get_item("LightSuit"), 0.0),
         ]
-        return dataclasses.replace(db, damage_reductions=damage_reductions)
+        db = dataclasses.replace(db, damage_reductions=damage_reductions)
+        if configuration.april_fools_hints:
+            db_items = db.item.copy()
+            translation_dict = typing.cast(
+                "dict",
+                json_lib.read_path(
+                    RandovaniaGame.METROID_PRIME_ECHOES.data_path.joinpath("pickup_database", "translated_items.json")
+                ),
+            )
+            translated_list = []
+            for item in db_items:
+                item = dataclasses.replace(item, long_name=translation_dict[item.long_name])
+                translated_list.append(item)
+            db = dataclasses.replace(db, item=translated_list)
+
+        return db
 
     def assign_pool_results(
         self, rng: Random, configuration: EchoesConfiguration, patches: GamePatches, pool_results: PoolResults
@@ -113,7 +132,7 @@ class EchoesBootstrap(Bootstrap):
     def apply_game_specific_patches(
         self, configuration: EchoesConfiguration, game: GameDescription, patches: GamePatches
     ) -> None:
-        scan_visor = search.find_resource_info_with_long_name(game.resource_database.item, "Scan Visor")
+        scan_visor = search.find_resource_info_with_id(game.resource_database.item, "Scan", ResourceType.ITEM)
         scan_visor_req = ResourceRequirement.simple(scan_visor)
 
         translator_gates = patches.game_specific["translator_gates"]

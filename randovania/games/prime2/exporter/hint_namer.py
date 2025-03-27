@@ -4,7 +4,7 @@ from typing import TYPE_CHECKING, override
 
 from randovania.exporter.hints.hint_formatters import TemplatedFormatter
 from randovania.games.common.prime_family.exporter.hint_namer import PrimeFamilyHintNamer
-from randovania.games.prime2.exporter.hint_formaters import GuardianFormatter
+from randovania.games.prime2.exporter.hint_formaters import GuardianFormatter, TranslatedGuardianFormatter
 from randovania.games.prime2.layout.echoes_configuration import EchoesConfiguration
 
 if TYPE_CHECKING:
@@ -17,15 +17,16 @@ class EchoesHintNamer(PrimeFamilyHintNamer):
     def __init__(self, all_patches: dict[int, GamePatches], players_config: PlayersConfiguration):
         super().__init__(all_patches, players_config)
         patches = all_patches[players_config.player_index]
+        config = patches.configuration
 
         def feat(loc: str) -> HintFeature:
             return patches.game.hint_feature_database[loc]
 
-        self.location_formatters[feat("specific_hint_guardian")] = GuardianFormatter(
-            lambda msg, with_color: self.colorize_text("#FF3333", msg, with_color),
-        )
-
-        if isinstance(patches.configuration, EchoesConfiguration) and patches.configuration.april_fools_hints:
+        assert isinstance(patches.configuration, EchoesConfiguration)
+        if config.april_fools_hints:
+            self.location_formatters[feat("specific_hint_guardian")] = TranslatedGuardianFormatter(
+                lambda msg, with_color: self.colorize_text("#FF3333", msg, with_color),
+            )
             self.location_formatters[feat("specific_hint_keybearer")] = TemplatedFormatter(
                 "Clever storage {node} contains {determiner}{pickup} articles.", self
             )
@@ -34,6 +35,9 @@ class EchoesHintNamer(PrimeFamilyHintNamer):
                 self,
             )
         else:
+            self.location_formatters[feat("specific_hint_guardian")] = GuardianFormatter(
+                lambda msg, with_color: self.colorize_text("#FF3333", msg, with_color),
+            )
             self.location_formatters[feat("specific_hint_keybearer")] = TemplatedFormatter(
                 "The Flying Ing Cache in {node} contains {determiner}{pickup}.", self
             )

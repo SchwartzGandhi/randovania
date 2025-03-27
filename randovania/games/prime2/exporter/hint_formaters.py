@@ -12,7 +12,6 @@ if TYPE_CHECKING:
     from randovania.exporter.hints.pickup_hint import PickupHint
     from randovania.game.game_enum import RandovaniaGame
     from randovania.game_description.hint import Hint
-    from randovania.layout.base.base_configuration import BaseConfiguration
 
 
 class GuardianFormatter(LocationFormatter):
@@ -21,22 +20,30 @@ class GuardianFormatter(LocationFormatter):
         PickupIndex(79): "Chykka",
         PickupIndex(115): "Quadraxis",
     }
-    _TRANSLATED_GUARDIAN_NAMES = {
-        PickupIndex(43): "Ambrosia",
-        PickupIndex(79): "Chickadee",
-        PickupIndex(115): "Quasarexodus",
-    }
-    configuration: BaseConfiguration
 
     def __init__(self, colorizer: Callable[[str, bool], str]):
         self.colorizer = colorizer
 
     def format(self, game: RandovaniaGame, pick_hint: PickupHint, hint: Hint, with_color: bool) -> str:
         assert isinstance(hint, LocationHint)
-        guardian_names = self._GUARDIAN_NAMES
-        guardian = guardian_names[hint.target]
-        # if self.configuration.april_fools_hints:
-        #    return f"{self.colorizer(guardian, with_color)} protecting the gatekeeper {pick_hint.determiner}
-        # {pick_hint.pickup_name}."
-        # else:
+        guardian = self._GUARDIAN_NAMES[hint.target]
+
         return f"{self.colorizer(guardian, with_color)} is guarding {pick_hint.determiner}{pick_hint.pickup_name}."
+
+
+class TranslatedGuardianFormatter(LocationFormatter):
+    _GUARDIAN_NAMES = {
+        PickupIndex(43): "Ambrosia",
+        PickupIndex(79): "Chickadee",
+        PickupIndex(115): "Quasarexodus",
+    }
+
+    def __init__(self, colorizer: Callable[[str, bool], str]):
+        self.colorizer = colorizer
+
+    def format(self, game: RandovaniaGame, pick_hint: PickupHint, hint: Hint, with_color: bool) -> str:
+        assert isinstance(hint, LocationHint)
+        guardian = self._GUARDIAN_NAMES[hint.target]
+        text = f"{self.colorizer(guardian, with_color)} protecting the gatekeeper "
+        f"{pick_hint.determiner}{pick_hint.pickup_name}."
+        return text
