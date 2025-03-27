@@ -5,43 +5,40 @@ from typing import TYPE_CHECKING, override
 from randovania.exporter.hints.hint_formatters import TemplatedFormatter
 from randovania.games.common.prime_family.exporter.hint_namer import PrimeFamilyHintNamer
 from randovania.games.prime2.exporter.hint_formaters import GuardianFormatter
+from randovania.games.prime2.layout.echoes_configuration import EchoesConfiguration
 
 if TYPE_CHECKING:
     from randovania.game_description.game_patches import GamePatches
     from randovania.game_description.hint_features import HintFeature
     from randovania.interface_common.players_configuration import PlayersConfiguration
 
-#This should eventually be determined from hints preset value in some way
-preset_fools = False
 
 class EchoesHintNamer(PrimeFamilyHintNamer):
     def __init__(self, all_patches: dict[int, GamePatches], players_config: PlayersConfiguration):
         super().__init__(all_patches, players_config)
-
         patches = all_patches[players_config.player_index]
 
         def feat(loc: str) -> HintFeature:
             return patches.game.hint_feature_database[loc]
 
-        
         self.location_formatters[feat("specific_hint_guardian")] = GuardianFormatter(
             lambda msg, with_color: self.colorize_text("#FF3333", msg, with_color),
         )
 
-        if preset_fools == False:
-            self.location_formatters[feat("specific_hint_keybearer")] = TemplatedFormatter(
-                "The Flying Ing Cache in {node} contains {determiner}{pickup}.", self
-            )
-            self.location_formatters[feat("specific_hint_2mos")] = TemplatedFormatter(
-                "U-Mos's reward for returning the Sanctuary energy is {determiner}{pickup}.",
-                self,
-            )
-        else:
+        if isinstance(patches.configuration, EchoesConfiguration) and patches.configuration.april_fools_hints:
             self.location_formatters[feat("specific_hint_keybearer")] = TemplatedFormatter(
                 "Clever storage {node} contains {determiner}{pickup} articles.", self
             )
             self.location_formatters[feat("specific_hint_2mos")] = TemplatedFormatter(
                 "U-Mos gift by giving sanctuary in sanctuary, {determiner}{pickup}.",
+                self,
+            )
+        else:
+            self.location_formatters[feat("specific_hint_keybearer")] = TemplatedFormatter(
+                "The Flying Ing Cache in {node} contains {determiner}{pickup}.", self
+            )
+            self.location_formatters[feat("specific_hint_2mos")] = TemplatedFormatter(
+                "U-Mos's reward for returning the Sanctuary energy is {determiner}{pickup}.",
                 self,
             )
 
