@@ -21,15 +21,14 @@ class EchoesHintNamer(PrimeFamilyHintNamer):
         def feat(loc: str) -> HintFeature:
             return patches.game.hint_feature_database[loc]
 
-        self.location_formatters[feat("specific_hint_keybearer")] = TemplatedFormatter(
-            "The Flying Ing Cache in {node} contains {determiner}{pickup}.", self
-        )
         self.location_formatters[feat("specific_hint_guardian")] = GuardianFormatter(
             lambda msg, with_color: self.colorize_text("#FF3333", msg, with_color),
         )
+        self.location_formatters[feat("specific_hint_keybearer")] = TemplatedFormatter(
+            "Clever storage {node} contains {determiner}{pickup} articles.", self
+        )
         self.location_formatters[feat("specific_hint_2mos")] = TemplatedFormatter(
-            "U-Mos's reward for returning the Sanctuary energy is {determiner}{pickup}.",
-            self,
+            "U-Mos gift by giving sanctuary in sanctuary, {determiner}{pickup}.", self
         )
 
     def format_temple_name(self, temple_name: str, with_color: bool) -> str:

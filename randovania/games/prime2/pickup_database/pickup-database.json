@@ -5,63 +5,63 @@
             "long_name": "Visors",
             "hint_details": [
                 "a ",
-                "visor"
+                "goggles"
             ]
         },
         "suit": {
             "long_name": "Suits",
             "hint_details": [
                 "a ",
-                "suit"
+                "costume"
             ]
         },
         "beam": {
             "long_name": "Beams",
             "hint_details": [
                 "a ",
-                "beam"
+                "light splash twinkle joy sparkle glimmer shine flash ray gleam flicker glint glow blip burst dazzle glowworm twinkling sunrays reflect shimmer radiant jolt blaze glistening glowstick twinkly foamy wink lucent shimmer entice gleaming star beamish twinklet whimsical wave of illumination whimsical shine stretch of light burst of brilliance luminous ripple of lighty whimsy upsurge of shine"
             ]
         },
         "morph_ball": {
             "long_name": "Morph Ball",
             "hint_details": [
                 "a ",
-                "morph ball system"
+                "shape globe mechanism"
             ]
         },
         "movement": {
             "long_name": "Movement",
             "hint_details": [
                 "a ",
-                "movement system"
+                "system of snazzy motion"
             ]
         },
         "missile": {
             "long_name": "Missile",
             "hint_details": [
                 "a ",
-                "missile system"
+                "rocket strategy"
             ]
         },
         "charge_combo": {
             "long_name": "Charge Combos",
             "hint_details": [
                 "a ",
-                "charge combo"
+                "power blender"
             ]
         },
         "translator": {
             "long_name": "Translators",
             "hint_details": [
                 "a ",
-                "translator"
+                "interpretatorrehsnator"
             ]
         },
         "energy_tank": {
             "long_name": "Energy Tanks",
             "hint_details": [
                 "an ",
-                "Energy Tank"
+                "Battery of Vitality"
             ],
             "hidden": true
         },
@@ -69,7 +69,7 @@
             "long_name": "Missile Related",
             "hint_details": [
                 "a ",
-                "missile-related upgrade"
+                "rocket-tastic enhancement of sky boppers"
             ],
             "hidden": true
         },
@@ -77,7 +77,7 @@
             "long_name": "Morph Ball Related",
             "hint_details": [
                 "a ",
-                "morph ball-related upgrade"
+                "sphere of transformation-enhancement module"
             ],
             "hidden": true
         },
@@ -85,7 +85,7 @@
             "long_name": "Beam Related",
             "hint_details": [
                 "a ",
-                "beam-related upgrade"
+                "upgrade of the beam linkage"
             ],
             "hidden": true
         },
@@ -93,7 +93,7 @@
             "long_name": "Life Support",
             "hint_details": [
                 "a ",
-                "life support system"
+                "aid existence apparatus"
             ],
             "hidden": true
         },
@@ -101,7 +101,7 @@
             "long_name": "HUD System",
             "hint_details": [
                 "a ",
-                "HUD system"
+                "Head-Up Gaming Framework"
             ],
             "hidden": true
         },
@@ -141,48 +141,48 @@
             "long_name": "Key",
             "hint_details": [
                 "a ",
-                "key"
+                "magical doohickey"
             ]
         },
         "chozo": {
             "long_name": "Chozo Technology",
             "hint_details": [
                 "some ",
-                "Chozo technology"
+                "Charming gizmos of the celestial bird beings"
             ]
         },
         "luminoth": {
             "long_name": "Luminoth Technology",
             "hint_details": [
                 "some ",
-                "Luminoth technology"
+                "Luminous essence gadgetry"
             ]
         },
         "light": {
             "long_name": "Light-Aligned",
             "hint_details": [
                 "a ",
-                "light-aligned upgrade"
+                "brilliantly sorted enhancement"
             ]
         },
         "dark": {
             "long_name": "Dark-Aligned",
             "hint_details": [
-                "a ",
-                "dark-aligned upgrade"
+                "an ",
+                "upgrade in shadows with a twist"
             ]
         },
         "cheat": {
             "long_name": "Cheating",
             "hint_details": [
                 "a ",
-                "cheater's delight"
+                "joyful trickster's feast of flavors"
             ]
         }
     },
     "generated_pickups": {
         "Sky Temple Key": {
-            "name_template": "Sky Temple Key {i}",
+            "name_template": "New York Key {i}",
             "gui_category": "sky_temple_key",
             "hint_features": [
                 "key",
@@ -200,7 +200,7 @@
             "expected_case_for_describer": "shuffled"
         },
         "Dark Agon Key": {
-            "name_template": "Dark Agon Key {i}",
+            "name_template": "Gloomy Astonishment Key {i}",
             "gui_category": "temple_key",
             "hint_features": [
                 "key",
@@ -218,7 +218,7 @@
             "expected_case_for_describer": "shuffled"
         },
         "Dark Torvus Key": {
-            "name_template": "Dark Torvus Key {i}",
+            "name_template": "Shadowy Trovus Unlocking {i}",
             "gui_category": "temple_key",
             "hint_features": [
                 "key",
@@ -236,7 +236,7 @@
             "expected_case_for_describer": "shuffled"
         },
         "Ing Hive Key": {
-            "name_template": "Ing Hive Key {i}",
+            "name_template": "Buzzing Lock of the Bee {i}",
             "gui_category": "temple_key",
             "hint_features": [
                 "key",
@@ -255,7 +255,7 @@
         }
     },
     "standard_pickups": {
-        "Combat Visor": {
+        "Brawl Goggles": {
             "gui_category": "visor",
             "hint_features": [
                 "chozo",
@@ -277,7 +277,7 @@
             ],
             "expected_case_for_describer": "starting_item"
         },
-        "Scan Visor": {
+        "Gaze Goggles": {
             "gui_category": "visor",
             "hint_features": [
                 "chozo",
@@ -299,7 +299,7 @@
             ],
             "expected_case_for_describer": "starting_item"
         },
-        "Dark Visor": {
+        "Shady Goggles": {
             "gui_category": "visor",
             "hint_features": [
                 "dark",
@@ -324,7 +324,7 @@
                 79
             ]
         },
-        "Echo Visor": {
+        "Whispering Goggles": {
             "gui_category": "visor",
             "hint_features": [
                 "hud",
@@ -348,7 +348,7 @@
                 118
             ]
         },
-        "Varia Suit": {
+        "Variable Armor": {
             "gui_category": "suit",
             "hint_features": [
                 "chozo",
@@ -374,7 +374,7 @@
             "hide_from_gui": true,
             "starting_condition": "must_start"
         },
-        "Dark Suit": {
+        "Shadows Wardrobe": {
             "gui_category": "suit",
             "hint_features": [
                 "dark",
@@ -402,7 +402,7 @@
                 43
             ]
         },
-        "Light Suit": {
+        "Brilliant Attire": {
             "gui_category": "suit",
             "hint_features": [
                 "life_support",
@@ -460,7 +460,7 @@
                 24
             ]
         },
-        "Power Beam": {
+        "Empowered Light Spear": {
             "gui_category": "beam",
             "hint_features": [
                 "beam",
@@ -484,7 +484,7 @@
             ],
             "expected_case_for_describer": "starting_item"
         },
-        "Charge Beam": {
+        "Sparkle Blaster": {
             "gui_category": "beam",
             "hint_features": [
                 "beam",
@@ -508,7 +508,7 @@
             ],
             "expected_case_for_describer": "starting_item"
         },
-        "Dark Beam": {
+        "Shadow Laser": {
             "gui_category": "beam",
             "hint_features": [
                 "beam",
@@ -537,7 +537,7 @@
                 52
             ]
         },
-        "Light Beam": {
+        "Bright Ray of Sparkling Whimsy": {
             "gui_category": "beam",
             "hint_features": [
                 "beam",
@@ -566,7 +566,7 @@
                 57
             ]
         },
-        "Annihilator Beam": {
+        "Beam of Unmaking": {
             "gui_category": "beam",
             "hint_features": [
                 "beam",
@@ -597,7 +597,7 @@
                 115
             ]
         },
-        "Double Damage": {
+        "Twice the harm": {
             "gui_category": "beam",
             "hint_features": [
                 "cheat"
@@ -615,7 +615,7 @@
             "expected_case_for_describer": "missing",
             "starting_condition": "never_start"
         },
-        "Unlimited Beam Ammo": {
+        "Boundless Ray Cartridge": {
             "gui_category": "beam",
             "hint_features": [
                 "cheat"
@@ -633,7 +633,7 @@
             "expected_case_for_describer": "missing",
             "starting_condition": "never_start"
         },
-        "Morph Ball": {
+        "Transform Sphere": {
             "gui_category": "morph_ball",
             "hint_features": [
                 "chozo",
@@ -658,7 +658,7 @@
             ],
             "expected_case_for_describer": "starting_item"
         },
-        "Morph Ball Bomb": {
+        "Transform Spherical Explode": {
             "gui_category": "morph_ball",
             "hint_features": [
                 "chozo",
@@ -685,7 +685,7 @@
                 38
             ]
         },
-        "Boost Ball": {
+        "Accelerate Orb": {
             "gui_category": "morph_ball",
             "hint_features": [
                 "chozo",
@@ -712,7 +712,7 @@
                 75
             ]
         },
-        "Spider Ball": {
+        "Webbed Spheroid": {
             "gui_category": "morph_ball",
             "hint_features": [
                 "chozo",
@@ -739,7 +739,7 @@
                 102
             ]
         },
-        "Power Bomb": {
+        "Nuclear Weapons Device": {
             "gui_category": "morph_ball",
             "hint_features": [
                 "chozo",
@@ -770,7 +770,7 @@
                 88
             ]
         },
-        "Cannon Ball": {
+        "Artillery Orb": {
             "gui_category": "morph_ball",
             "hint_features": [
                 "cheat"
@@ -793,7 +793,7 @@
             "expected_case_for_describer": "missing",
             "starting_condition": "never_start"
         },
-        "Space Jump Boots": {
+        "Cosmic Leap Footwear": {
             "gui_category": "movement",
             "hint_features": [
                 "chozo",
@@ -819,7 +819,7 @@
                 37
             ]
         },
-        "Gravity Boost": {
+        "Gravity of Gravity": {
             "gui_category": "movement",
             "hint_features": [
                 "luminoth",
@@ -844,7 +844,7 @@
                 92
             ]
         },
-        "Grapple Beam": {
+        "Grippy Launch": {
             "gui_category": "movement",
             "hint_features": [
                 "chozo",
@@ -870,7 +870,7 @@
                 86
             ]
         },
-        "Screw Attack": {
+        "Twist Assault": {
             "gui_category": "movement",
             "hint_features": [
                 "chozo",
@@ -924,7 +924,7 @@
                 112
             ]
         },
-        "Missile Launcher": {
+        "Projectile Tossing Machine": {
             "gui_category": "missile",
             "hint_features": [
                 "chozo",
@@ -955,7 +955,7 @@
                 13
             ]
         },
-        "Seeker Launcher": {
+        "Skeaka Lancher": {
             "gui_category": "missile",
             "hint_features": [
                 "luminoth",
@@ -984,7 +984,7 @@
                 1
             ]
         },
-        "Unlimited Missiles": {
+        "Boundless projectiles that never cease": {
             "gui_category": "missile",
             "hint_features": [
                 "cheat"
@@ -1002,7 +1002,7 @@
             "expected_case_for_describer": "missing",
             "starting_condition": "never_start"
         },
-        "Super Missile": {
+        "Hyper Projectile of Doom": {
             "gui_category": "charge_combo",
             "hint_features": [
                 "beam_related",
@@ -1030,7 +1030,7 @@
                 74
             ]
         },
-        "Sunburst": {
+        "Solar Explosion Flambé": {
             "gui_category": "charge_combo",
             "hint_features": [
                 "beam_related",
@@ -1056,7 +1056,7 @@
                 7
             ]
         },
-        "Darkburst": {
+        "ShadowBamf": {
             "gui_category": "charge_combo",
             "hint_features": [
                 "beam_related",
@@ -1083,7 +1083,7 @@
                 27
             ]
         },
-        "Sonic Boom": {
+        "Hedgehog Blare": {
             "gui_category": "charge_combo",
             "hint_features": [
                 "beam_related",
@@ -1111,7 +1111,7 @@
                 59
             ]
         },
-        "Violet Translator": {
+        "Lavender Lingo Wizard": {
             "gui_category": "translator",
             "hint_features": [
                 "hud",
@@ -1135,7 +1135,7 @@
                 23
             ]
         },
-        "Amber Translator": {
+        "Golden Speech Sorcerer": {
             "gui_category": "translator",
             "hint_features": [
                 "hud",
@@ -1159,7 +1159,7 @@
                 46
             ]
         },
-        "Emerald Translator": {
+        "Green Gem Linguist": {
             "gui_category": "translator",
             "hint_features": [
                 "hud",
@@ -1183,7 +1183,7 @@
                 82
             ]
         },
-        "Cobalt Translator": {
+        "Blue Speaker": {
             "gui_category": "translator",
             "hint_features": [
                 "hud",
@@ -1207,7 +1207,7 @@
                 116
             ]
         },
-        "Energy Tank": {
+        "Battery of Vitality": {
             "gui_category": "energy_tank",
             "hint_features": [
                 "chozo",

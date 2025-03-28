@@ -16,9 +16,9 @@ if TYPE_CHECKING:
 
 class GuardianFormatter(LocationFormatter):
     _GUARDIAN_NAMES = {
-        PickupIndex(43): "Amorbis",
-        PickupIndex(79): "Chykka",
-        PickupIndex(115): "Quadraxis",
+        PickupIndex(43): "Ambrosia",
+        PickupIndex(79): "Chickadee",
+        PickupIndex(115): "Quasarexodus",
     }
 
     def __init__(self, colorizer: Callable[[str, bool], str]):
@@ -27,4 +27,6 @@ class GuardianFormatter(LocationFormatter):
     def format(self, game: RandovaniaGame, pick_hint: PickupHint, hint: Hint, with_color: bool) -> str:
         assert isinstance(hint, LocationHint)
         guardian = self._GUARDIAN_NAMES[hint.target]
-        return f"{self.colorizer(guardian, with_color)} is guarding {pick_hint.determiner}{pick_hint.pickup_name}."
+        text = f"{self.colorizer(guardian, with_color)} protecting the gatekeeper "
+        f"{pick_hint.determiner}{pick_hint.pickup_name}."
+        return text
