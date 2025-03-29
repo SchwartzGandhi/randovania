@@ -165,7 +165,7 @@
                 }
             },
             "Seekers": {
-                "long_name": "Skeaka Lancher",
+                "long_name": "Skeaka Launcher",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 26

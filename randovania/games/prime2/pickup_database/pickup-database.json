@@ -955,7 +955,7 @@
                 13
             ]
         },
-        "Skeaka Lancher": {
+        "Skeaka Launcher": {
             "gui_category": "missile",
             "hint_features": [
                 "luminoth",
@@ -977,6 +977,7 @@
                 "Seekers"
             ],
             "ammo": [
+                "Missile"
             ],
             "expected_case_for_describer": "shuffled",
             "original_locations": [
