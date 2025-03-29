@@ -662,8 +662,8 @@ class EchoesPatchDataFactory(PatchDataFactory[EchoesConfiguration, EchoesCosmeti
             "Bright Ray of Sparkling Whimsy": "Light Beam",
             "Beam of Unmaking": "Annihilator Beam",
         }
-        for i in default_pickups.values():
-            dataclasses.replace(i, name=default_retranslate[i.name])
+        for key, value in default_pickups.items():
+            default_pickups[key] = dataclasses.replace(value, name=default_retranslate[value.name])
 
         [pickup_category_visors] = [cat for cat in default_pickups.keys() if cat.name == "visor"]
         [pickup_category_beams] = [cat for cat in default_pickups.keys() if cat.name == "beam"]
