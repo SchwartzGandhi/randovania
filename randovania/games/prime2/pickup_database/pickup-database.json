@@ -431,7 +431,7 @@
                 24
             ]
         },
-        "Progressive Suit": {
+        "Evolving Attire": {
             "gui_category": "suit",
             "hint_features": [
                 "life_support",
@@ -895,7 +895,7 @@
                 112
             ]
         },
-        "Progressive Grapple": {
+        "Evolving Embrace": {
             "gui_category": "movement",
             "hint_features": [
                 "chozo",
@@ -1236,7 +1236,7 @@
         }
     },
     "ammo_pickups": {
-        "Missile Expansion": {
+        "Rocket": {
             "gui_category": "missile",
             "hint_features": [
                 "chozo",
@@ -1261,7 +1261,7 @@
             "temporary": "Temporary1",
             "allows_negative": true
         },
-        "Power Bomb Expansion": {
+        "Energy Explosive Amplification": {
             "gui_category": "morph_ball",
             "hint_features": [
                 "chozo",
@@ -1286,7 +1286,7 @@
             "temporary": "Temporary2",
             "allows_negative": true
         },
-        "Dark Ammo Expansion": {
+        "Shady Cartridge": {
             "gui_category": "beam",
             "hint_features": [
                 "beam_related",
@@ -1307,7 +1307,7 @@
             ],
             "allows_negative": true
         },
-        "Light Ammo Expansion": {
+        "Brilliant Cartridge": {
             "gui_category": "beam",
             "hint_features": [
                 "beam_related",
@@ -1328,7 +1328,7 @@
             ],
             "allows_negative": true
         },
-        "Beam Ammo Expansion": {
+        "Ray Toner Expansion": {
             "gui_category": "beam",
             "hint_features": [
                 "beam_related",
@@ -1353,14 +1353,14 @@
     },
     "default_pickups": {
         "visor": [
-            "Combat Visor",
-            "Echo Visor"
+            "Brawl Goggles",
+            "Whispering Goggles"
         ],
         "beam": [
-            "Power Beam",
-            "Dark Beam",
-            "Light Beam",
-            "Annihilator Beam"
+            "Empowered Light Spear",
+            "Shadow Laser",
+            "Bright Ray of Sparkling Whimsy",
+            "Beam of Unmaking"
         ]
     },
     "default_offworld_model": "CoinChest"

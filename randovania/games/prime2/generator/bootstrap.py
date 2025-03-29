@@ -94,8 +94,8 @@ class EchoesBootstrap(Bootstrap):
         damage_reductions = copy.copy(db.damage_reductions)
         damage_reductions[db.get_damage("DarkWorld1")] = [
             DamageReduction(None, configuration.varia_suit_damage / 6.0),
-            DamageReduction(db.get_item_by_name("Dark Suit"), configuration.dark_suit_damage / 6.0),
-            DamageReduction(db.get_item_by_name("Light Suit"), 0.0),
+            DamageReduction(db.get_item("DarkSuit"), configuration.dark_suit_damage / 6.0),
+            DamageReduction(db.get_item("LightSuit"), 0.0),
         ]
         return dataclasses.replace(db, damage_reductions=damage_reductions)
 
@@ -113,7 +113,7 @@ class EchoesBootstrap(Bootstrap):
     def apply_game_specific_patches(
         self, configuration: EchoesConfiguration, game: GameDescription, patches: GamePatches
     ) -> None:
-        scan_visor = search.find_resource_info_with_long_name(game.resource_database.item, "Scan Visor")
+        scan_visor = search.find_resource_info_with_long_name(game.resource_database.item, "Gaze Goggles")
         scan_visor_req = ResourceRequirement.simple(scan_visor)
 
         translator_gates = patches.game_specific["translator_gates"]

@@ -41,10 +41,10 @@ class EchoesPresetItemPool(MetroidPresetItemPool):
             beam_ammo = SplitAmmoWidget(
                 parent,
                 self._editor,
-                unified_ammo=pickup_database.ammo_pickups["Beam Ammo Expansion"],
+                unified_ammo=pickup_database.ammo_pickups["Ray Toner Expansion"],
                 split_ammo=[
-                    pickup_database.ammo_pickups["Dark Ammo Expansion"],
-                    pickup_database.ammo_pickups["Light Ammo Expansion"],
+                    pickup_database.ammo_pickups["Shady Cartridge"],
+                    pickup_database.ammo_pickups["Brilliant Cartridge"],
                 ],
             )
             beam_ammo.setText("Split Beam Ammo Expansions")

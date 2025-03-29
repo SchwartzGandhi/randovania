@@ -23,164 +23,164 @@
         },
         "standard_pickup_configuration": {
             "pickups_state": {
-                "Combat Visor": {
+                "Brawl Goggles": {
                     "num_included_in_starting_pickups": 1
                 },
-                "Scan Visor": {
+                "Gaze Goggles": {
                     "num_included_in_starting_pickups": 1
                 },
-                "Dark Visor": {
+                "Shady Goggles": {
                     "num_shuffled_pickups": 1
                 },
-                "Echo Visor": {
+                "Whispering Goggles": {
                     "num_shuffled_pickups": 1
                 },
-                "Varia Suit": {
+                "Variable Armor": {
                     "num_included_in_starting_pickups": 1
                 },
-                "Dark Suit": {},
-                "Light Suit": {},
-                "Progressive Suit": {
+                "Shadows Wardrobe": {},
+                "Brilliant Attire": {},
+                "Evolving Attire": {
                     "num_shuffled_pickups": 2
                 },
-                "Double Damage": {},
-                "Power Beam": {
+                "Twice the harm": {},
+                "Empowered Light Spear": {
                     "num_included_in_starting_pickups": 1
                 },
-                "Charge Beam": {
+                "Sparkle Blaster": {
                     "num_included_in_starting_pickups": 1
                 },
-                "Dark Beam": {
+                "Shadow Laser": {
                     "num_shuffled_pickups": 1,
                     "included_ammo": [
                         50
                     ]
                 },
-                "Light Beam": {
+                "Bright Ray of Sparkling Whimsy": {
                     "num_shuffled_pickups": 1,
                     "included_ammo": [
                         50
                     ]
                 },
-                "Annihilator Beam": {
+                "Beam of Unmaking": {
                     "num_shuffled_pickups": 1,
                     "included_ammo": [
                         0,
                         0
                     ]
                 },
-                "Unlimited Beam Ammo": {},
-                "Morph Ball": {
+                "Boundless Ray Cartridge": {},
+                "Transform Sphere": {
                     "num_included_in_starting_pickups": 1
                 },
-                "Morph Ball Bomb": {
+                "Transform Spherical Explode": {
                     "num_shuffled_pickups": 1
                 },
-                "Boost Ball": {
+                "Accelerate Orb": {
                     "num_shuffled_pickups": 1
                 },
-                "Spider Ball": {
+                "Webbed Spheroid": {
                     "num_shuffled_pickups": 1
                 },
-                "Power Bomb": {
+                "Nuclear Weapons Device": {
                     "num_shuffled_pickups": 1,
                     "included_ammo": [
                         2
                     ]
                 },
-                "Cannon Ball": {},
-                "Space Jump Boots": {
+                "Artillery Orb": {},
+                "Cosmic Leap Footwear": {
                     "num_shuffled_pickups": 1
                 },
-                "Gravity Boost": {
+                "Gravity of Gravity": {
                     "num_shuffled_pickups": 1
                 },
-                "Grapple Beam": {
+                "Grippy Launch": {
                     "num_shuffled_pickups": 1
                 },
-                "Screw Attack": {
+                "Twist Assault": {
                     "num_shuffled_pickups": 1
                 },
-                "Progressive Grapple": {},
-                "Missile Launcher": {
+                "Evolving Embrace": {},
+                "Projectile Tossing Machine": {
                     "num_shuffled_pickups": 1,
                     "included_ammo": [
                         5
                     ]
                 },
-                "Seeker Launcher": {
+                "Skeaka Launcher": {
                     "num_shuffled_pickups": 1,
                     "included_ammo": [
                         5
                     ]
                 },
-                "Unlimited Missiles": {},
-                "Super Missile": {
+                "Boundless projectiles that never cease": {},
+                "Hyper Projectile of Doom": {
                     "num_shuffled_pickups": 1
                 },
-                "Sunburst": {
+                "Solar Explosion Flambé": {
                     "num_shuffled_pickups": 1
                 },
-                "Darkburst": {
+                "ShadowBamf": {
                     "num_shuffled_pickups": 1
                 },
-                "Sonic Boom": {
+                "Hedgehog Blare": {
                     "num_shuffled_pickups": 1
                 },
-                "Violet Translator": {
+                "Lavender Lingo Wizard": {
                     "num_shuffled_pickups": 1
                 },
-                "Amber Translator": {
+                "Golden Speech Sorcerer": {
                     "num_shuffled_pickups": 1
                 },
-                "Emerald Translator": {
+                "Green Gem Linguist": {
                     "num_shuffled_pickups": 1
                 },
-                "Cobalt Translator": {
+                "Blue Speaker": {
                     "num_shuffled_pickups": 1
                 },
-                "Energy Tank": {
+                "Battery of Vitality": {
                     "num_shuffled_pickups": 14
                 }
             },
             "default_pickups": {
-                "visor": "Combat Visor",
-                "beam": "Power Beam"
+                "visor": "Brawl Goggles",
+                "beam": "Empowered Light Spear"
             },
             "minimum_random_starting_pickups": 0,
             "maximum_random_starting_pickups": 0
         },
         "ammo_pickup_configuration": {
             "pickups_state": {
-                "Missile Expansion": {
+                "Rocket": {
                     "ammo_count": [
                         5
                     ],
                     "pickup_count": 33,
                     "requires_main_item": true
                 },
-                "Power Bomb Expansion": {
+                "Energy Explosive Amplification": {
                     "ammo_count": [
                         1
                     ],
                     "pickup_count": 8,
                     "requires_main_item": true
                 },
-                "Dark Ammo Expansion": {
+                "Shady Cartridge": {
                     "ammo_count": [
                         20
                     ],
                     "pickup_count": 10,
                     "requires_main_item": true
                 },
-                "Light Ammo Expansion": {
+                "Brilliant Cartridge": {
                     "ammo_count": [
                         20
                     ],
                     "pickup_count": 10,
                     "requires_main_item": true
                 },
-                "Beam Ammo Expansion": {
+                "Ray Toner Expansion": {
                     "ammo_count": [
                         200,
                         200

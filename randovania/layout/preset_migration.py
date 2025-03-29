@@ -138,35 +138,42 @@ def _migrate_v5(preset: dict, game: RandovaniaGame) -> None:
     }
 
     default_items_state = {
-        "Progressive Suit": {**excluded_item, "num_shuffled_pickups": 2},
-        "Dark Beam": {**shuffled_item, "included_ammo": [50]},
-        "Light Beam": {**shuffled_item, "included_ammo": [50]},
-        "Annihilator Beam": {**shuffled_item, "included_ammo": [0, 0]},
-        "Power Bomb": {**shuffled_item, "included_ammo": [2]},
-        "Progressive Grapple": {**excluded_item, "num_shuffled_pickups": 2},
-        "Missile Launcher": {**shuffled_item, "included_ammo": [5]},
-        "Seeker Launcher": {**shuffled_item, "included_ammo": [5]},
-        "Energy Tank": {**excluded_item, "num_shuffled_pickups": 14},
+        "Evolving Attire": {**excluded_item, "num_shuffled_pickups": 2},
+        "Shadow Laser": {**shuffled_item, "included_ammo": [50]},
+        "Bright Ray of Sparkling Whimsy": {**shuffled_item, "included_ammo": [50]},
+        "Beam of Unmaking": {**shuffled_item, "included_ammo": [0, 0]},
+        "Nuclear Weapons Device": {**shuffled_item, "included_ammo": [2]},
+        "Evolving Embrace": {**excluded_item, "num_shuffled_pickups": 2},
+        "Projectile Tossing Machine": {**shuffled_item, "included_ammo": [5]},
+        "Skeaka Launcher": {**shuffled_item, "included_ammo": [5]},
+        "Battery of Vitality": {**excluded_item, "num_shuffled_pickups": 14},
     }
 
-    for item in ["Combat Visor", "Scan Visor", "Varia Suit", "Power Beam", "Charge Beam", "Morph Ball"]:
+    for item in [
+        "Brawl Goggles",
+        "Gaze Goggles",
+        "Variable Armor",
+        "Empowered Light Spear",
+        "Sparkle Blaster",
+        "Transform Sphere",
+    ]:
         default_items_state[item] = included_item
     for item in [
-        "Dark Visor",
-        "Echo Visor",
-        "Morph Ball Bomb",
-        "Boost Ball",
-        "Spider Ball",
-        "Space Jump Boots",
-        "Gravity Boost",
-        "Super Missile",
-        "Sunburst",
-        "Darkburst",
-        "Sonic Boom",
-        "Violet Translator",
-        "Amber Translator",
-        "Emerald Translator",
-        "Cobalt Translator",
+        "Shady Goggles",
+        "Whispering Goggles",
+        "Transform Spherical Explode",
+        "Accelerate Orb",
+        "Webbed Spheroid",
+        "Cosmic Leap Footwear",
+        "Gravity of Gravity",
+        "Hyper Projectile of Doom",
+        "Solar Explosion Flambé",
+        "ShadowBamf",
+        "Hedgehog Blare",
+        "Lavender Lingo Wizard",
+        "Golden Speech Sorcerer",
+        "Green Gem Linguist",
+        "Blue Speaker",
     ]:
         default_items_state[item] = shuffled_item
 
@@ -197,8 +204,8 @@ def _migrate_v6(preset: dict, game: RandovaniaGame) -> None:
 def _migrate_v7(preset: dict, game: RandovaniaGame) -> None:
     default_items = {}
     if game == RandovaniaGame.METROID_PRIME_ECHOES:
-        default_items["visor"] = "Combat Visor"
-        default_items["beam"] = "Power Beam"
+        default_items["visor"] = "Brawl Goggles"
+        default_items["beam"] = "Empowered Light Spear"
 
     preset["configuration"]["major_items_configuration"]["default_items"] = default_items
 
@@ -238,9 +245,9 @@ def _migrate_v8(preset: dict, game: RandovaniaGame) -> None:
         "skip_final_bosses": preset["configuration"].pop("skip_final_bosses", False),
         "allow_unvisited_room_names": True,
     }
-    if preset["configuration"]["major_items_configuration"]["default_items"].get("visor") == "Dark Visor":
-        preset["configuration"]["major_items_configuration"]["default_items"]["visor"] = "Combat Visor"
-        preset["configuration"]["major_items_configuration"]["items_state"]["Scan Visor"] = {
+    if preset["configuration"]["major_items_configuration"]["default_items"].get("visor") == "Shady Goggles":
+        preset["configuration"]["major_items_configuration"]["default_items"]["visor"] = "Brawl Goggles"
+        preset["configuration"]["major_items_configuration"]["items_state"]["Gaze Goggles"] = {
             "num_included_in_starting_items": 1
         }
 
@@ -316,11 +323,11 @@ def _migrate_v13(preset: dict, game: RandovaniaGame) -> None:
             "Power Bomb Expansion": ["7"],
         },
         RandovaniaGame.METROID_PRIME_ECHOES: {
-            "Missile Expansion": ["44"],
-            "Power Bomb Expansion": ["43"],
-            "Dark Ammo Expansion": ["45"],
-            "Light Ammo Expansion": ["46"],
-            "Beam Ammo Expansion": ["45", "46"],
+            "Rocket": ["44"],
+            "Energy Explosive Amplification": ["43"],
+            "Shady Cartridge": ["45"],
+            "Brilliant Cartridge": ["46"],
+            "Ray Toner Expansion": ["45", "46"],
         },
     }[game]
     main_items = {
@@ -329,12 +336,12 @@ def _migrate_v13(preset: dict, game: RandovaniaGame) -> None:
             "Power Bomb": ["7"],
         },
         RandovaniaGame.METROID_PRIME_ECHOES: {
-            "Dark Beam": ["45"],
-            "Light Beam": ["46"],
-            "Annihilator Beam": ["45", "46"],
-            "Missile Launcher": ["44"],
-            "Seeker Launcher": ["44"],
-            "Power Bomb": ["43"],
+            "Shadow Laser": ["45"],
+            "Bright Ray of Sparkling Whimsy": ["46"],
+            "Beam of Unmaking": ["45", "46"],
+            "Projectile Tossing Machine": ["44"],
+            "Skeaka Launcher": ["44"],
+            "Nuclear Weapons Device": ["43"],
         },
     }
 
@@ -1129,7 +1136,12 @@ def _migrate_v100(preset: dict, game: RandovaniaGame) -> None:
 
 def _migrate_v101(preset: dict, game: RandovaniaGame) -> None:
     if game == RandovaniaGame.METROID_PRIME_ECHOES:
-        banned_pickups = ["Cannon Ball", "Unlimited Beam Ammo", "Unlimited Missiles", "Double Damage"]
+        banned_pickups = [
+            "Artillery Orb",
+            "Boundless Ray Cartridge",
+            "Boundless projectiles that never cease",
+            "Twice the harm",
+        ]
         pickup_config = preset["configuration"]["standard_pickup_configuration"]["pickups_state"]
         for pickup in banned_pickups:
             if pickup in pickup_config:

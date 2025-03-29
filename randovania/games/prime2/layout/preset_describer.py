@@ -100,7 +100,7 @@ class EchoesPresetDescriber(GamePresetDescriber):
 
         template_strings = super().format_params(configuration)
         unified_ammo = configuration.ammo_pickup_configuration.pickups_state[
-            pickup_database.ammo_pickups["Beam Ammo Expansion"]
+            pickup_database.ammo_pickups["Ray Toner Expansion"]
         ]
 
         # Difficulty
@@ -143,8 +143,8 @@ class EchoesPresetDescriber(GamePresetDescriber):
                 message_for_required_mains(
                     configuration.ammo_pickup_configuration,
                     {
-                        "Missiles needs Launcher": "Missile Expansion",
-                        "Power Bomb needs Main": "Power Bomb Expansion",
+                        "Missiles needs Launcher": "Rocket",
+                        "Power Bomb needs Main": "Energy Explosive Amplification",
                     },
                 ),
                 {
