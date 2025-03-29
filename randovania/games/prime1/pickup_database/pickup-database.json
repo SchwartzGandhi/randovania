@@ -123,27 +123,27 @@
     },
     "generated_pickups": {
         "Chozo Artifact": {
-            "name_template": "Artifact of {name}",
+            "name_template": "{name}",
             "gui_category": "artifact",
             "hint_features": [
                 "artifact",
                 "key"
             ],
-            "model_name": "Artifact of {name}",
+            "model_name": "Artifact of {progression}",
             "offworld_models": {
-                "am2r": "sItemArtifact{name}Prime"
+                "am2r": "sItemArtifact{progression}Prime"
             },
             "preferred_location_category": "major",
             "probability_offset": 0.25,
             "probability_multiplier": 1.2,
             "progression": [
-                "{name}"
+                "{progression}"
             ],
             "expected_case_for_describer": "shuffled"
         }
     },
     "standard_pickups": {
-        "Charge Beam": {
+        "Boat": {
             "gui_category": "beam",
             "hint_features": [
                 "beam",
@@ -166,7 +166,7 @@
                 23
             ]
         },
-        "Power Beam": {
+        "Energy Ray": {
             "gui_category": "beam",
             "hint_features": [
                 "beam",
@@ -184,7 +184,7 @@
             ],
             "expected_case_for_describer": "starting_item"
         },
-        "Wave Beam": {
+        "Surge Light Cannon": {
             "gui_category": "beam",
             "hint_features": [
                 "beam",
@@ -205,7 +205,7 @@
                 41
             ]
         },
-        "Ice Beam": {
+        "Snow": {
             "gui_category": "beam",
             "hint_features": [
                 "beam",
@@ -226,7 +226,7 @@
                 34
             ]
         },
-        "Plasma Beam": {
+        "Quantum Ray of Light": {
             "gui_category": "beam",
             "hint_features": [
                 "beam",
@@ -247,7 +247,7 @@
                 98
             ]
         },
-        "Missile Launcher": {
+        "Flying Spaghetti of Doom": {
             "gui_category": "missile",
             "hint_features": [
                 "major",
@@ -274,7 +274,7 @@
                 19
             ]
         },
-        "Grapple Beam": {
+        "Clutch Lightstick": {
             "gui_category": "movement",
             "hint_features": [
                 "major",
@@ -296,7 +296,7 @@
                 75
             ]
         },
-        "Combat Visor": {
+        "Fighter": {
             "gui_category": "visor",
             "hint_features": [
                 "major",
@@ -312,7 +312,7 @@
             ],
             "expected_case_for_describer": "starting_item"
         },
-        "Scan Visor": {
+        "Mirror Spectacles": {
             "gui_category": "visor",
             "hint_features": [
                 "major",
@@ -329,7 +329,7 @@
             ],
             "expected_case_for_describer": "starting_item"
         },
-        "Thermal Visor": {
+        "Heat Sight Glasses": {
             "gui_category": "visor",
             "hint_features": [
                 "major",
@@ -348,7 +348,7 @@
                 50
             ]
         },
-        "X-Ray Visor": {
+        "Zebra-Glass Gazer": {
             "gui_category": "visor",
             "hint_features": [
                 "major",
@@ -367,7 +367,7 @@
                 71
             ]
         },
-        "Space Jump Boots": {
+        "Dance Location": {
             "gui_category": "movement",
             "hint_features": [
                 "major",
@@ -389,7 +389,7 @@
                 59
             ]
         },
-        "Energy Tank": {
+        "Power Shoe": {
             "gui_category": "energy_tank",
             "hint_features": [
                 "energy_tank",
@@ -411,7 +411,7 @@
             "expected_case_for_describer": "shuffled",
             "custom_count_for_shuffled_case": 14
         },
-        "Morph Ball": {
+        "King": {
             "gui_category": "morph_ball",
             "hint_features": [
                 "major",
@@ -433,7 +433,7 @@
                 5
             ]
         },
-        "Morph Ball Bomb": {
+        "Honey Bullet": {
             "gui_category": "morph_ball",
             "hint_features": [
                 "major",
@@ -456,7 +456,7 @@
                 28
             ]
         },
-        "Boost Ball": {
+        "Elevate Sphere": {
             "gui_category": "morph_ball",
             "hint_features": [
                 "major",
@@ -479,7 +479,7 @@
                 43
             ]
         },
-        "Spider Ball": {
+        "Grumpy": {
             "gui_category": "morph_ball",
             "hint_features": [
                 "major",
@@ -502,7 +502,7 @@
                 44
             ]
         },
-        "Power Bomb": {
+        "Chief Explosive of Authority": {
             "gui_category": "morph_ball",
             "hint_features": [
                 "major",
@@ -529,7 +529,7 @@
                 84
             ]
         },
-        "Power Suit": {
+        "Electrical Garb": {
             "gui_category": "suit",
             "hint_features": [
                 "life_support",
@@ -546,7 +546,7 @@
             "hide_from_gui": true,
             "starting_condition": "must_start"
         },
-        "Varia Suit": {
+        "Bodies T-Shirt": {
             "gui_category": "suit",
             "hint_features": [
                 "life_support",
@@ -569,7 +569,7 @@
                 20
             ]
         },
-        "Gravity Suit": {
+        "Weighty Garment of Attraction": {
             "gui_category": "suit",
             "hint_features": [
                 "life_support",
@@ -592,7 +592,7 @@
                 54
             ]
         },
-        "Phazon Suit": {
+        "Folding Kit": {
             "gui_category": "suit",
             "hint_features": [
                 "life_support",
@@ -616,7 +616,7 @@
                 83
             ]
         },
-        "Super Missile": {
+        "Mega Dart": {
             "gui_category": "charge_combo",
             "hint_features": [
                 "beam_related",
@@ -639,7 +639,7 @@
                 47
             ]
         },
-        "Wavebuster": {
+        "Golf": {
             "gui_category": "charge_combo",
             "hint_features": [
                 "beam_related",
@@ -660,7 +660,7 @@
                 13
             ]
         },
-        "Ice Spreader": {
+        "Icicle": {
             "gui_category": "charge_combo",
             "hint_features": [
                 "beam_related",
@@ -681,7 +681,7 @@
                 95
             ]
         },
-        "Flamethrower": {
+        "Fire-spitting Gadget of Destiny": {
             "gui_category": "charge_combo",
             "hint_features": [
                 "beam_related",
@@ -704,7 +704,7 @@
         }
     },
     "ammo_pickups": {
-        "Missile Expansion": {
+        "Research": {
             "gui_category": "missile",
             "hint_features": [
                 "expansion",
@@ -726,7 +726,7 @@
             "temporary": "LockedMissile",
             "allows_negative": true
         },
-        "Power Bomb Expansion": {
+        "Amplification of Boom": {
             "gui_category": "morph_ball",
             "hint_features": [
                 "expansion",
@@ -747,7 +747,7 @@
             "temporary": "LockedPB",
             "allows_negative": true
         },
-        "Energy Refill": {
+        "Victory": {
             "gui_category": "misc",
             "hint_features": [
                 "expansion",
@@ -764,7 +764,7 @@
             "explain_other_sources": false,
             "mention_limit": false
         },
-        "Missile Refill": {
+        "Muscle": {
             "gui_category": "misc",
             "hint_features": [
                 "expansion",
@@ -781,7 +781,7 @@
             "explain_other_sources": false,
             "mention_limit": false
         },
-        "Power Bomb Refill": {
+        "Practice of Electrical Voting": {
             "gui_category": "misc",
             "hint_features": [
                 "expansion",

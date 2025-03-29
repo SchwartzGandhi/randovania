@@ -18,6 +18,20 @@ ARTIFACT_ITEMS = [
     "Spirit",
     "Newborn",
 ]
+TRANSLATED_ITEMS = [
+    "Example of Reality",
+    "Work of Energy Art",
+    "Old Fake",
+    "Invented Forest",
+    "Bee",
+    "Refinery",
+    "Shovel",
+    "Natural Error",
+    "Work of the Sun",
+    "International Process",
+    "Pot",
+    "Birthday Picture",
+]
 ARTIFACT_NAMES = ["Artifact of " + item for item in ARTIFACT_ITEMS]
 ARTIFACT_MODEL = list(ARTIFACT_NAMES)
 MULTIWORLD_ITEM = "Unknown1"

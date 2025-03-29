@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import random
 from typing import TYPE_CHECKING, override
 
 from randovania.exporter.hints.basic_hint_formatters import basic_hint_formatters
@@ -51,4 +52,12 @@ class PrimeFamilyHintNamer(HintNamer[str]):
         location_color = self.format_location(
             location, with_region=True, with_area=not hide_area, with_color=with_color
         )
-        return f"{resource_color} exists at {determiner}{location_color}."
+        
+        templates = [
+            f"In {determiner}{location_color} comes {resource_color}v.",
+            f"{resource_color} lies to {determiner}{location_color}.",
+            f"The {resource_color} dances in the {determiner}{location_color} of wonders.",
+            f"Friend gives {resource_color} within {determiner}{location_color}.",
+            f"{resource_color} on a {determiner}{location_color}'s lady.",
+        ]
+        return random.choice(templates)

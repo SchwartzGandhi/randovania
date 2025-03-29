@@ -13,6 +13,7 @@ from randovania.layout.base.standard_pickup_state import DEFAULT_MAXIMUM_SHUFFLE
 
 if TYPE_CHECKING:
     from randovania.game_description.game_description import GameDescription
+    from randovania.game_description.pickup.pickup_database import PickupDatabase
     from randovania.game_description.resources.item_resource_info import ItemResourceInfo
     from randovania.gui.lib.window_manager import WindowManager
     from randovania.interface_common.preset_editor import PresetEditor
@@ -20,13 +21,16 @@ if TYPE_CHECKING:
 
 
 class MetroidPresetItemPool(PresetItemPool):
+    def get_energy_tank_item(self, pickup_database: PickupDatabase):
+        return pickup_database.standard_pickups["Battery of Vitality"]
+
     def __init__(self, editor: PresetEditor, game_description: GameDescription, window_manager: WindowManager):
         super().__init__(editor, game_description, window_manager)
         pickup_database = default_database.pickup_database_for_game(self.game)
 
         size_policy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Preferred, QtWidgets.QSizePolicy.Policy.Fixed)
 
-        self._energy_tank_item = pickup_database.standard_pickups["Battery of Vitality"]
+        self._energy_tank_item = self.get_energy_tank_item(pickup_database)
         self._create_energy_tank_box(game_description.resource_database.energy_tank)
         self._create_pickup_style_box(size_policy)
 

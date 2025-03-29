@@ -69,9 +69,7 @@ class PrimeBootstrap(Bootstrap):
         return enabled_resources
 
     def prime1_progressive_damage_reduction(self, db: ResourceDatabase, current_resources: ResourceCollection) -> float:
-        num_suits = sum(
-            current_resources[db.get_item_by_name(suit)] for suit in ["Varia Suit", "Gravity Suit", "Phazon Suit"]
-        )
+        num_suits = sum(current_resources[db.get_item(suit)] for suit in ["VariaSuit", "GravitySuit", "PhazonSuit"])
         if num_suits >= 3:
             dr = 0.5
         elif num_suits == 2:
@@ -89,11 +87,11 @@ class PrimeBootstrap(Bootstrap):
 
     def prime1_additive_damage_reduction(self, db: ResourceDatabase, current_resources: ResourceCollection) -> float:
         dr = 1.0
-        if current_resources[db.get_item_by_name("Varia Suit")]:
+        if current_resources[db.get_item("VariaSuit")]:
             dr -= 0.1
-        if current_resources[db.get_item_by_name("Gravity Suit")]:
+        if current_resources[db.get_item("GravitySuit")]:
             dr -= 0.1
-        if current_resources[db.get_item_by_name("Phazon Suit")]:
+        if current_resources[db.get_item("PhazonSuit")]:
             dr -= 0.3
 
         hard_mode = db.get_by_type_and_index(ResourceType.MISC, "hard_mode")
@@ -103,11 +101,11 @@ class PrimeBootstrap(Bootstrap):
         return dr
 
     def prime1_absolute_damage_reduction(self, db: ResourceDatabase, current_resources: ResourceCollection) -> float:
-        if current_resources[db.get_item_by_name("Phazon Suit")] > 0:
+        if current_resources[db.get_item("PhazonSuit")] > 0:
             dr = 0.5
-        elif current_resources[db.get_item_by_name("Gravity Suit")] > 0:
+        elif current_resources[db.get_item("GravitySuit")] > 0:
             dr = 0.8
-        elif current_resources[db.get_item_by_name("Varia Suit")] > 0:
+        elif current_resources[db.get_item("VariaSuit")] > 0:
             dr = 0.9
         else:
             dr = 1
@@ -125,9 +123,9 @@ class PrimeBootstrap(Bootstrap):
         damage_reductions = copy.copy(db.damage_reductions)
         requirement_template = copy.copy(db.requirement_template)
 
-        suits = [db.get_item_by_name("Varia Suit")]
+        suits = [db.get_item("VariaSuit")]
         if configuration.legacy_mode:
-            suits.extend([db.get_item_by_name("Gravity Suit"), db.get_item_by_name("Phazon Suit")])
+            suits.extend([db.get_item("GravitySuit"), db.get_item("PhazonSuit")])
 
         reductions = [DamageReduction(None, configuration.heat_damage / 10.0)]
         reductions.extend([DamageReduction(suit, 0) for suit in suits])

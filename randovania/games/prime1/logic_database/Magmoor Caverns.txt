@@ -148,14 +148,14 @@ Extra - aabb: [-88.72691, -54.28413, -6.816518, 86.88941, 55.28312, 30.909273]
       All of the following:
           Shoot Any Beam
           Any of the following:
-              Missile ≥ 4
-              Missile ≥ 2 and Disabled Hard Mode
+              Flying spaghetti of Doom ≥ 4
+              Flying spaghetti of Doom ≥ 2 and Disabled Hard Mode
           Any of the following:
               Heat-Resisting Suit and Use Grapple Beam
               All of the following:
                   Heat Runs (Beginner) or Heat-Resisting Suit
                   Any of the following:
-                      Space Jump Boots and Heated Rooms Damage ≥ 120
+                      Dance Location and Heated Rooms Damage ≥ 120
                       # https://youtu.be/TjoCnZ4e8LU
                       Standable Terrain (Beginner) and Heated Rooms Damage ≥ 190
                       # https://youtu.be/DnktNBI_DQI
@@ -169,7 +169,7 @@ Extra - aabb: [-88.72691, -54.28413, -6.816518, 86.88941, 55.28312, 30.909273]
                   Heated Rooms Damage ≥ 140 and Lava Damage ≥ 20
                   Combat/Scan Dash (Intermediate) and Heated Rooms Damage ≥ 110 and Lava Damage ≥ 10
                   All of the following:
-                      Space Jump Boots
+                      Dance Location
                       Any of the following:
                           Combat/Scan Dash (Beginner) and Heated Rooms Damage ≥ 100
                           R-Jump (Intermediate) and Heated Rooms Damage ≥ 120
@@ -183,13 +183,13 @@ Extra - aabb: [-88.72691, -54.28413, -6.816518, 86.88941, 55.28312, 30.909273]
   * Extra - world_rotation: (0.0, -0.0, -89.50709)
   > Next to Crates
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               All of the following:
                   Heat-Resisting Suit
                   Any of the following:
                       Can Use Bombs
-                      Power Bomb ≥ 2 and Knowledge (Beginner) and Can Use Power Bombs
+                      Energy Explosion ≥ 2 and Knowledge (Beginner) and Can Use Power Bombs
               All of the following:
                   Heat Runs (Intermediate)
                   Any of the following:
@@ -199,12 +199,12 @@ Extra - aabb: [-88.72691, -54.28413, -6.816518, 86.88941, 55.28312, 30.909273]
                               Heated Rooms Damage ≥ 285
                               Combat/Scan Dash (Intermediate) and Heated Rooms Damage ≥ 250
                               All of the following:
-                                  Space Jump Boots
+                                  Dance Location
                                   Any of the following:
                                       Heated Rooms Damage ≥ 265
                                       Combat/Scan Dash (Intermediate) and Heated Rooms Damage ≥ 255
                       All of the following:
-                          Power Bomb ≥ 2 and Knowledge (Beginner) and Can Use Power Bombs
+                          Energy Explosion ≥ 2 and Knowledge (Beginner) and Can Use Power Bombs
                           Any of the following:
                               Heated Rooms Damage ≥ 360
                               Combat/Scan Dash (Intermediate) and Heated Rooms Damage ≥ 325
@@ -221,12 +221,12 @@ Extra - aabb: [-88.72691, -54.28413, -6.816518, 86.88941, 55.28312, 30.909273]
               Heat Runs (Beginner)
               Any of the following:
                   Heated Rooms Damage ≥ 150
-                  Space Jump Boots and Heated Rooms Damage ≥ 135
+                  Dance Location and Heated Rooms Damage ≥ 135
                   All of the following:
                       Heated Rooms Damage ≥ 120
                       Any of the following:
                           Combat/Scan Dash (Intermediate)
-                          Space Jump Boots and Movement (Intermediate)
+                          Dance Location and Movement (Intermediate)
   > Next to Crates
       Any of the following:
           Heat-Resisting Suit
@@ -248,20 +248,20 @@ Extra - aabb: [-88.72691, -54.28413, -6.816518, 86.88941, 55.28312, 30.909273]
                   Heated Rooms Damage ≥ 160 and Lava Damage ≥ 25
                   Combat/Scan Dash (Beginner) and Heated Rooms Damage ≥ 115 and Lava Damage ≥ 10
                   All of the following:
-                      Space Jump Boots
+                      Dance Location
                       Any of the following:
                           Heated Rooms Damage ≥ 155 and Lava Damage ≥ 10
                           Combat/Scan Dash (Beginner) and Heated Rooms Damage ≥ 125
                           R-Jump (Intermediate) and Heated Rooms Damage ≥ 135
   > Door to Pit Tunnel
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               All of the following:
                   Heat-Resisting Suit
                   Any of the following:
                       Can Use Bombs
-                      Power Bomb ≥ 2 and Knowledge (Beginner) and Can Use Power Bombs
+                      Energy Explosion ≥ 2 and Knowledge (Beginner) and Can Use Power Bombs
               All of the following:
                   Heat Runs (Intermediate)
                   Any of the following:
@@ -271,18 +271,18 @@ Extra - aabb: [-88.72691, -54.28413, -6.816518, 86.88941, 55.28312, 30.909273]
                               Heated Rooms Damage ≥ 340
                               Combat/Scan Dash (Intermediate) and Heated Rooms Damage ≥ 265
                               All of the following:
-                                  Space Jump Boots
+                                  Dance Location
                                   Any of the following:
                                       Heated Rooms Damage ≥ 305
                                       Combat/Scan Dash (Intermediate) and Heated Rooms Damage ≥ 245
                                       R-Jump (Intermediate) and Heated Rooms Damage ≥ 270
                       All of the following:
-                          Power Bomb ≥ 2 and Knowledge (Beginner) and Can Use Power Bombs
+                          Energy Explosion ≥ 2 and Knowledge (Beginner) and Can Use Power Bombs
                           Any of the following:
                               Heated Rooms Damage ≥ 360
                               Combat/Scan Dash (Intermediate) and Heated Rooms Damage ≥ 340
                               All of the following:
-                                  Space Jump Boots
+                                  Dance Location
                                   Any of the following:
                                       Heated Rooms Damage ≥ 365
                                       Combat/Scan Dash (Intermediate) and Heated Rooms Damage ≥ 320
@@ -291,14 +291,14 @@ Extra - aabb: [-88.72691, -54.28413, -6.816518, 86.88941, 55.28312, 30.909273]
       All of the following:
           Shoot Any Beam
           Any of the following:
-              Missile ≥ 4
-              Missile ≥ 2 and Disabled Hard Mode
+              Flying spaghetti of Doom ≥ 4
+              Flying spaghetti of Doom ≥ 2 and Disabled Hard Mode
           Any of the following:
               Heat-Resisting Suit and Use Grapple Beam
               All of the following:
                   Heat Runs (Beginner) or Heat-Resisting Suit
                   Any of the following:
-                      Space Jump Boots and Heated Rooms Damage ≥ 80
+                      Dance Location and Heated Rooms Damage ≥ 80
                       # https://youtu.be/TjoCnZ4e8LU
                       Standable Terrain (Beginner) and Heated Rooms Damage ≥ 90
                       # https://youtu.be/DnktNBI_DQI
@@ -319,12 +319,12 @@ Extra - aabb: [38.849495, -85.48528, 6.4267626, 88.469696, -24.359688, 35.04981]
   > Door to Lava Lake
       Any of the following:
           All of the following:
-              Morph Ball
+              King
               Any of the following:
                   Heat-Resisting Suit
                   Heat Runs (Beginner) and Heated Rooms Damage ≥ 95
           All of the following:
-              Space Jump Boots
+              Dance Location
               Any of the following:
                   Heat-Resisting Suit
                   Heat Runs (Beginner) and Heated Rooms Damage ≥ 99
@@ -339,12 +339,12 @@ Extra - aabb: [38.849495, -85.48528, 6.4267626, 88.469696, -24.359688, 35.04981]
   > Door to Triclops Pit
       Any of the following:
           All of the following:
-              Morph Ball
+              King
               Any of the following:
                   Heat-Resisting Suit
                   Heat Runs (Beginner) and Heated Rooms Damage ≥ 90
           All of the following:
-              Space Jump Boots
+              Dance Location
               Any of the following:
                   Heat-Resisting Suit
                   Heat Runs (Beginner) and Heated Rooms Damage ≥ 99
@@ -374,20 +374,20 @@ Extra - aabb: [-30.763367, -243.35587, -15.128777, 161.2667, -85.48529, 78.1868]
               Heat Runs (Advanced)
               Any of the following:
                   Combat/Scan Dash (Intermediate) and Heated Rooms Damage ≥ 120
-                  Space Jump Boots and R-Jump (Advanced) and Heated Rooms Damage ≥ 110
+                  Dance Location and R-Jump (Advanced) and Heated Rooms Damage ≥ 110
   > Pickup (Missile Expansion)
       All of the following:
           Shoot Any Beam
           Any of the following:
-              Charge Beam or Missile ≥ 2
-              Missile and Disabled Hard Mode
+              Boat or Flying spaghetti of Doom ≥ 2
+              Flying spaghetti of Doom and Disabled Hard Mode
           Any of the following:
               All of the following:
-                  Space Jump Boots
+                  Dance Location
                   Any of the following:
                       All of the following:
                           # https://youtu.be/puEX6Ofl_5k
-                          X-Ray Visor or Invisible Objects (Intermediate)
+                          Zebra-Glass Gazer or Invisible Objects (Intermediate)
                           Any of the following:
                               Heat-Resisting Suit
                               Heat Runs (Intermediate) and Heated Rooms Damage ≥ 280
@@ -408,7 +408,7 @@ Extra - aabb: [-30.763367, -243.35587, -15.128777, 161.2667, -85.48529, 78.1868]
                               Heat-Resisting Suit
                               Heat Runs (Intermediate) and Heated Rooms Damage ≥ 220
               All of the following:
-                  X-Ray Visor and Invisible Objects (Intermediate) and L-Jump (Advanced)
+                  Zebra-Glass Gazer and Invisible Objects (Intermediate) and L-Jump (Advanced)
                   Heat Runs (Advanced) or Heat-Resisting Suit
                   Any of the following:
                       # https://youtu.be/Auy_WagsHf4
@@ -416,14 +416,14 @@ Extra - aabb: [-30.763367, -243.35587, -15.128777, 161.2667, -85.48529, 78.1868]
                       Combat/Scan Dash (Expert) and Heated Rooms Damage ≥ 225
   > Tunnel Entrance
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Heat-Resisting Suit
               All of the following:
                   Heat Runs (Intermediate)
                   Any of the following:
                       Heated Rooms Damage ≥ 145
-                      Space Jump Boots and R-Jump (Intermediate) and Heated Rooms Damage ≥ 110
+                      Dance Location and R-Jump (Intermediate) and Heated Rooms Damage ≥ 110
 
 > Door to Storage Cavern; Heals? False
   * Layers: default
@@ -434,7 +434,7 @@ Extra - aabb: [-30.763367, -243.35587, -15.128777, 161.2667, -85.48529, 78.1868]
   * Extra - world_rotation: (0.0, -0.0, -89.50709)
   > Tunnel Entrance
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Heat-Resisting Suit
               All of the following:
@@ -457,9 +457,9 @@ Extra - aabb: [-30.763367, -243.35587, -15.128777, 161.2667, -85.48529, 78.1868]
               Heat Runs (Intermediate)
               Any of the following:
                   Heated Rooms Damage ≥ 160
-                  Morph Ball and Heated Rooms Damage ≥ 150
+                  King and Heated Rooms Damage ≥ 150
                   All of the following:
-                      Space Jump Boots
+                      Dance Location
                       Any of the following:
                           Combat/Scan Dash (Intermediate) and Heated Rooms Damage ≥ 140
                           R-Jump (Intermediate) and Heated Rooms Damage ≥ 130
@@ -467,15 +467,15 @@ Extra - aabb: [-30.763367, -243.35587, -15.128777, 161.2667, -85.48529, 78.1868]
       All of the following:
           Shoot Any Beam
           Any of the following:
-              Charge Beam or Missile ≥ 2
-              Missile and Disabled Hard Mode
+              Boat or Flying spaghetti of Doom ≥ 2
+              Flying spaghetti of Doom and Disabled Hard Mode
           Any of the following:
               All of the following:
-                  Space Jump Boots
+                  Dance Location
                   Any of the following:
                       All of the following:
                           # https://youtu.be/puEX6Ofl_5k
-                          X-Ray Visor or Invisible Objects (Intermediate)
+                          Zebra-Glass Gazer or Invisible Objects (Intermediate)
                           Any of the following:
                               Heat-Resisting Suit
                               Heat Runs (Intermediate) and Heated Rooms Damage ≥ 130
@@ -498,14 +498,14 @@ Extra - aabb: [-30.763367, -243.35587, -15.128777, 161.2667, -85.48529, 78.1868]
               All of the following:
                   L-Jump (Advanced)
                   Heat Runs (Advanced) or Heat-Resisting Suit
-                  X-Ray Visor or Invisible Objects (Intermediate)
+                  Zebra-Glass Gazer or Invisible Objects (Intermediate)
                   Any of the following:
                       # https://youtu.be/Auy_WagsHf4
                       Slope Jump (Advanced) and Standable Terrain (Advanced) and Heated Rooms Damage ≥ 200
                       Combat/Scan Dash (Expert) and Heated Rooms Damage ≥ 180
   > Tunnel Entrance
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Heat-Resisting Suit
               Heat Runs (Intermediate) and Heated Rooms Damage ≥ 95
@@ -523,7 +523,7 @@ Extra - aabb: [-30.763367, -243.35587, -15.128777, 161.2667, -85.48529, 78.1868]
               Any of the following:
                   Heated Rooms Damage ≥ 170
                   All of the following:
-                      Space Jump Boots
+                      Dance Location
                       Any of the following:
                           Heated Rooms Damage ≥ 145
                           R-Jump (Intermediate) and Heated Rooms Damage ≥ 110
@@ -535,13 +535,13 @@ Extra - aabb: [-30.763367, -243.35587, -15.128777, 161.2667, -85.48529, 78.1868]
               Any of the following:
                   Heated Rooms Damage ≥ 145
                   All of the following:
-                      Space Jump Boots
+                      Dance Location
                       Any of the following:
                           Heated Rooms Damage ≥ 120
                           R-Jump (Intermediate) and Heated Rooms Damage ≥ 99
   > Tunnel Entrance
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Heat-Resisting Suit
               Heat Runs (Intermediate) and Heated Rooms Damage ≥ 95
@@ -556,7 +556,7 @@ Extra - aabb: [-30.763367, -243.35587, -15.128777, 161.2667, -85.48529, 78.1868]
               Heat Runs (Intermediate)
               Any of the following:
                   Heated Rooms Damage ≥ 185
-                  Space Jump Boots and Heated Rooms Damage ≥ 145
+                  Dance Location and Heated Rooms Damage ≥ 145
   > Door to Storage Cavern
       Any of the following:
           Heat-Resisting Suit
@@ -572,7 +572,7 @@ Extra - aabb: [-30.763367, -243.35587, -15.128777, 161.2667, -85.48529, 78.1868]
               Heat Runs (Intermediate)
               Any of the following:
                   Heated Rooms Damage ≥ 150
-                  Space Jump Boots and Heated Rooms Damage ≥ 130
+                  Dance Location and Heated Rooms Damage ≥ 130
 
 ----------------
 Monitor Tunnel
@@ -649,16 +649,16 @@ Extra - aabb: [144.24341, -362.28824, 16.64048, 287.9853, -179.72269, 124.370575
       Any of the following:
           All of the following:
               # https://youtu.be/8Xzak1I7Fx8
-              Space Jump Boots and Slope Jump (Intermediate) and Standable Terrain (Intermediate)
+              Dance Location and Slope Jump (Intermediate) and Standable Terrain (Intermediate)
               Any of the following:
                   Heat-Resisting Suit
                   Heat Runs (Intermediate) and Heated Rooms Damage ≥ 235
                   Heat Runs (Advanced) and Heated Rooms Damage ≥ 135
           # https://youtu.be/KuvfXDG6Wt8
-          Scan Visor and Combat/Scan Dash (Advanced) and Heat Runs (Expert) and Movement (Advanced) and Normal Damage ≥ 15 and Heated Rooms Damage ≥ 135
+          Mirror Spectacles and Combat/Scan Dash (Advanced) and Heat Runs (Expert) and Movement (Advanced) and Normal Damage ≥ 15 and Heated Rooms Damage ≥ 135
   > Door to Warrior Shrine
       All of the following:
-          Space Jump Boots and Slope Jump (Intermediate) and Standable Terrain (Intermediate)
+          Dance Location and Slope Jump (Intermediate) and Standable Terrain (Intermediate)
           Any of the following:
               Heat-Resisting Suit
               All of the following:
@@ -681,12 +681,12 @@ Extra - aabb: [144.24341, -362.28824, 16.64048, 287.9853, -179.72269, 124.370575
                   Any of the following:
                       # Combat traversal example with Combat Dash and Standable: https://youtu.be/G71ZZKcC7wU
                       L-Jump (Intermediate) and Heated Rooms Damage ≥ 255 and Lava Damage ≥ 85
-                      Charge Beam and Heated Rooms Damage ≥ 415
+                      Boat and Heated Rooms Damage ≥ 415
                       All of the following:
                           Heated Rooms Damage ≥ 320 and Shoot Any Beam
                           Any of the following:
-                              Missile ≥ 16
-                              Missile ≥ 8 and Disabled Hard Mode
+                              Flying spaghetti of Doom ≥ 16
+                              Flying spaghetti of Doom ≥ 8 and Disabled Hard Mode
                       Combat (Intermediate) and Heated Rooms Damage ≥ 440
           All of the following:
               Combat/Scan Dash (Expert) and Lava Damage ≥ 60
@@ -704,7 +704,7 @@ Extra - aabb: [144.24341, -362.28824, 16.64048, 287.9853, -179.72269, 124.370575
   > Door to Warrior Shrine
       Any of the following:
           All of the following:
-              Space Jump Boots
+              Dance Location
               Heat Runs (Advanced) or Heat-Resisting Suit
               Any of the following:
                   Combat/Scan Dash (Intermediate) and Heated Rooms Damage ≥ 99
@@ -738,14 +738,14 @@ Extra - aabb: [144.24341, -362.28824, 16.64048, 287.9853, -179.72269, 124.370575
           Heat Runs (Advanced) and Heated Rooms Damage ≥ 99
           Any of the following:
               Combat/Scan Dash (Intermediate)
-              Space Jump Boots and R-Jump (Intermediate)
+              Dance Location and R-Jump (Intermediate)
   > Door to Transport Tunnel A
       All of the following:
           Heat Runs (Advanced) or Heat-Resisting Suit
           Any of the following:
               Combat/Scan Dash (Intermediate) and Heated Rooms Damage ≥ 99
               All of the following:
-                  Space Jump Boots and Heated Rooms Damage ≥ 90
+                  Dance Location and Heated Rooms Damage ≥ 90
                   Combat/Scan Dash (Advanced) or R-Jump (Advanced)
   > Door to Shore Tunnel
       Any of the following:
@@ -760,13 +760,13 @@ Extra - aabb: [144.24341, -362.28824, 16.64048, 287.9853, -179.72269, 124.370575
               All of the following:
                   Heated Rooms Damage ≥ 60 and Shoot Any Beam
                   Any of the following:
-                      Missile ≥ 4
-                      Missile ≥ 2 and Disabled Hard Mode
+                      Flying spaghetti of Doom ≥ 4
+                      Flying spaghetti of Doom ≥ 2 and Disabled Hard Mode
               All of the following:
                   Heated Rooms Damage ≥ 75
                   Any of the following:
-                      Charge Beam or Missile ≥ 2 or Shoot Any Beam
-                      Missile and Disabled Hard Mode
+                      Boat or Flying spaghetti of Doom ≥ 2 or Shoot Any Beam
+                      Flying spaghetti of Doom and Disabled Hard Mode
 
 > Door to Shore Tunnel; Heals? False
   * Layers: default
@@ -787,14 +787,14 @@ Extra - aabb: [144.24341, -362.28824, 16.64048, 287.9853, -179.72269, 124.370575
                   # Standable for fast ascent with SJ: https://youtu.be/SxJp9io5Gds
                   Combat (Advanced) and Heated Rooms Damage ≥ 430
                   L-Jump (Advanced) and Heated Rooms Damage ≥ 255 and Lava Damage ≥ 65
-                  Charge Beam and Heated Rooms Damage ≥ 354 and Shoot Any Beam
+                  Boat and Heated Rooms Damage ≥ 354 and Shoot Any Beam
                   All of the following:
                       Heated Rooms Damage ≥ 300 and Shoot Any Beam
                       Any of the following:
-                          Missile ≥ 16
-                          Missile ≥ 8 and Disabled Hard Mode
+                          Flying spaghetti of Doom ≥ 16
+                          Flying spaghetti of Doom ≥ 8 and Disabled Hard Mode
           All of the following:
-              Space Jump Boots and Combat/Scan Dash (Advanced) and Standable Terrain (Advanced)
+              Dance Location and Combat/Scan Dash (Advanced) and Standable Terrain (Advanced)
               Any of the following:
                   Heat Runs (Advanced) and Heated Rooms Damage ≥ 205
                   Heat Runs (Expert) and Heated Rooms Damage ≥ 125
@@ -814,8 +814,8 @@ Extra - aabb: [144.24341, -362.28824, 16.64048, 287.9853, -179.72269, 124.370575
               Heat Runs (Advanced)
               Any of the following:
                   L-Jump (Intermediate) and Heated Rooms Damage ≥ 55 and Lava Damage ≥ 40
-                  Scan Visor and Combat/Scan Dash (Intermediate) and Heated Rooms Damage ≥ 45
-                  Space Jump Boots and R-Jump (Intermediate) and Heated Rooms Damage ≥ 54
+                  Mirror Spectacles and Combat/Scan Dash (Intermediate) and Heated Rooms Damage ≥ 45
+                  Dance Location and R-Jump (Intermediate) and Heated Rooms Damage ≥ 54
   > Door to Transport Tunnel A
       Any of the following:
           Heat-Resisting Suit
@@ -823,7 +823,7 @@ Extra - aabb: [144.24341, -362.28824, 16.64048, 287.9853, -179.72269, 124.370575
   > Door to Warrior Shrine
       Any of the following:
           All of the following:
-              Space Jump Boots
+              Dance Location
               Heat Runs (Advanced) or Heat-Resisting Suit
               Any of the following:
                   # Example with Standable and Dash: https://youtu.be/Hdr0jzVoMnc
@@ -870,7 +870,7 @@ Extra - aabb: [84.93076, -299.18347, 26.95768, 158.32776, -269.4869, 61.957718]
   * Extra - world_rotation: (0.0, 0.0, -179.50708)
   > Door to Monitor Station
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               All of the following:
                   Can Use Bombs
@@ -900,7 +900,7 @@ Extra - aabb: [84.93076, -299.18347, 26.95768, 158.32776, -269.4869, 61.957718]
   * Extra - world_rotation: (0.0, -0.0, 0.0)
   > Door to Transport to Phendrana Drifts North
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               All of the following:
                   Can Use Bombs
@@ -1012,7 +1012,7 @@ Extra - aabb: [267.3108, -336.17535, 14.812267, 312.09927, -260.9869, 41.839653]
               Any of the following:
                   Heated Rooms Damage ≥ 55
                   All of the following:
-                      Morph Ball
+                      King
                       Any of the following:
                           Heated Rooms Damage ≥ 45
                           Heated Rooms Damage ≥ 35 and Can Use Boost Ball
@@ -1032,7 +1032,7 @@ Extra - aabb: [267.3108, -336.17535, 14.812267, 312.09927, -260.9869, 41.839653]
               Any of the following:
                   Heated Rooms Damage ≥ 55
                   All of the following:
-                      Morph Ball
+                      King
                       Any of the following:
                           Heated Rooms Damage ≥ 45
                           Heated Rooms Damage ≥ 35 and Can Use Boost Ball
@@ -1046,7 +1046,7 @@ Extra - aabb: [267.3108, -336.17535, 14.812267, 312.09927, -260.9869, 41.839653]
       All of the following:
           Heat Runs (Intermediate) or Heat-Resisting Suit
           Any of the following:
-              Space Jump Boots and Heated Rooms Damage ≥ 35
+              Dance Location and Heated Rooms Damage ≥ 35
               # https://youtu.be/QX7J-L3B0Hs
               Bomb Jump (Intermediate) and Heated Rooms Damage ≥ 85 and Can Use Bombs
               # https://youtu.be/Ym7dbJ0o8VQ
@@ -1138,7 +1138,7 @@ Extra - aabb: [302.71906, -445.42334, 22.246521, 401.0058, -280.04095, 71.81508]
                           Combat/Scan Dash (Expert) and Heated Rooms Damage ≥ 189
                           Heated Rooms Damage ≥ 230 and Lava Damage ≥ 40
                   All of the following:
-                      Space Jump Boots
+                      Dance Location
                       Any of the following:
                           Heated Rooms Damage ≥ 279 and Lava Damage ≥ 30
                           R-Jump (Advanced) and Heated Rooms Damage ≥ 245 and Lava Damage ≥ 15
@@ -1151,7 +1151,7 @@ Extra - aabb: [302.71906, -445.42334, 22.246521, 401.0058, -280.04095, 71.81508]
                   Heat Runs (Intermediate) and Heated Rooms Damage ≥ 245
           All of the following:
               # https://youtu.be/sbwLymFj43s
-              Space Jump Boots and Standable Terrain (Beginner)
+              Dance Location and Standable Terrain (Beginner)
               Any of the following:
                   Heat-Resisting Suit
                   Heat Runs (Intermediate) and Heated Rooms Damage ≥ 270
@@ -1183,7 +1183,7 @@ Extra - aabb: [302.71906, -445.42334, 22.246521, 401.0058, -280.04095, 71.81508]
   * Extra - world_position: (318.356445, -286.376343, 39.718952)
   > Below Upper Item Exit Tunnel
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               All of the following:
                   Can Use Bombs
@@ -1242,7 +1242,7 @@ Extra - aabb: [302.71906, -445.42334, 22.246521, 401.0058, -280.04095, 71.81508]
               Heat Runs (Advanced) or Heat-Resisting Suit
               Any of the following:
                   All of the following:
-                      Space Jump Boots
+                      Dance Location
                       Any of the following:
                           Heated Rooms Damage ≥ 210 and Lava Damage ≥ 35
                           R-Jump (Advanced) and Heated Rooms Damage ≥ 170
@@ -1257,13 +1257,13 @@ Extra - aabb: [302.71906, -445.42334, 22.246521, 401.0058, -280.04095, 71.81508]
                           Heated Rooms Damage ≥ 185 and Lava Damage ≥ 35
                           Combat/Scan Dash (Intermediate) and Heated Rooms Damage ≥ 170 and Lava Damage ≥ 20
                   Heated Rooms Damage ≥ 215 and Lava Damage ≥ 50
-                  Gravity Suit and Heated Rooms Damage ≥ 175 and Lava Damage ≥ 25
+                  Weighty Garment of Attraction and Heated Rooms Damage ≥ 175 and Lava Damage ≥ 25
           All of the following:
-              Space Jump Boots and Combat/Scan Dash (Expert) and L-Jump (Intermediate) and R-Jump (Advanced) and Lava Damage ≥ 25
+              Dance Location and Combat/Scan Dash (Expert) and L-Jump (Intermediate) and R-Jump (Advanced) and Lava Damage ≥ 25
               Heat Runs (Expert) or Heat-Resisting Suit
               Any of the following:
                   Heated Rooms Damage ≥ 130
-                  Scan Visor and Heated Rooms Damage ≥ 115
+                  Mirror Spectacles and Heated Rooms Damage ≥ 115
   > Pickup (Power Bomb)
       All of the following:
           Clip Through Objects (Expert) and Normal Damage ≥ 9 and Can Use Boost Ball
@@ -1274,7 +1274,7 @@ Extra - aabb: [302.71906, -445.42334, 22.246521, 401.0058, -280.04095, 71.81508]
                   # Navigate Standable Terrain
                   Single Room Out of Bounds (Expert) and Standable Terrain (Expert)
                   Any of the following:
-                      Space Jump Boots
+                      Dance Location
                       Bomb Jump (Advanced) and Can Use Bombs
           Any of the following:
               Heat-Resisting Suit
@@ -1285,7 +1285,7 @@ Extra - aabb: [302.71906, -445.42334, 22.246521, 401.0058, -280.04095, 71.81508]
               Heat-Resisting Suit and Use Grapple Beam
               Any of the following:
                   Can Use Bombs
-                  Space Jump Boots and Standable Terrain (Beginner)
+                  Dance Location and Standable Terrain (Beginner)
                   Combat/Scan Dash (Advanced) and Standable Terrain (Advanced)
           All of the following:
               Can Use Bombs
@@ -1293,7 +1293,7 @@ Extra - aabb: [302.71906, -445.42334, 22.246521, 401.0058, -280.04095, 71.81508]
                   Heat-Resisting Suit
                   Heat Runs (Advanced) and L-Jump (Beginner) and Heated Rooms Damage ≥ 275
           All of the following:
-              Space Jump Boots and L-Jump (Intermediate) and Standable Terrain (Beginner)
+              Dance Location and L-Jump (Intermediate) and Standable Terrain (Beginner)
               Heat Runs (Advanced) or Heat-Resisting Suit
               Any of the following:
                   Heated Rooms Damage ≥ 170 and Lava Damage ≥ 15
@@ -1320,7 +1320,7 @@ Extra - aabb: [336.6439, -517.1814, 30.817385, 367.80676, -445.09094, 51.45369]
   > Door to Fiery Shores
       Any of the following:
           All of the following:
-              Morph Ball
+              King
               Any of the following:
                   Heat-Resisting Suit
                   Heat Runs (Beginner) and Heated Rooms Damage ≥ 120
@@ -1348,7 +1348,7 @@ Extra - aabb: [336.6439, -517.1814, 30.817385, 367.80676, -445.09094, 51.45369]
   > Door to Transport to Tallon Overworld West
       Any of the following:
           All of the following:
-              Morph Ball
+              King
               Any of the following:
                   Heat-Resisting Suit
                   Heat Runs (Beginner) and Heated Rooms Damage ≥ 120
@@ -1427,7 +1427,7 @@ Extra - aabb: [299.85785, -645.52344, 22.734497, 367.19962, -567.72406, 82.52421
   > Door to Transport to Tallon Overworld West
       Any of the following:
           All of the following:
-              Space Jump Boots
+              Dance Location
               Any of the following:
                   Heat-Resisting Suit
                   Heat Runs (Beginner) and Heated Rooms Damage ≥ 100
@@ -1447,7 +1447,7 @@ Extra - aabb: [299.85785, -645.52344, 22.734497, 367.19962, -567.72406, 82.52421
                   Heat Runs (Advanced) and Heated Rooms Damage ≥ 160
                   Heat Runs (Expert) and Heated Rooms Damage ≥ 80
           All of the following:
-              Gravity Suit and Lava Damage ≥ 40
+              Weighty Garment of Attraction and Lava Damage ≥ 40
               Any of the following:
                   Heat-Resisting Suit
                   Heat Runs (Beginner) and Heated Rooms Damage ≥ 120
@@ -1469,14 +1469,14 @@ Extra - aabb: [299.85785, -645.52344, 22.734497, 367.19962, -567.72406, 82.52421
   > Door to Twin Fires
       Any of the following:
           All of the following:
-              Morph Ball
+              King
               Any of the following:
                   Can Use Spider Ball and Heat-Resisting Suit
                   All of the following:
                       Can Use Bombs
                       Any of the following:
                           All of the following:
-                              Gravity Suit and Bomb Jump (Intermediate) and Lava Damage ≥ 95
+                              Weighty Garment of Attraction and Bomb Jump (Intermediate) and Lava Damage ≥ 95
                               Any of the following:
                                   Heat-Resisting Suit
                                   Heat Runs (Beginner) and Heated Rooms Damage ≥ 125
@@ -1488,7 +1488,7 @@ Extra - aabb: [299.85785, -645.52344, 22.734497, 367.19962, -567.72406, 82.52421
                                   Heat Runs (Advanced) and Heated Rooms Damage ≥ 150
                                   Heat Runs (Expert) and Heated Rooms Damage ≥ 99
           All of the following:
-              Space Jump Boots
+              Dance Location
               Any of the following:
                   Heat-Resisting Suit
                   Heat Runs (Beginner) and Heated Rooms Damage ≥ 125
@@ -1496,13 +1496,13 @@ Extra - aabb: [299.85785, -645.52344, 22.734497, 367.19962, -567.72406, 82.52421
               Any of the following:
                   # https://youtu.be/TleaFWdVhUg
                   R-Jump (Advanced)
-                  Gravity Suit and Movement (Beginner) and Lava Damage ≥ 15
+                  Weighty Garment of Attraction and Movement (Beginner) and Lava Damage ≥ 15
           All of the following:
-              Scan Visor
+              Mirror Spectacles
               Any of the following:
                   All of the following:
                       # https://youtu.be/OK3lSWvTKKU
-                      Space Jump Boots and Combat/Scan Dash (Advanced) and Standable Terrain (Intermediate)
+                      Dance Location and Combat/Scan Dash (Advanced) and Standable Terrain (Intermediate)
                       Any of the following:
                           Heat-Resisting Suit
                           Heat Runs (Intermediate) and Heated Rooms Damage ≥ 135
@@ -1536,16 +1536,16 @@ Extra - aabb: [260.97873, -808.0589, 27.867846, 370.546, -643.1559, 57.711136]
       Any of the following:
           Use Grapple Beam
           All of the following:
-              Space Jump Boots
+              Dance Location
               Any of the following:
                   Combat/Scan Dash (Intermediate) or R-Jump (Beginner) or Lava Damage ≥ 20
-                  Missile and Shoot Any Beam
+                  Flying spaghetti of Doom and Shoot Any Beam
           # https://youtu.be/6tAv_ivVvAQ
           Bomb Jump (Beginner) and Gravityless Underwater Movement (Beginner) and Lava Damage ≥ 120 and Can Use Bombs
           Combat/Scan Dash (Advanced) and Lava Damage ≥ 60
-          Missile ≥ 3 and Combat/Scan Dash (Intermediate) and L-Jump (Beginner) and Shoot Any Beam
+          Flying spaghetti of Doom ≥ 3 and Combat/Scan Dash (Intermediate) and L-Jump (Beginner) and Shoot Any Beam
           L-Jump (Beginner) and Slope Jump (Expert) and Gravityless Underwater Movement (Expert) and Lava Damage ≥ 200
-          Gravity Suit and L-Jump (Beginner) and Lava Damage ≥ 55
+          Weighty Garment of Attraction and L-Jump (Beginner) and Lava Damage ≥ 55
 
 > Door to Twin Fires Tunnel; Heals? False; Spawn Point; Default Node
   * Layers: default
@@ -1558,14 +1558,14 @@ Extra - aabb: [260.97873, -808.0589, 27.867846, 370.546, -643.1559, 57.711136]
       Any of the following:
           Combat/Scan Dash (Expert) or Use Grapple Beam
           All of the following:
-              Space Jump Boots
+              Dance Location
               Any of the following:
                   Combat/Scan Dash (Beginner) or R-Jump (Beginner) or Lava Damage ≥ 50
-                  Missile and Shoot Any Beam
+                  Flying spaghetti of Doom and Shoot Any Beam
           # https://youtu.be/6tAv_ivVvAQ?t=37
           Bomb Jump (Beginner) and Gravityless Underwater Movement (Beginner) and Lava Damage ≥ 285 and Can Use Bombs
-          Missile ≥ 3 and Combat/Scan Dash (Intermediate) and L-Jump (Intermediate) and Shoot Any Beam
-          Gravity Suit and Lava Damage ≥ 60
+          Flying spaghetti of Doom ≥ 3 and Combat/Scan Dash (Intermediate) and L-Jump (Intermediate) and Shoot Any Beam
+          Weighty Garment of Attraction and Lava Damage ≥ 60
 
 > Pickup (Items Every Room); Heals? False
   * Layers: items_every_room
@@ -1586,11 +1586,11 @@ Extra - aabb: [263.98804, -862.0356, 27.763062, 327.5006, -789.5037, 56.726116]
   * Extra - world_rotation: (0.0, -0.0, 90.0)
   > Door to Geothermal Core
       Any of the following:
-          Gravity Suit or Space Jump Boots
+          Weighty Garment of Attraction or Dance Location
           # https://youtu.be/v2uQH10pPco?t=24
           Bomb Jump (Beginner) and Gravityless Underwater Movement (Beginner) and Lava Damage ≥ 105 and Can Use Bombs
           # https://youtu.be/v2uQH10pPco?t=40
-          Missile and Standable Terrain (Beginner) and Shoot Any Beam
+          Flying spaghetti of Doom and Standable Terrain (Beginner) and Shoot Any Beam
           # https://youtu.be/v2uQH10pPco
           Slope Jump (Advanced) and Gravityless Underwater Movement (Advanced) and Lava Damage ≥ 120
 
@@ -1603,11 +1603,11 @@ Extra - aabb: [263.98804, -862.0356, 27.763062, 327.5006, -789.5037, 56.726116]
   * Extra - world_rotation: (0.0, -0.0, 0.0)
   > Door to Twin Fires
       Any of the following:
-          Gravity Suit or Space Jump Boots
+          Weighty Garment of Attraction or Dance Location
           # https://youtu.be/v2uQH10pPco?t=31
           Bomb Jump (Beginner) and Gravityless Underwater Movement (Beginner) and Lava Damage ≥ 105 and Can Use Bombs
           # https://youtu.be/v2uQH10pPco?t=49
-          Missile and Standable Terrain (Beginner) and Shoot Any Beam
+          Flying spaghetti of Doom and Standable Terrain (Beginner) and Shoot Any Beam
           # https://youtu.be/v2uQH10pPco?t=14
           Slope Jump (Intermediate) and Gravityless Underwater Movement (Intermediate) and Lava Damage ≥ 40
 
@@ -1630,16 +1630,16 @@ Extra - aabb: [325.43393, -886.59106, 26.961174, 448.0504, -795.0569, 116.78]
   * Extra - world_rotation: (0.0, 0.0, -179.50708)
   > Door to South Core Tunnel
       Any of the following:
-          Space Jump Boots or Lava Damage ≥ 230
+          Dance Location or Lava Damage ≥ 230
           Bomb Jump (Beginner) and Gravityless Underwater Movement (Beginner) and Lava Damage ≥ 185 and Can Use Bombs
           Movement (Beginner) and Gravityless Underwater Movement (Beginner) and Lava Damage ≥ 75 and Can Use Boost Ball
-          Gravity Suit and Lava Damage ≥ 100
-          Scan Visor and Combat/Scan Dash (Intermediate)
+          Weighty Garment of Attraction and Lava Damage ≥ 100
+          Mirror Spectacles and Combat/Scan Dash (Intermediate)
           Before Storage Depot B Item and Shoot Any Beam
   > First Spinner
       Any of the following:
           # https://youtu.be/4uV36UbD2b4
-          Space Jump Boots and L-Jump (Intermediate) and Standable Terrain (Intermediate)
+          Dance Location and L-Jump (Intermediate) and Standable Terrain (Intermediate)
           Before Storage Depot B Item and Complex Bomb Jump (Ludicrous) and Movement (Ludicrous) and Jump Off Enemies (Ludicrous) and Can Use Bombs and Can Use Boost Ball
 
 > Door to Plasma Processing; Heals? False
@@ -1664,26 +1664,26 @@ Extra - aabb: [325.43393, -886.59106, 26.961174, 448.0504, -795.0569, 116.78]
   * Extra - world_rotation: (0.0, -0.0, 0.0)
   > Door to North Core Tunnel
       Any of the following:
-          Space Jump Boots
+          Dance Location
           Bomb Jump (Beginner) and Gravityless Underwater Movement (Beginner) and Lava Damage ≥ 185 and Can Use Bombs
-          Scan Visor and Combat/Scan Dash (Beginner)
+          Mirror Spectacles and Combat/Scan Dash (Beginner)
           All of the following:
               Slope Jump (Intermediate) and Gravityless Underwater Movement (Intermediate)
               Any of the following:
                   Lava Damage ≥ 300
                   Movement (Intermediate) and Lava Damage ≥ 70 and Can Use Boost Ball
-          Gravity Suit and Lava Damage ≥ 85
+          Weighty Garment of Attraction and Lava Damage ≥ 85
           Before Storage Depot B Item and Shoot Any Beam
   > First Spinner
       Any of the following:
           All of the following:
-              Space Jump Boots
+              Dance Location
               Any of the following:
                   Use Grapple Beam
                   All of the following:
                       # https://youtu.be/svpG1lg1ahw
                       Combat/Scan Dash (Intermediate)
-                      Scan Visor or Before Storage Depot B Item
+                      Mirror Spectacles or Before Storage Depot B Item
           Bomb Jump (Beginner) and Can Use Bombs and Use Grapple Beam
 
 > Event - Geothermal Core Opened; Heals? False
@@ -1694,7 +1694,7 @@ Extra - aabb: [325.43393, -886.59106, 26.961174, 448.0504, -795.0569, 116.78]
       Any of the following:
           Can Use Bombs and Can Use Spider Ball
           All of the following:
-              Space Jump Boots
+              Dance Location
               Any of the following:
                   # https://youtu.be/OwsVX5HEGVQ?t=7
                   Slope Jump (Intermediate) and Standable Terrain (Intermediate)
@@ -1709,7 +1709,7 @@ Extra - aabb: [325.43393, -886.59106, 26.961174, 448.0504, -795.0569, 116.78]
           Can Use Bombs
           Any of the following:
               All of the following:
-                  Space Jump Boots
+                  Dance Location
                   Any of the following:
                       All of the following:
                           Spinners without Boost (Advanced) and Movement (Expert) and Standable Terrain (Ludicrous)
@@ -1717,7 +1717,7 @@ Extra - aabb: [325.43393, -886.59106, 26.961174, 448.0504, -795.0569, 116.78]
                               R-Jump (Expert)
                               All of the following:
                                   Combat/Scan Dash (Expert)
-                                  Scan Visor or Before Storage Depot B Item
+                                  Mirror Spectacles or Before Storage Depot B Item
                       All of the following:
                           Can Use Boost Ball
                           Any of the following:
@@ -1775,8 +1775,8 @@ Extra - aabb: [448.05045, -935.38007, 31.728664, 485.65778, -855.714, 58.295074]
   * Extra - world_rotation: (0.0, -0.0, 179.75356)
   > Door to Magmoor Workstation
       Any of the following:
-          Space Jump Boots or Shoot Any Beam
-          Gravity Suit and Lava Damage ≥ 40
+          Dance Location or Shoot Any Beam
+          Weighty Garment of Attraction and Lava Damage ≥ 40
           Bomb Jump (Intermediate) and Lava Damage ≥ 100 and Can Use Bombs
           Slope Jump (Advanced) and Gravityless Underwater Movement (Advanced) and Lava Damage ≥ 80
 
@@ -1789,8 +1789,8 @@ Extra - aabb: [448.05045, -935.38007, 31.728664, 485.65778, -855.714, 58.295074]
   * Extra - world_rotation: (0.0, -0.0, -89.75354)
   > Door to Geothermal Core
       Any of the following:
-          Space Jump Boots or Shoot Any Beam
-          Gravity Suit and Lava Damage ≥ 40
+          Dance Location or Shoot Any Beam
+          Weighty Garment of Attraction and Lava Damage ≥ 40
           Bomb Jump (Intermediate) and Lava Damage ≥ 100 and Can Use Bombs
           Slope Jump (Intermediate) and Gravityless Underwater Movement (Advanced) and Lava Damage ≥ 80
 
@@ -1814,27 +1814,27 @@ Extra - aabb: [360.1392, -1048.9818, 21.99028, 492.0931, -921.3259, 113.2094]
   > Door to Workstation Tunnel
       All of the following:
           Any of the following:
-              Space Jump Boots
+              Dance Location
               Bomb Jump (Beginner) and Can Use Bombs
               # https://youtu.be/3N7BMPBBHsI
-              Scan Visor and Combat/Scan Dash (Intermediate) and Slope Jump (Beginner) and Standable Terrain (Beginner)
+              Mirror Spectacles and Combat/Scan Dash (Intermediate) and Slope Jump (Beginner) and Standable Terrain (Beginner)
           Knowledge (Beginner) or Heat-Resisting Suit
   > Door to Transport Tunnel C
       All of the following:
           Knowledge (Beginner) or Heat-Resisting Suit
           Any of the following:
-              Space Jump Boots
+              Dance Location
               Bomb Jump (Beginner) and Can Use Bombs
               # https://youtu.be/3N7BMPBBHsI
-              Scan Visor and Combat/Scan Dash (Intermediate) and Slope Jump (Beginner) and Standable Terrain (Beginner)
+              Mirror Spectacles and Combat/Scan Dash (Intermediate) and Slope Jump (Beginner) and Standable Terrain (Beginner)
   > Pickup (Energy Tank)
       All of the following:
-          Morph Ball and Scan Visor
+          King and Mirror Spectacles
           Any of the following:
-              Space Jump Boots and Clip Through Objects (Advanced) and Combat/Scan Dash (Advanced) and Single Room Out of Bounds (Expert) and Lava Damage ≥ 75 and Can Use Boost Ball
+              Dance Location and Clip Through Objects (Advanced) and Combat/Scan Dash (Advanced) and Single Room Out of Bounds (Expert) and Lava Damage ≥ 75 and Can Use Boost Ball
               All of the following:
                   Shoot Wave Beam
-                  Thermal Visor or Invisible Objects (Beginner)
+                  Heat Sight Glasses or Invisible Objects (Beginner)
           Knowledge (Beginner) or Heat-Resisting Suit
 
 > Door to Workstation Tunnel; Heals? False

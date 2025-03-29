@@ -17,7 +17,7 @@ Extra - aabb: [-104.01521, 58.089508, -62.7767, 157.58212, 264.77844, 85.15653]
   * Layers: default
   * Extra - different_strongly_connected_component: True
   > Door to Air Lock
-      Scan Visor and Shoot Any Beam
+      Mirror Spectacles and Shoot Any Beam
 
 > Teleporter to Tallon Overworld; Heals? False
   * Layers: default
@@ -51,7 +51,7 @@ Extra - aabb: [17.005129, 41.283752, 4.934543, 27.486038, 74.98412, 11.304357]
   * Extra - dock_index: 1
   * Extra - nonstandard: True
   > Door to Deck Alpha Access Hall
-      Scan Visor
+      Mirror Spectacles
 
 > Dock from Deck Alpha Mech Shaft; Heals? False
   * Layers: default
@@ -153,7 +153,7 @@ Extra - aabb: [-13.167816, 43.15779, -54.167496, 59.605236, 72.76269, 12.799316]
   * Extra - dock_index: 0
   * Extra - nonstandard: False
   > Dock to Deck Alpha Mech Shaft
-      Scan Visor
+      Mirror Spectacles
 
 > Dock to Deck Alpha Mech Shaft; Heals? False
   * Layers: default
@@ -178,7 +178,7 @@ Extra - aabb: [2.0016985, -105.39661, -1.0495336, 20.292425, -62.66213, 6.626735
   * Extra - nonstandard: False
   > Door to Map Facility
       All of the following:
-          Charge Beam
+          Boat
           Shoot Ice Beam or Shoot Power Beam
 
 > Door to Map Facility; Heals? False
@@ -188,7 +188,7 @@ Extra - aabb: [2.0016985, -105.39661, -1.0495336, 20.292425, -62.66213, 6.626735
   * Extra - nonstandard: False
   > Door to Emergency Evacuation Area
       All of the following:
-          Charge Beam
+          Boat
           Shoot Ice Beam or Shoot Power Beam
 
 > Pickup (Items Every Room); Heals? False
@@ -208,7 +208,7 @@ Extra - aabb: [55.20597, -9.071922, -53.394554, 171.21388, 106.936295, 133.1554]
   * Extra - nonstandard: False
   > Door to Connection Elevator to Deck Alpha
       Any of the following:
-          Space Jump Boots or Use Grapple Beam
+          Dance Location or Use Grapple Beam
           Bomb Jump (Beginner) and Can Use Bombs
           # https://youtu.be/2eKsJHddYYo
           Wall Boost (Ludicrous) and Can Use Boost Ball
@@ -237,7 +237,7 @@ Extra - aabb: [-39.477062, -135.51378, -1.1146281, 12.107888, -105.39661, 11.832
   > Door to Connection Elevator to Deck Beta
       Trivial
   > Map Station
-      Morph Ball
+      King
 
 > Door to Connection Elevator to Deck Beta; Heals? False
   * Layers: default
@@ -247,14 +247,14 @@ Extra - aabb: [-39.477062, -135.51378, -1.1146281, 12.107888, -105.39661, 11.832
   > Door to Deck Alpha Umbilical Hall
       Trivial
   > Map Station
-      Morph Ball
+      King
 
 > Map Station; Heals? False
   * Layers: default
   > Door to Deck Alpha Umbilical Hall
-      Morph Ball
+      King
   > Door to Connection Elevator to Deck Beta
-      Morph Ball
+      King
 
 > Pickup (Items Every Room); Heals? False
   * Layers: items_every_room
@@ -296,7 +296,7 @@ Extra - aabb: [-0.57421875, -157.02304, -42.68944, 19.109993, -135.51378, 8.6173
   * Extra - dock_index: 0
   * Extra - nonstandard: False
   > Door to Deck Beta Conduit Hall
-      Scan Visor
+      Mirror Spectacles
 
 > Door to Deck Beta Conduit Hall; Heals? False
   * Layers: default
@@ -346,7 +346,7 @@ Extra - aabb: [8.5677185, -204.85638, -37.052113, 32.791523, -156.91931, -29.421
   * Extra - dock_index: 0
   * Extra - nonstandard: False
   > Door to Connection Elevator to Deck Beta
-      Morph Ball
+      King
 
 > Door to Connection Elevator to Deck Beta; Heals? False; Spawn Point; Default Node
   * Layers: default
@@ -354,7 +354,7 @@ Extra - aabb: [8.5677185, -204.85638, -37.052113, 32.791523, -156.91931, -29.421
   * Extra - dock_index: 1
   * Extra - nonstandard: False
   > Door to Biotech Research Area 1
-      Morph Ball
+      King
 
 > Pickup (Items Every Room); Heals? False
   * Layers: items_every_room
@@ -419,14 +419,14 @@ Extra - aabb: [32.791523, -224.20995, -46.73259, 101.80783, -161.28946, 24.33096
       Any of the following:
           After Parasite Queen
           All of the following:
-              Morph Ball
+              King
               Any of the following:
                   Single Room Out of Bounds (Intermediate)
                   All of the following:
                       Can Use Bombs
                       Any of the following:
                           Bomb Jump (Advanced)
-                          Space Jump Boots and Standable Terrain (Beginner)
+                          Dance Location and Standable Terrain (Beginner)
                           L-Jump (Beginner) and Standable Terrain (Advanced)
   > Door to Subventilation Shaft Section A
       After Parasite Queen
@@ -513,7 +513,7 @@ Extra - aabb: [76.80737, -264.21964, -109.16401, 106.86839, -218.51312, -36.9621
   * Extra - dock_index: 1
   * Extra - nonstandard: False
   > Door to Biotech Research Area 1
-      Scan Visor
+      Mirror Spectacles
 
 > Pickup (Items Every Room); Heals? False
   * Layers: items_every_room
@@ -558,8 +558,8 @@ Extra - aabb: [240.68193, -151.91791, -103.88626, 295.20752, -129.99814, -6.9333
       All of the following:
           Shoot Any Beam
           Any of the following:
-              Missile ≥ 4 or Plasma Beam or Power Beam or Wave Beam
-              Missile ≥ 2 and Disabled Hard Mode
+              Flying spaghetti of Doom ≥ 4 or Quantum Ray of Light or Energy Ray or Surge Light Cannon
+              Flying spaghetti of Doom ≥ 2 and Disabled Hard Mode
 
 > Door to Main Ventilation Shaft Section C; Heals? False
   * Layers: default
@@ -591,7 +591,7 @@ Extra - aabb: [92.32477, -138.41971, -37.702404, 132.39034, -81.78292, -3.764673
   * Extra - dock_index: 1
   * Extra - nonstandard: False
   > Door to Deck Beta Transit Hall
-      Scan Visor
+      Mirror Spectacles
 
 > Pickup (Items Every Room); Heals? False
   * Layers: items_every_room
@@ -710,7 +710,7 @@ Extra - aabb: [139.20834, -377.1841, -156.8139, 225.37779, -271.66705, -19.18690
       Any of the following:
           Shoot Any Beam
           All of the following:
-              Morph Ball and Power Bomb ≥ 4 and Combat (Advanced) and Can Use Power Bombs
+              King and Energy Explosion ≥ 4 and Combat (Advanced) and Can Use Power Bombs
               Any of the following:
                   # https://youtu.be/kTApU65vDP8
                   Bomb Jump (Beginner) and Can Use Bombs
@@ -745,7 +745,7 @@ Extra - aabb: [177.21198, -243.26288, -93.86903, 196.48601, -110.13571, -0.60844
   * Extra - dock_index: 0
   * Extra - nonstandard: False
   > Door to Reactor Core Entrance
-      Morph Ball and Scan Visor
+      King and Mirror Spectacles
 
 > Door from Subventilation Shaft Section B; Heals? False
   * Layers: default
@@ -783,7 +783,7 @@ Extra - aabb: [169.7645, -271.66705, -89.60429, 216.26378, -243.26312, -64.27898
   * Extra - dock_index: 0
   * Extra - nonstandard: False
   > Door to Reactor Core
-      Morph Ball and Scan Visor
+      King and Mirror Spectacles
   > Save Station
       Trivial
 

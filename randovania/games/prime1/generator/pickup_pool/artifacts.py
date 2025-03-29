@@ -36,7 +36,8 @@ def add_artifacts(
                 "Chozo Artifact",
                 resource_database,
                 pickup_database,
-                name=prime_items.ARTIFACT_ITEMS[i],
+                name=prime_items.TRANSLATED_ITEMS[i],
+                progression=prime_items.ARTIFACT_ITEMS[i],
                 minimum_progression=artifact_minimum_progression,
             )
         )
@@ -48,7 +49,8 @@ def add_artifacts(
             "Chozo Artifact",
             resource_database,
             pickup_database,
-            name=prime_items.ARTIFACT_ITEMS[automatic_artifact],
+            name=prime_items.TRANSLATED_ITEMS[automatic_artifact],
+            progression=prime_items.ARTIFACT_ITEMS[automatic_artifact],
             minimum_progression=artifact_minimum_progression,
         )
         for automatic_artifact in range(first_automatic_artifact, 12)

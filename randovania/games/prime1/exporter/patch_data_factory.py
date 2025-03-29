@@ -127,7 +127,7 @@ def prime1_pickup_details_to_patcher(
                 break
             # Regular items
             elif resource.extra["item_id"] < 1000:
-                pickup_type = resource.long_name
+                pickup_type = resource.extra.get("pickup_type", resource.long_name)
                 count = quantity
                 max_count = count
                 break
@@ -676,7 +676,7 @@ class PrimePatchDataFactory(PatchDataFactory[PrimeConfiguration, PrimeCosmeticPa
                 )
             )
 
-        scan_visor = self.game.resource_database.get_item_by_name("Scan Visor")
+        scan_visor = self.game.resource_database.get_item("Scan")
         pickup_list = self.export_pickup_list()
         modal_hud_override = _create_locations_with_modal_hud_memo(pickup_list)
         regions = [region for region in db.region_list.regions if region.name != "End of Game"]
@@ -890,7 +890,7 @@ class PrimePatchDataFactory(PatchDataFactory[PrimeConfiguration, PrimeCosmeticPa
         artifacts = [db.resource_database.get_item(index) for index in prime_items.ARTIFACT_ITEMS]
         hint_config = self.configuration.hints
         if hint_config.specific_pickup_hints["artifacts"] == SpecificPickupHintMode.DISABLED:
-            resulting_hints = {art: f"{art.long_name} is lost somewhere on Tallon IV." for art in artifacts}
+            resulting_hints = {art: f"Talan's fourth time loses {art.long_name}." for art in artifacts}
         else:
             resulting_hints = guaranteed_item_hint.create_guaranteed_hints_for_resources(
                 self.description.all_patches,
@@ -1056,7 +1056,10 @@ class PrimePatchDataFactory(PatchDataFactory[PrimeConfiguration, PrimeCosmeticPa
                 },
                 "mainMenuMessage": f"Randovania v{randovania.VERSION}\n{self.description.shareable_word_hash}",
                 "creditsString": credits_string,
-                "artifactHints": {artifact.long_name: text for artifact, text in resulting_hints.items()},
+                "artifactHints": {
+                    artifact.extra.get("pickup_type", artifact.long_name): text
+                    for artifact, text in resulting_hints.items()
+                },
                 "artifactTempleLayerOverrides": {
                     artifact.long_name: not starting_resources.has_resource(artifact) for artifact in artifacts
                 },
