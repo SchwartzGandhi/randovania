@@ -72,12 +72,12 @@ def _hints() -> randovania.game.hints.GameHints:
                 description="This controls how precise the hints for Chozo Artifacts in Artifact Temple are.",
             ),
             "phazon_suit": randovania.game.hints.SpecificHintDetails(
-                long_name="Phazon Suit",
-                description="This controls how precise the hint for Phazon Suit in Impact Crater is.",
+                long_name="Folding Kit",
+                description="This controls how precise the hint for Folding Kit in Impact Crater is.",
                 disabled_details="No hint is added.",
                 hide_area_details=(
                     "A scan post will be placed in Crater Entry Point "
-                    "revealing Phazon Suit's region (e.g. Player 2's Phazon Mines)."
+                    "revealing Folding Kit's region (e.g. Player 2's Phazon Mines)."
                 ),
                 precise_details="Same as above, but shows the exact area name as well.",
             ),

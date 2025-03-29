@@ -114,7 +114,7 @@ class PrimePresetDescriber(GamePresetDescriber):
         extra_message_tree = {
             "Difficulty": [
                 {f"Heat Damage: {configuration.heat_damage:.2f} dmg/s": configuration.heat_damage != 10.0},
-                {f"{configuration.energy_per_tank} energy per Energy Tank": configuration.energy_per_tank != 100},
+                {f"{configuration.energy_per_tank} energy per Power Shoe": configuration.energy_per_tank != 100},
             ],
             "Gameplay": [
                 {

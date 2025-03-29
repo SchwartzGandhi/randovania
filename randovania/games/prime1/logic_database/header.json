@@ -4,178 +4,203 @@
     "resource_database": {
         "items": {
             "Power": {
-                "long_name": "Power Beam",
+                "long_name": "Energy Ray",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 0
+                    "item_id": 0,
+                    "pickup_type": "Power Beam"
                 }
             },
             "Ice": {
-                "long_name": "Ice Beam",
+                "long_name": "Snow",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 1
+                    "item_id": 1,
+                    "pickup_type": "Ice Beam"
                 }
             },
             "Wave": {
-                "long_name": "Wave Beam",
+                "long_name": "Surge Light Cannon",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 2
+                    "item_id": 2,
+                    "pickup_type": "Wave Beam"
                 }
             },
             "Plasma": {
-                "long_name": "Plasma Beam",
+                "long_name": "Quantum Ray of Light",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 3
+                    "item_id": 3,
+                    "pickup_type": "Plasma Beam"
                 }
             },
             "Missile": {
-                "long_name": "Missile",
+                "long_name": "Flying spaghetti of Doom",
                 "max_capacity": 999,
                 "extra": {
-                    "item_id": 4
+                    "item_id": 4,
+                    "pickup_type": "Missile"
                 }
             },
             "Scan": {
-                "long_name": "Scan Visor",
+                "long_name": "Mirror Spectacles",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 5
+                    "item_id": 5,
+                    "pickup_type": "Scan Visor"
                 }
             },
             "Bombs": {
-                "long_name": "Morph Ball Bomb",
+                "long_name": "Honey Bullet",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 6
+                    "item_id": 6,
+                    "pickup_type": "Morph Ball Bomb"
                 }
             },
             "PowerBomb": {
-                "long_name": "Power Bomb",
+                "long_name": "Energy Explosion",
                 "max_capacity": 99,
                 "extra": {
-                    "item_id": 7
+                    "item_id": 7,
+                    "pickup_type": "Power Bomb"
                 }
             },
             "Flamethrower": {
-                "long_name": "Flamethrower",
+                "long_name": "Fire-spitting Gadget of Destiny",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 8
+                    "item_id": 8,
+                    "pickup_type": "Flamethrower"
                 }
             },
             "Thermal": {
-                "long_name": "Thermal Visor",
+                "long_name": "Heat Sight Glasses",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 9
+                    "item_id": 9,
+                    "pickup_type": "Thermal Visor"
                 }
             },
             "Charge": {
-                "long_name": "Charge Beam",
+                "long_name": "Boat",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 10
+                    "item_id": 10,
+                    "pickup_type": "Charge Beam"
                 }
             },
             "Supers": {
-                "long_name": "Super Missile",
+                "long_name": "Mega Dart",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 11
+                    "item_id": 11,
+                    "pickup_type": "Super Missile"
                 }
             },
             "Grapple": {
-                "long_name": "Grapple Beam",
+                "long_name": "Clutch Lightstick",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 12
+                    "item_id": 12,
+                    "pickup_type": "Grapple Beam"
                 }
             },
             "X-Ray": {
-                "long_name": "X-Ray Visor",
+                "long_name": "Zebra-Glass Gazer",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 13
+                    "item_id": 13,
+                    "pickup_type": "X-Ray Visor"
                 }
             },
             "IceSpreader": {
-                "long_name": "Ice Spreader",
+                "long_name": "Icicle",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 14
+                    "item_id": 14,
+                    "pickup_type": "Ice Spreader"
                 }
             },
             "SpaceJump": {
-                "long_name": "Space Jump Boots",
+                "long_name": "Dance Location",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 15
+                    "item_id": 15,
+                    "pickup_type": "Space Jump Boots"
                 }
             },
             "MorphBall": {
-                "long_name": "Morph Ball",
+                "long_name": "King",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 16
+                    "item_id": 16,
+                    "pickup_type": "Morph Ball"
                 }
             },
             "Combat": {
-                "long_name": "Combat Visor",
+                "long_name": "Fighter",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 17
+                    "item_id": 17,
+                    "pickup_type": "Combat Visor"
                 }
             },
             "Boost": {
-                "long_name": "Boost Ball",
+                "long_name": "Elevate Sphere",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 18
+                    "item_id": 18,
+                    "pickup_type": "Boost Ball"
                 }
             },
             "Spider": {
-                "long_name": "Spider Ball",
+                "long_name": "Grumpy",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 19
+                    "item_id": 19,
+                    "pickup_type": "Spider Ball"
                 }
             },
             "PowerSuit": {
-                "long_name": "Power Suit",
+                "long_name": "Electrical Garb",
                 "max_capacity": 2147483647,
                 "extra": {
-                    "item_id": 20
+                    "item_id": 20,
+                    "pickup_type": "Power Suit"
                 }
             },
             "GravitySuit": {
-                "long_name": "Gravity Suit",
+                "long_name": "Weighty Garment of Attraction",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 21
+                    "item_id": 21,
+                    "pickup_type": "Gravity Suit"
                 }
             },
             "VariaSuit": {
-                "long_name": "Varia Suit",
+                "long_name": "Bodies T-Shirt",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 22
+                    "item_id": 22,
+                    "pickup_type": "Varia Suit"
                 }
             },
             "PhazonSuit": {
-                "long_name": "Phazon Suit",
+                "long_name": "Folding Kit",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 23
+                    "item_id": 23,
+                    "pickup_type": "Phazon Suit"
                 }
             },
             "EnergyTank": {
-                "long_name": "Energy Tank",
+                "long_name": "Power Shoe",
                 "max_capacity": 200,
                 "extra": {
-                    "item_id": 24
+                    "item_id": 24,
+                    "pickup_type": "Energy Tank"
                 }
             },
             "Unknown1": {
@@ -193,94 +218,107 @@
                 }
             },
             "Wavebuster": {
-                "long_name": "Wavebuster",
+                "long_name": "Golf",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 28
+                    "item_id": 28,
+                    "pickup_type": "Wavebuster"
                 }
             },
             "Truth": {
-                "long_name": "Artifact of Truth",
+                "long_name": "Example of Reality",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 29
+                    "item_id": 29,
+                    "pickup_type": "Artifact of Truth"
                 }
             },
             "Strength": {
-                "long_name": "Artifact of Strength",
+                "long_name": "Work of Energy Art",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 30
+                    "item_id": 30,
+                    "pickup_type": "Artifact of Strength"
                 }
             },
             "Elder": {
-                "long_name": "Artifact of Elder",
+                "long_name": "Old Fake",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 31
+                    "item_id": 31,
+                    "pickup_type": "Artifact of Truth"
                 }
             },
             "Wild": {
-                "long_name": "Artifact of Wild",
+                "long_name": "Invented Forest",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 32
+                    "item_id": 32,
+                    "pickup_type": "Artifact of Wild"
                 }
             },
             "Lifegiver": {
-                "long_name": "Artifact of Lifegiver",
+                "long_name": "Bee",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 33
+                    "item_id": 33,
+                    "pickup_type": "Artifact of Lifegiver"
                 }
             },
             "Warrior": {
-                "long_name": "Artifact of Warrior",
+                "long_name": "Refinery",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 34
+                    "item_id": 34,
+                    "pickup_type": "Artifact of Warrior"
                 }
             },
             "Chozo": {
-                "long_name": "Artifact of Chozo",
+                "long_name": "Shovel",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 35
+                    "item_id": 35,
+                    "pickup_type": "Artifact of Chozo"
                 }
             },
             "Nature": {
-                "long_name": "Artifact of Nature",
+                "long_name": "Natural Error",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 36
+                    "item_id": 36,
+                    "pickup_type": "Artifact of Nature"
                 }
             },
             "Sun": {
-                "long_name": "Artifact of Sun",
+                "long_name": "Work of the Sun",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 37
+                    "item_id": 37,
+                    "pickup_type": "Artifact of Sun"
                 }
             },
             "World": {
-                "long_name": "Artifact of World",
+                "long_name": "International Process",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 38
+                    "item_id": 38,
+                    "pickup_type": "Artifact of World"
                 }
             },
             "Spirit": {
-                "long_name": "Artifact of Spirit",
+                "long_name": "Pot",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 39
+                    "item_id": 39,
+                    "pickup_type": "Artifact of Spirit"
                 }
             },
             "Newborn": {
-                "long_name": "Artifact of Newborn",
+                "long_name": "Birthday Picture",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 40
+                    "item_id": 40,
+                    "pickup_type": "Artifact of Newborn"
                 }
             },
             "Nothing": {
@@ -291,7 +329,7 @@
                 }
             },
             "MainPB": {
-                "long_name": "Main Power Bomb",
+                "long_name": "Chief Explosive of Authority",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 1005
@@ -305,10 +343,11 @@
                 }
             },
             "MissileLauncher": {
-                "long_name": "Missile Launcher",
+                "long_name": "Muscle Roller",
                 "max_capacity": 1,
                 "extra": {
-                    "item_id": 1007
+                    "item_id": 1007,
+                    "pickup_type": "Missile Launcher"
                 }
             },
             "LockedMissile": {
@@ -319,7 +358,7 @@
                 }
             },
             "HealthRefill": {
-                "long_name": "Energy",
+                "long_name": "Oil Part",
                 "max_capacity": 9999,
                 "extra": {
                     "item_id": 1009,
@@ -330,7 +369,7 @@
                 }
             },
             "MissileRefill": {
-                "long_name": "Missile Ammunition",
+                "long_name": "Road Equipment",
                 "max_capacity": 999,
                 "extra": {
                     "item_id": 1010,
@@ -341,7 +380,7 @@
                 }
             },
             "PBRefill": {
-                "long_name": "Power Bomb Ammunition",
+                "long_name": "Electric Bolt",
                 "max_capacity": 999,
                 "extra": {
                     "item_id": 1011,
