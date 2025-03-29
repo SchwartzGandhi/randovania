@@ -652,6 +652,19 @@ class EchoesPatchDataFactory(PatchDataFactory[EchoesConfiguration, EchoesCosmeti
         )
 
         default_pickups = self.configuration.standard_pickup_configuration.default_pickups
+        default_retranslate = {
+            "Brawl Goggles": "Combat Visor",
+            "Gaze Goggles": "Scan Visor",
+            "Shady Goggles": "Dark Visor",
+            "Whispering Goggles": "Echo Visor",
+            "Power Beam": "Empowered Light Spear",
+            "Dark Beam": "Shadow Laser",
+            "Light Beam": "Bright Ray of Sparkling Whimsy",
+            "Annihilator Beam": "Beam of Unmaking",
+        }
+        for i in default_pickups.values():
+            dataclasses.replace(i, name=default_retranslate[i.name])
+
         [pickup_category_visors] = [cat for cat in default_pickups.keys() if cat.name == "visor"]
         [pickup_category_beams] = [cat for cat in default_pickups.keys() if cat.name == "beam"]
 

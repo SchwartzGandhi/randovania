@@ -27,6 +27,7 @@ class GuardianFormatter(LocationFormatter):
     def format(self, game: RandovaniaGame, pick_hint: PickupHint, hint: Hint, with_color: bool) -> str:
         assert isinstance(hint, LocationHint)
         guardian = self._GUARDIAN_NAMES[hint.target]
-        text = f"{self.colorizer(guardian, with_color)} protecting the gatekeeper "
-        f"{pick_hint.determiner}{pick_hint.pickup_name}."
-        return text
+        return (
+            f"{self.colorizer(guardian, with_color)} protecting the gatekeeper "
+            f"{pick_hint.determiner}{pick_hint.pickup_name}."
+        )
