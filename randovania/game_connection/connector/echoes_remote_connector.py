@@ -22,13 +22,13 @@ if TYPE_CHECKING:
 
 def format_received_item(item_name: str, player_name: str) -> str:
     special = {
-        "Locked Power Bomb Expansion": (
+        "Sealed Energy Explosion Growth": (
             "Received Power Bomb Expansion from {provider_name}, but the main Power Bomb is required to use it."
         ),
-        "Locked Missile Expansion": (
+        "Missile Binding Growth Locked Away": (
             "Received Missile Expansion from {provider_name}, but the Missile Launcher is required to use it."
         ),
-        "Locked Seeker Launcher": (
+        "Caged Query Catapult": (
             "Received Seeker Launcher from {provider_name}, but the Missile Launcher is required to use it."
         ),
     }

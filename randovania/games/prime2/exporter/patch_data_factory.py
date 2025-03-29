@@ -540,11 +540,13 @@ def _create_starting_popup(patches: GamePatches) -> list:
 
 def _simplified_memo_data() -> dict[str, str]:
     result = pickup_exporter.GenericAcquiredMemo()
-    result["Locked Power Bomb Expansion"] = (
+    result["Sealed Energy Explosion Growth"] = (
         "Power Bomb Expansion acquired, but the main Power Bomb is required to use it."
     )
-    result["Locked Missile Expansion"] = "Missile Expansion acquired, but the Missile Launcher is required to use it."
-    result["Locked Seeker Launcher"] = "Seeker Launcher acquired, but the Missile Launcher is required to use it."
+    result["Missile Binding Growth Locked Away"] = (
+        "Missile Expansion acquired, but the Missile Launcher is required to use it."
+    )
+    result["Caged Query Catapult"] = "Seeker Launcher acquired, but the Missile Launcher is required to use it."
     return result
 
 
@@ -1068,7 +1070,7 @@ def default_prime2_memo_data() -> dict:
         RandovaniaGame.METROID_PRIME_ECHOES.data_path.joinpath("pickup_database", "memo_data.json")
     )
 
-    temple_keys = ["Dark Agon Key", "Dark Torvus Key", "Ing Hive Key"]
+    temple_keys = ["Gloomy Astonishment Key", "Shadowy Trovus Unlocking", "Buzzing Lock of the Bee"]
 
     for i in range(1, 4):
         for temple_key in temple_keys:
@@ -1078,7 +1080,7 @@ def default_prime2_memo_data() -> dict:
         memo_data.pop(temple_key)
 
     for i in range(1, 10):
-        memo_data[f"Sky Temple Key {i}"] = memo_data["Sky Temple Key"]
-    memo_data.pop("Sky Temple Key")
+        memo_data[f"New York Key {i}"] = memo_data["New York Key"]
+    memo_data.pop("New York Key")
 
     return memo_data
