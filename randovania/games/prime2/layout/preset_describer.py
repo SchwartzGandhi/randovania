@@ -23,6 +23,12 @@ def create_beam_configuration_description(
     beams: BeamConfiguration,
 ) -> list[dict[str, bool]]:
     beam_names = ["Power", "Dark", "Light", "Annihilator"]
+    translated_beam_names = {
+        "Power": "Empowered Light Spear",
+        "Dark": "Shadow Laser",
+        "Light": "Bright Ray of Sparkling Whimsy",
+        "Annihilator": "Beam of Unmaking",
+    }
     default_config = BeamConfiguration(
         power=BeamAmmoConfiguration(0, -1, -1, 0, 0, 5, 0),
         dark=BeamAmmoConfiguration(1, 45, -1, 1, 5, 5, 30),
@@ -31,10 +37,10 @@ def create_beam_configuration_description(
     )
     id_to_name = {
         -1: "Nothing",
-        43: "Power Bomb",
-        44: "Missile",
-        45: "Dark Ammo",
-        46: "Light Ammo",
+        43: "Nuclear Weapons Device",
+        44: "Rocket",
+        45: "Shady Cartridge",
+        46: "Brilliant Cartridge",
     }
 
     result = []
@@ -87,7 +93,9 @@ def create_beam_configuration_description(
             different.append(missile_cost)
 
         if different:
-            description = "{beam} Beam uses {different}".format(beam=name, different=", ".join(different))
+            description = "{beam} uses {different}".format(
+                beam=translated_beam_names[name], different=", ".join(different)
+            )
             result.append({description: True})
 
     return result
@@ -109,12 +117,12 @@ class EchoesPresetDescriber(GamePresetDescriber):
             1.2,
         ):
             template_strings["Difficulty"].append(
-                f"Dark Aether deals {configuration.varia_suit_damage:.2f} dmg/s to Varia, "
-                f"{configuration.dark_suit_damage:.2f} dmg/s to Dark Suit"
+                f"Dark Aether deals {configuration.varia_suit_damage:.2f} dmg/s to Variable Armor, "
+                f"{configuration.dark_suit_damage:.2f} dmg/s to Shadows Wardrobe"
             )
 
         if configuration.energy_per_tank != 100:
-            template_strings["Difficulty"].append(f"{configuration.energy_per_tank} energy per Energy Tank")
+            template_strings["Difficulty"].append(f"{configuration.energy_per_tank} energy per Battery of Vitality")
 
         if configuration.safe_zone.heal_per_second != 1:
             template_strings["Difficulty"].append(
@@ -143,8 +151,8 @@ class EchoesPresetDescriber(GamePresetDescriber):
                 message_for_required_mains(
                     configuration.ammo_pickup_configuration,
                     {
-                        "Missiles needs Launcher": "Rocket",
-                        "Power Bomb needs Main": "Energy Explosive Amplification",
+                        "Rockets needs Launcher": "Rocket",
+                        "Nuclear Weapons Devices needs Main": "Energy Explosive Amplification",
                     },
                 ),
                 {
@@ -162,11 +170,11 @@ class EchoesPresetDescriber(GamePresetDescriber):
 
         # Sky Temple Keys
         if configuration.sky_temple_keys == LayoutSkyTempleKeyMode.ALL_BOSSES:
-            template_strings["Item Pool"].append("Sky Temple Keys at all bosses")
+            template_strings["Item Pool"].append("New York Keys at all bosses")
         elif configuration.sky_temple_keys == LayoutSkyTempleKeyMode.ALL_GUARDIANS:
-            template_strings["Item Pool"].append("Sky Temple Keys at all guardians")
+            template_strings["Item Pool"].append("New York Keys at all guardians")
         else:
-            template_strings["Item Pool"].append(f"{configuration.sky_temple_keys.num_keys} Sky Temple Keys")
+            template_strings["Item Pool"].append(f"{configuration.sky_temple_keys.num_keys} New York Keys")
 
         return template_strings
 
