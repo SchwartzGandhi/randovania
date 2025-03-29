@@ -74,7 +74,7 @@ Extra - aabb: [58.406, -65.29903, -1.3835077, 165.42795, 117.940384, 60.33323]
   > Pickup (Missile Expansion Tree)
       All of the following:
           Shoot Super Missile
-          Space Jump Boots or Movement (Beginner)
+          Dance Location or Movement (Beginner)
   > Grapple Ledge
       Any of the following:
           All of the following:
@@ -82,16 +82,16 @@ Extra - aabb: [58.406, -65.29903, -1.3835077, 165.42795, 117.940384, 60.33323]
               Any of the following:
                   # https://youtu.be/7y7ZLBz3B1s
                   Movement (Intermediate)
-                  Space Jump Boots and Movement (Beginner)
+                  Dance Location and Movement (Beginner)
           All of the following:
-              Space Jump Boots
+              Dance Location
               Any of the following:
                   # https://youtu.be/vk-C7kDPk10
                   L-Jump (Beginner) or R-Jump (Beginner)
                   # https://youtu.be/ivVhW1cxIz8
-                  Scan Visor and Combat/Scan Dash (Intermediate)
+                  Mirror Spectacles and Combat/Scan Dash (Intermediate)
           # https://www.youtube.com/watch?v=kuaxthAhm54
-          Scan Visor and After Chozo - Fallen Rubble and Damage Boosting (Expert) and Combat/Scan Dash (Ludicrous)
+          Mirror Spectacles and After Chozo - Fallen Rubble and Damage Boosting (Expert) and Combat/Scan Dash (Ludicrous)
 
 > Door to Ruins Entrance; Heals? False; Spawn Point; Default Node
   * Layers: default
@@ -109,17 +109,17 @@ Extra - aabb: [58.406, -65.29903, -1.3835077, 165.42795, 117.940384, 60.33323]
   > Pickup (Missile Expansion Half Pipe)
       Any of the following:
           All of the following:
-              Morph Ball
+              King
               Any of the following:
                   Can Use Boost Ball
                   Complex Bomb Jump (Advanced) and Can Use Bombs
                   # https://youtu.be/ne8ap0xa_UE
                   Movement (Expert)
           # https://www.youtube.com/watch?v=wN2_EBHi-Fw
-          Space Jump Boots and Slope Jump (Beginner)
+          Dance Location and Slope Jump (Beginner)
   > Locked Door Ledge
       # https://youtu.be/G4PZlf7AYMU
-      Space Jump Boots and L-Jump (Beginner)
+      Dance Location and L-Jump (Beginner)
 
 > Door to Ruined Shrine Access; Heals? False
   * Layers: default
@@ -163,15 +163,15 @@ Extra - aabb: [58.406, -65.29903, -1.3835077, 165.42795, 117.940384, 60.33323]
       Trivial
   > Grapple Ledge
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Use Grapple Beam
               All of the following:
-                  Scan Visor
+                  Mirror Spectacles
                   Any of the following:
-                      Space Jump Boots and Combat/Scan Dash (Intermediate)
+                      Dance Location and Combat/Scan Dash (Intermediate)
                       Combat/Scan Dash (Advanced) and Standable Terrain (Advanced)
-              Space Jump Boots and Standable Terrain (Advanced)
+              Dance Location and Standable Terrain (Advanced)
 
 > Pickup (Energy Tank); Heals? True
   * Layers: default
@@ -219,20 +219,20 @@ Extra - aabb: [58.406, -65.29903, -1.3835077, 165.42795, 117.940384, 60.33323]
       Trivial
   > Morph Ball Door to Piston Tunnel
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               All of the following:
                   Use Grapple Beam
-                  Space Jump Boots or Movement (Advanced) or Standable Terrain (Intermediate)
+                  Dance Location or Movement (Advanced) or Standable Terrain (Intermediate)
               All of the following:
-                  Space Jump Boots
+                  Dance Location
                   Any of the following:
                       Standable Terrain (Advanced)
-                      Scan Visor and Combat/Scan Dash (Beginner)
+                      Mirror Spectacles and Combat/Scan Dash (Beginner)
               L-Jump (Intermediate) and Standable Terrain (Advanced)
   > Pickup (Missile Expansion Tree)
       # https://youtu.be/ohV8u9oQFrc
-      Space Jump Boots and Bomb Jump (Advanced) and Movement (Advanced) and Single Room Out of Bounds (Advanced) and Can Use Bombs
+      Dance Location and Bomb Jump (Advanced) and Movement (Advanced) and Single Room Out of Bounds (Advanced) and Can Use Bombs
   > Pickup (Missile Expansion Grapple Ledge)
       Trivial
   > Locked Door Ledge
@@ -251,7 +251,7 @@ Extra - aabb: [125.6711, -36.277424, 14.305037, 215.75589, 1.6999655, 32.09845]
   * Extra - world_position: (131.03343, -5.633053, 20.067863)
   * Extra - world_rotation: (0.0, -0.0, 90.0)
   > Door to Ruined Fountain
-      Morph Ball
+      King
 
 > Door to Ruined Fountain; Heals? False; Spawn Point; Default Node
   * Layers: default
@@ -261,7 +261,7 @@ Extra - aabb: [125.6711, -36.277424, 14.305037, 215.75589, 1.6999655, 32.09845]
   * Extra - world_position: (210.69885, -27.044916, 20.067858)
   * Extra - world_rotation: (0.0, -0.0, -89.50709)
   > Door to Main Plaza
-      Morph Ball
+      King
 
 > Pickup (Items Every Room); Heals? False
   * Layers: items_every_room
@@ -372,7 +372,7 @@ Extra - aabb: [120.753784, -107.91338, 9.844941, 127.92923, -51.85354, 39.844948
   * Extra - world_position: (126.93526, -52.47412, 20.39895)
   * Extra - world_rotation: (0.0, -0.0, 90.0)
   > Morph Ball Door to Training Chamber
-      Morph Ball
+      King
 
 > Morph Ball Door to Training Chamber; Heals? False; Spawn Point; Default Node
   * Layers: default
@@ -382,7 +382,7 @@ Extra - aabb: [120.753784, -107.91338, 9.844941, 127.92923, -51.85354, 39.844948
   * Extra - world_position: (121.75649, -107.91338, 18.8677)
   * Extra - world_rotation: (0.0, 0.0, -90.0)
   > Morph Ball Door to Main Plaza
-      Morph Ball
+      King
 
 > Pickup (Items Every Room); Heals? False
   * Layers: items_every_room
@@ -431,7 +431,7 @@ Extra - aabb: [176.48764, -97.459984, 12.558006, 249.91162, -27.044916, 41.39785
           Any of the following:
               After Flaahgra
               # https://youtu.be/OcHxU-t-WYk
-              Space Jump Boots and Standable Terrain (Intermediate)
+              Dance Location and Standable Terrain (Intermediate)
               # https://youtu.be/SbmRjJ04Lfk
               Combat/Scan Dash (Advanced) and Standable Terrain (Advanced)
 
@@ -456,15 +456,15 @@ Extra - aabb: [-95.53676, -38.609608, -1.0693345, -22.250599, 43.303684, 30.2103
   * Extra - world_position: (-95.53676, 2.316649, 18.996088)
   * Extra - world_rotation: (0.0, 0.0, -179.50708)
   > Door to Ruined Shrine Access
-      Scan Visor and Combat/Scan Dash (Intermediate)
+      Mirror Spectacles and Combat/Scan Dash (Intermediate)
   > Pickup (Missile Expansion Half Pipe)
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               # https://youtu.be/mmOJBhUouY4
-              Space Jump Boots and L-Jump (Beginner)
+              Dance Location and L-Jump (Beginner)
               # https://youtu.be/lkdoZR7aZ5s?t=27
-              Scan Visor and Combat/Scan Dash (Intermediate)
+              Mirror Spectacles and Combat/Scan Dash (Intermediate)
   > Pit
       Trivial
   > Event - Ruined Shrine Item (Morph Ball)
@@ -481,20 +481,20 @@ Extra - aabb: [-95.53676, -38.609608, -1.0693345, -22.250599, 43.303684, 30.2103
       Any of the following:
           Can Use Boost Ball and Can Use Spider Ball
           # https://youtu.be/93RLiYdob9Q
-          Space Jump Boots and Standable Terrain (Beginner)
+          Dance Location and Standable Terrain (Beginner)
           # https://youtu.be/lkdoZR7aZ5s
-          Scan Visor and Combat/Scan Dash (Advanced) and Standable Terrain (Advanced)
+          Mirror Spectacles and Combat/Scan Dash (Advanced) and Standable Terrain (Advanced)
           # NTSC ONLY NSJ https://youtu.be/lkdoZR7aZ5s?t=35
           L-Jump (Intermediate) and Standable Terrain (Advanced)
           # Non-NTSC NSJ https://www.youtube.com/watch?v=2YM21Ql50P0
           L-Jump (Intermediate) and Standable Terrain (Expert)
   > Pickup (Missile Expansion Half Pipe)
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Boost Ball
               # https://youtu.be/93RLiYdob9Q
-              Space Jump Boots and Standable Terrain (Beginner)
+              Dance Location and Standable Terrain (Beginner)
               # https://youtu.be/w0TIiZwv3Gk
               L-Jump (Intermediate) and Standable Terrain (Advanced)
               Complex Bomb Jump (Ludicrous) and Can Use Bombs
@@ -502,7 +502,7 @@ Extra - aabb: [-95.53676, -38.609608, -1.0693345, -22.250599, 43.303684, 30.2103
       Trivial
   > Event - Ruined Shrine Item (Morph Ball)
       # https://youtu.be/3lkjUSO9tN4
-      Scan Visor and Combat/Scan Dash (Intermediate)
+      Mirror Spectacles and Combat/Scan Dash (Intermediate)
 
 > Pickup (Morph Ball); Heals? False
   * Layers: default
@@ -531,20 +531,20 @@ Extra - aabb: [-95.53676, -38.609608, -1.0693345, -22.250599, 43.303684, 30.2103
   * Extra - world_position: (-69.183319, 4.388571, -0.01106)
   > Door to Ruined Shrine Access
       Any of the following:
-          Space Jump Boots
+          Dance Location
           All of the following:
               # https://www.youtube.com/watch?v=nJVx6BVzXNc
               Combat/Scan Dash (Intermediate) and Standable Terrain (Intermediate)
-              Scan Visor or Before Beetle Battle
+              Mirror Spectacles or Before Beetle Battle
           L-Jump (Intermediate) and Standable Terrain (Intermediate)
           All of the following:
-              Morph Ball
+              King
               Any of the following:
                   After Ruined Shrine Item (Morph Ball)
                   Bomb Jump (Beginner) and Can Use Bombs
   > Pickup (Missile Expansion Bomb Wall)
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Bombs
               Knowledge (Beginner) and Can Use Power Bombs
@@ -552,19 +552,19 @@ Extra - aabb: [-95.53676, -38.609608, -1.0693345, -22.250599, 43.303684, 30.2103
       Any of the following:
           Shoot Any Beam
           All of the following:
-              Morph Ball and Combat (Intermediate)
+              King and Combat (Intermediate)
               Any of the following:
                   Can Use Bombs
-                  Power Bomb ≥ 4 and Can Use Power Bombs
+                  Energy Explosion ≥ 4 and Can Use Power Bombs
   > Event - Ruined Shrine Item (Morph Ball)
       Any of the following:
-          Space Jump Boots or After Beetle Battle
+          Dance Location or After Beetle Battle
           Bomb Jump (Beginner) and Can Use Bombs
           All of the following:
               Standable Terrain (Intermediate)
               Any of the following:
                   Combat/Scan Dash (Advanced)
-                  Scan Visor and Combat/Scan Dash (Intermediate)
+                  Mirror Spectacles and Combat/Scan Dash (Intermediate)
 
 > Event - Beetle Battle; Heals? False
   * Layers: default
@@ -626,14 +626,14 @@ Extra - aabb: [151.17195, 135.48656, 22.344723, 208.172, 215.8537, 38.25028]
       Trivial
   > Pickup (Missile Expansion)
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Bombs
               All of the following:
-                  Power Bomb ≥ 3 and Knowledge (Beginner) and Can Use Power Bombs
+                  Energy Explosion ≥ 3 and Knowledge (Beginner) and Can Use Power Bombs
                   Any of the following:
                       # https://youtu.be/tYcfbQYgiNE
-                      Space Jump Boots and Standable Terrain (Advanced)
+                      Dance Location and Standable Terrain (Advanced)
                       # https://youtu.be/p-qAU4dx80Y
                       Wall Boost (Expert) and Can Use Boost Ball
 
@@ -675,7 +675,7 @@ Extra - aabb: [109.174255, -181.08, 10.7691, 147.13887, -107.91338, 42.3103]
           Any of the following:
               After Chozo Ghosts (Training Chamber)
               # https://youtu.be/a9jqExemHx0
-              Space Jump Boots and Bomb Space Jump (Ludicrous) and Complex Bomb Jump (Expert) and Knowledge (Intermediate) and Movement (Expert) and Slope Jump (Beginner) and Standable Terrain (Intermediate)
+              Dance Location and Bomb Space Jump (Ludicrous) and Complex Bomb Jump (Expert) and Knowledge (Intermediate) and Movement (Expert) and Slope Jump (Beginner) and Standable Terrain (Intermediate)
   > Event - Chozo Ghosts
       Shoot Power Beam
   > Event - Unlock morph tunnel
@@ -698,13 +698,13 @@ Extra - aabb: [109.174255, -181.08, 10.7691, 147.13887, -107.91338, 42.3103]
   * Extra - world_position: (137.860794, -166.334442, 24.39542)
   > Door to Training Chamber Access
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Movement (Expert) or Can Use Spider Ball
               Bomb Jump (Intermediate) and Can Use Bombs
           Any of the following:
               After Chozo Ghosts (Training Chamber)
-              Space Jump Boots and Bomb Space Jump (Intermediate) and Knowledge (Intermediate) and Standable Terrain (Intermediate) and Can Use Bombs
+              Dance Location and Bomb Space Jump (Intermediate) and Knowledge (Intermediate) and Standable Terrain (Intermediate) and Can Use Bombs
 
 > Event - Chozo Ghosts; Heals? False
   * Layers: default
@@ -848,7 +848,7 @@ Extra - aabb: [-67.94035, 108.50368, 4.5828886, -17.112804, 159.27057, 27.74823]
       Trivial
   > Pickup (Missile Expansion)
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Bombs
               All of the following:
@@ -856,7 +856,7 @@ Extra - aabb: [-67.94035, 108.50368, 4.5828886, -17.112804, 159.27057, 27.74823]
                       # https://youtu.be/GXPhNsNJG9E
                       Standable Terrain (Advanced)
                       # https://youtu.be/y1qS7oPqynY
-                      Space Jump Boots and Standable Terrain (Intermediate)
+                      Dance Location and Standable Terrain (Intermediate)
                   Any of the following:
                       # https://youtu.be/y1qS7oPqynY?t=12
                       Movement (Expert)
@@ -884,7 +884,7 @@ Extra - aabb: [166.17226, 215.8537, 5.277457, 183.35495, 321.56598, 36.36735]
   * Extra - world_position: (179.6713, 215.8537, 27.685604)
   * Extra - world_rotation: (0.0, -0.0, -89.50709)
   > Door to Transport to Magmoor Caverns North
-      Morph Ball
+      King
 
 > Door to Transport to Magmoor Caverns North; Heals? False
   * Layers: default
@@ -894,7 +894,7 @@ Extra - aabb: [166.17226, 215.8537, 5.277457, 183.35495, 321.56598, 36.36735]
   * Extra - world_position: (179.67303, 321.56598, 6.1955533)
   * Extra - world_rotation: (0.0, -0.0, 90.0)
   > Door to Vault
-      Morph Ball
+      King
 
 > Pickup (Items Every Room); Heals? False
   * Layers: items_every_room
@@ -926,7 +926,7 @@ Extra - aabb: [90.72183, -218.90753, 17.318031, 155.23848, -181.08, 36.092117]
   > Door to Magma Pool
       Trivial
   > Pickup (Missile Expansion)
-      Morph Ball
+      King
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -977,14 +977,14 @@ Extra - aabb: [268.4279, -140.36638, 1.99053, 348.87646, -45.275764, 92.793884]
   > Door to Arboretum Access
       Trivial
   > Front of Gate
-      Space Jump Boots or Can Use Bombs
+      Dance Location or Can Use Bombs
 
 > Front of Gate; Heals? False
   * Layers: default
   * Extra - world_position: (294.093567, -82.034203, 58.832108)
   > Door to Sunchamber Lobby
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               All of the following:
                   Can Use Bombs
@@ -993,11 +993,11 @@ Extra - aabb: [268.4279, -140.36638, 1.99053, 348.87646, -45.275764, 92.793884]
                       # https://youtu.be/tM_opp9ottU
                       Bomb Jump (Advanced)
               # https://youtu.be/3L-Yvb_IMus
-              Space Jump Boots and Clip Through Objects (Expert) and Single Room Out of Bounds (Advanced) and Standable Terrain (Advanced) and Can Use Boost Ball
+              Dance Location and Clip Through Objects (Expert) and Single Room Out of Bounds (Advanced) and Standable Terrain (Advanced) and Can Use Boost Ball
   > Door to Gathering Hall Access
       Trivial
   > Event - Open gate
-      Scan Visor
+      Mirror Spectacles
 
 > Event - Open gate; Heals? False
   * Layers: default
@@ -1027,7 +1027,7 @@ Extra - aabb: [154.96938, -231.84543, 6.8413396, 205.6909, -138.88899, 30.484247
       Any of the following:
           Heat-Resisting Suit and Use Grapple Beam
           All of the following:
-              Space Jump Boots
+              Dance Location
               Any of the following:
                   Heat-Resisting Suit
                   Heat Runs (Beginner) and Heated Rooms Damage ≥ 70
@@ -1036,7 +1036,7 @@ Extra - aabb: [154.96938, -231.84543, 6.8413396, 205.6909, -138.88899, 30.484247
                       Movement (Intermediate)
                       # Standable terrain method: https://www.youtube.com/watch?v=eklXYB2qJ9E
                       Standable Terrain (Intermediate) or Lava Damage ≥ 220
-                  Scan Visor and Combat/Scan Dash (Advanced)
+                  Mirror Spectacles and Combat/Scan Dash (Advanced)
   > Pickup (Power Bomb Expansion)
       All of the following:
           Can Use Power Bombs
@@ -1055,14 +1055,14 @@ Extra - aabb: [154.96938, -231.84543, 6.8413396, 205.6909, -138.88899, 30.484247
       Any of the following:
           Heat-Resisting Suit and Use Grapple Beam
           All of the following:
-              Space Jump Boots
+              Dance Location
               Any of the following:
                   # https://youtu.be/3JG613NSYcQ
                   L-Jump (Intermediate) and Movement (Intermediate) and Standable Terrain (Intermediate)
                   # https://www.youtube.com/watch?v=2ezw9IFPJlY
-                  Scan Visor and Combat/Scan Dash (Advanced)
+                  Mirror Spectacles and Combat/Scan Dash (Advanced)
                   # https://youtu.be/fVdrtd-aB0U
-                  Gravity Suit and L-Jump (Intermediate) and Standable Terrain (Beginner) and Lava Damage ≥ 50
+                  Weighty Garment of Attraction and L-Jump (Intermediate) and Standable Terrain (Beginner) and Lava Damage ≥ 50
               Any of the following:
                   Heat-Resisting Suit
                   Heat Runs (Beginner) and Heated Rooms Damage ≥ 99
@@ -1092,31 +1092,31 @@ Extra - aabb: [-174.46513, -93.0821, 4.8231506, -114.339874, 2.7153168, 129.3404
   > Door to Tower Chamber
       Any of the following:
           All of the following:
-              Gravity Suit
+              Weighty Garment of Attraction
               Any of the following:
-                  Space Jump Boots
+                  Dance Location
                   All of the following:
-                      Morph Ball
+                      King
                       Any of the following:
                           Bomb Jump (Beginner) and Can Use Bombs
                           # https://youtu.be/3S7uWW56RKo
                           Wall Boost (Expert) and Can Use Boost Ball
-          Space Jump Boots and Slope Jump (Beginner) and Gravityless Underwater Movement (Beginner)
+          Dance Location and Slope Jump (Beginner) and Gravityless Underwater Movement (Beginner)
           # https://www.youtube.com/watch?v=YMk1EDV95h0
-          No Gravity Suit and Slope Jump (Intermediate) and Gravityless Underwater Movement (Intermediate) and Enabled Allow Dangerous Gravity Suit Logic
+          No Weighty Garment of Attraction and Slope Jump (Intermediate) and Gravityless Underwater Movement (Intermediate) and Enabled Allow Dangerous Gravity Suit Logic
   > Pickup (Wavebuster)
       Any of the following:
           All of the following:
               Shoot Any Beam
               Any of the following:
-                  Missile ≥ 72
-                  Missile ≥ 36 and Disabled Hard Mode
+                  Flying spaghetti of Doom ≥ 72
+                  Flying spaghetti of Doom ≥ 36 and Disabled Hard Mode
               Any of the following:
-                  Space Jump Boots
+                  Dance Location
                   # https://youtu.be/3ZZH-1R4Cck
                   Bomb Jump (Expert) and Can Use Bombs
           All of the following:
-              Space Jump Boots
+              Dance Location
               Any of the following:
                   # https://youtu.be/2jyvwogPSDI
                   Combat/Scan Dash (Intermediate) and Standable Terrain (Beginner)
@@ -1355,10 +1355,10 @@ Extra - aabb: [-26.830738, 190.67865, 4.1988316, 30.514803, 245.44357, 28.549793
   > Door to Map Station
       Trivial
   > Pickup (Missile Expansion)
-      Missile and Shoot Any Beam
+      Flying spaghetti of Doom and Shoot Any Beam
   > Pickup (Missile Expansion 2)
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Bombs
               # https://youtu.be/u1g4iTohZHk
@@ -1429,7 +1429,7 @@ Extra - aabb: [203.54953, 323.97684, 5.845402, 266.79828, 366.83566, 99.515015]
               All of the following:
                   Any of the following:
                       # https://youtu.be/h2Ma9F4CYuA
-                      Space Jump Boots and Complex Bomb Jump (Ludicrous) and Movement (Advanced)
+                      Dance Location and Complex Bomb Jump (Ludicrous) and Movement (Advanced)
                       # https://youtu.be/A1MgdWHbUZ8
                       Complex Bomb Jump (Ludicrous) and Movement (Ludicrous)
                   Any of the following:
@@ -1437,10 +1437,10 @@ Extra - aabb: [203.54953, 323.97684, 5.845402, 266.79828, 366.83566, 99.515015]
                       All of the following:
                           Shoot Any Beam
                           Any of the following:
-                              Missile ≥ 8
-                              Missile ≥ 4 and Disabled Hard Mode
+                              Flying spaghetti of Doom ≥ 8
+                              Flying spaghetti of Doom ≥ 4 and Disabled Hard Mode
   > Event - Unlock spider track
-      Scan Visor and Shoot Super Missile
+      Mirror Spectacles and Shoot Super Missile
   > Event - Activate Sunchamber Ghosts From Bottom
       After Sun Tower Spider Track Unlocked and After Flaahgra and Can Use Bombs and Can Use Spider Ball
 
@@ -1457,14 +1457,14 @@ Extra - aabb: [203.54953, 323.97684, 5.845402, 266.79828, 366.83566, 99.515015]
   * Extra - world_position: (245.750122, 348.2229, 67.207886)
   > Door to Sun Tower Access
       All of the following:
-          Morph Ball and Knowledge (Intermediate)
+          King and Knowledge (Intermediate)
           Any of the following:
               # https://youtu.be/spZZY6E95ZU
               Complex Bomb Jump (Intermediate) and Normal Damage ≥ 20 and Can Use Bombs
               # Roll down to the gap in the track and back up to trigger ghosts, skipping super missiles. This connection makes fighting Flaahgra without Spider Ball a dangerous action.
               Can Use Spider Ball
               # https://youtu.be/pEruOGbEteI
-              Space Jump Boots and Instant Unmorph Jump (Ludicrous)
+              Dance Location and Instant Unmorph Jump (Ludicrous)
   > Door to Transport to Magmoor Caverns North
       Trivial
 
@@ -1495,7 +1495,7 @@ Extra - aabb: [84.01668, 335.98056, -7.3351803, 162.29239, 366.87546, 16.149939]
   * Extra - world_position: (94.67716, 335.95673, -6.1176863)
   * Extra - world_rotation: (0.0, -0.0, -89.50709)
   > Door to Transport to Magmoor Caverns North
-      Morph Ball
+      King
   > Pickup (Energy Tank)
       Trivial
 
@@ -1508,7 +1508,7 @@ Extra - aabb: [84.01668, 335.98056, -7.3351803, 162.29239, 366.87546, 16.149939]
   * Extra - world_rotation: (0.0, -0.0, 0.0)
   > Door to Hive Totem
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Bombs
               Wall Boost (Expert) and Can Use Boost Ball
@@ -1581,8 +1581,8 @@ Extra - aabb: [388.06592, -155.59135, 10.5427885, 434.5453, -70.19957, 73.9004]
       Trivial
   > Door to East Atrium
       Any of the following:
-          Morph Ball or Space Jump Boots or L-Jump (Beginner)
-          Scan Visor and Combat/Scan Dash (Beginner)
+          King or Dance Location or L-Jump (Beginner)
+          Mirror Spectacles and Combat/Scan Dash (Beginner)
 
 > Door to Save Station 2; Heals? False; Spawn Point; Default Node
   * Layers: default
@@ -1605,16 +1605,16 @@ Extra - aabb: [388.06592, -155.59135, 10.5427885, 434.5453, -70.19957, 73.9004]
       Trivial
   > Pickup (Missile Expansion)
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               All of the following:
-                  Space Jump Boots
+                  Dance Location
                   Any of the following:
                       Can Use Bombs
                       Knowledge (Beginner) and Can Use Power Bombs
               Bomb Jump (Beginner) and Can Use Bombs
               # https://clips.twitch.tv/ProductiveAbrasiveTurnipGingerPower
-              Scan Visor and Combat/Scan Dash (Ludicrous) and Standable Terrain (Ludicrous) and Can Use Power Bombs
+              Mirror Spectacles and Combat/Scan Dash (Ludicrous) and Standable Terrain (Ludicrous) and Can Use Power Bombs
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -1725,9 +1725,9 @@ Extra - aabb: [41.40501, 247.89255, -4.7951803, 128.55772, 339.1442, 14.098242]
   > Door to Transport Access North
       Any of the following:
           After Hive Mecha
-          Space Jump Boots and Movement (Beginner)
+          Dance Location and Movement (Beginner)
           # https://youtu.be/3li4ZI5Vjn8
-          Scan Visor and Combat/Scan Dash (Beginner)
+          Mirror Spectacles and Combat/Scan Dash (Beginner)
           All of the following:
               # https://youtu.be/ILsjQYIJ64U
               Slope Jump (Intermediate) and Gravityless Underwater Movement (Beginner)
@@ -1749,9 +1749,9 @@ Extra - aabb: [41.40501, 247.89255, -4.7951803, 128.55772, 339.1442, 14.098242]
   * Extra - world_rotation: (0.0192638, 8.872776, 90.001495)
   > Door to Totem Access
       Any of the following:
-          Space Jump Boots or After Chozo - Fallen Rubble
+          Dance Location or After Chozo - Fallen Rubble
           Bomb Jump (Beginner) and Can Use Bombs
-          Scan Visor and Combat/Scan Dash (Beginner)
+          Mirror Spectacles and Combat/Scan Dash (Beginner)
   > Event - Fallen Rubble
       Trivial
 
@@ -1843,31 +1843,31 @@ Extra - aabb: [225.01727, 76.59607, 54.75615, 343.10974, 209.55296, 138.8626]
   > Event - Flaahgra
       Any of the following:
           All of the following:
-              Morph Ball
+              King
               Any of the following:
                   # Requirements for destroying the bomb slots
                   Can Use Bombs
-                  Power Bomb ≥ 4 and Combat (Beginner) and Can Use Power Bombs
+                  Energy Explosion ≥ 4 and Combat (Beginner) and Can Use Power Bombs
               Any of the following:
                   # Requirements for getting to the bomb slots
                   Shoot Power Beam
-                  Missile ≥ 10 and Shoot Any Beam
-                  Space Jump Boots and Combat (Beginner) and L-Jump (Beginner)
+                  Flying spaghetti of Doom ≥ 10 and Shoot Any Beam
+                  Dance Location and Combat (Beginner) and L-Jump (Beginner)
                   Combat (Intermediate) and Combat/Scan Dash (Advanced)
               Any of the following:
                   # Requirements for shooting the first dish
                   Shoot Power Beam
-                  Missile and Shoot Any Beam
+                  Flying spaghetti of Doom and Shoot Any Beam
           All of the following:
-              Charge Beam and Wavebuster and Combat (Advanced) and Shoot Wave Beam
+              Boat and Golf and Combat (Advanced) and Shoot Wave Beam
               Any of the following:
-                  Missile ≥ 460
-                  Missile ≥ 230 and Disabled Hard Mode
+                  Flying spaghetti of Doom ≥ 460
+                  Flying spaghetti of Doom ≥ 230 and Disabled Hard Mode
   > Event - Chozo Ghosts
       All of the following:
           After Sunchamber Chozo Ghosts Layer Activated and Shoot Power Beam
-          Charge Beam or Combat (Intermediate)
-          Space Jump Boots or L-Jump (Beginner)
+          Boat or Combat (Intermediate)
+          Dance Location or L-Jump (Beginner)
 
 > Before Fight (Back); Heals? False
   * Layers: default
@@ -1875,15 +1875,15 @@ Extra - aabb: [225.01727, 76.59607, 54.75615, 343.10974, 209.55296, 138.8626]
   > Event - Flaahgra
       All of the following:
           # Flahgra can be defeated without shooting the first dish if coming from Sun Tower Access and before starting the fight
-          Morph Ball and Knowledge (Beginner)
+          King and Knowledge (Beginner)
           Any of the following:
               # Requirements for destroying the bomb slots
               Can Use Bombs
-              Power Bomb ≥ 4 and Can Use Power Bombs
+              Energy Explosion ≥ 4 and Can Use Power Bombs
           Any of the following:
               # Requirements for getting to the center island
               Combat/Scan Dash (Advanced)
-              Space Jump Boots and L-Jump (Beginner)
+              Dance Location and L-Jump (Beginner)
 
 ----------------
 Watery Hall Access
@@ -1901,8 +1901,8 @@ Extra - aabb: [389.6565, -74.64455, 9.903929, 427.8786, 11.788876, 25.766716]
       Trivial
   > Pickup (Missile Expansion)
       Any of the following:
-          Missile and Shoot Any Beam
-          Charge Beam and Knowledge (Beginner) and Shoot Power Beam
+          Flying spaghetti of Doom and Shoot Any Beam
+          Boat and Knowledge (Beginner) and Shoot Power Beam
 
 > Door to Watery Hall; Heals? False
   * Layers: default
@@ -1993,7 +1993,7 @@ Extra - aabb: [397.9558, -8.934963, 4.7323303, 483.05167, 117.17189, 59.302334]
   * Extra - world_rotation: (0.0, -0.0, -89.50709)
   > Behind Gate
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Bombs
               Knowledge (Beginner) and Can Use Power Bombs
@@ -2009,24 +2009,24 @@ Extra - aabb: [397.9558, -8.934963, 4.7323303, 483.05167, 117.17189, 59.302334]
       All of the following:
           Any of the following:
               After Flaahgra or Poisoned Water Damage ≥ 57
-              Gravity Suit and Poisoned Water Damage ≥ 25
+              Weighty Garment of Attraction and Poisoned Water Damage ≥ 25
           Any of the following:
-              Gravity Suit and Bomb Jump (Beginner) and Poisoned Water Damage ≥ 15 and Can Use Bombs
+              Weighty Garment of Attraction and Bomb Jump (Beginner) and Poisoned Water Damage ≥ 15 and Can Use Bombs
               # https://youtu.be/Jla-gYSErGc
-              No Gravity Suit and Slope Jump (Advanced) and Gravityless Underwater Movement (Advanced) and Enabled Allow Dangerous Gravity Suit Logic
+              No Weighty Garment of Attraction and Slope Jump (Advanced) and Gravityless Underwater Movement (Advanced) and Enabled Allow Dangerous Gravity Suit Logic
               All of the following:
-                  Space Jump Boots
+                  Dance Location
                   Any of the following:
-                      Gravity Suit
+                      Weighty Garment of Attraction
                       Slope Jump (Beginner) and Gravityless Underwater Movement (Beginner)
               All of the following:
                   # https://youtu.be/HDYJkv3MUVI
-                  Gravity Suit and Wall Boost (Beginner) and Can Use Boost Ball
+                  Weighty Garment of Attraction and Wall Boost (Beginner) and Can Use Boost Ball
                   Any of the following:
                       Movement (Intermediate) and Poisoned Water Damage ≥ 65
                       Movement (Expert) and Poisoned Water Damage ≥ 20
   > Event - Open gate
-      Scan Visor
+      Mirror Spectacles
   > Behind Gate
       After Watery Hall Gate
 
@@ -2045,7 +2045,7 @@ Extra - aabb: [397.9558, -8.934963, 4.7323303, 483.05167, 117.17189, 59.302334]
   > Door to Watery Hall Access
       Any of the following:
           After Flaahgra or Poisoned Water Damage ≥ 42
-          Gravity Suit and Poisoned Water Damage ≥ 25
+          Weighty Garment of Attraction and Poisoned Water Damage ≥ 25
 
 > Event - Open gate; Heals? False
   * Layers: default
@@ -2059,7 +2059,7 @@ Extra - aabb: [397.9558, -8.934963, 4.7323303, 483.05167, 117.17189, 59.302334]
   * Extra - world_position: (467.228119, 19.714527, 29.399574)
   > Door to Dynamo Access
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Bombs
               Knowledge (Beginner) and Can Use Power Bombs
@@ -2067,7 +2067,7 @@ Extra - aabb: [397.9558, -8.934963, 4.7323303, 483.05167, 117.17189, 59.302334]
                   # https://youtu.be/bh18bp4makg
                   Clip Through Objects (Expert) and Single Room Out of Bounds (Advanced) and Standable Terrain (Advanced) and Can Use Boost Ball
                   Any of the following:
-                      Space Jump Boots
+                      Dance Location
                       # https://www.youtube.com/watch?v=LdBFCaOFDE4
                       Movement (Expert)
   > Door to Watery Hall Access
@@ -2150,7 +2150,7 @@ Extra - aabb: [510.0157, -208.54495, 27.964539, 590.7108, -99.84121, 65.02376]
   * Extra - world_position: (568.52527, -100.43054, 36.22419)
   * Extra - world_rotation: (0.0, -0.0, 90.0)
   > Door to Energy Core Access
-      Morph Ball
+      King
 
 > Door to West Furnace Access; Heals? False
   * Layers: default
@@ -2170,7 +2170,7 @@ Extra - aabb: [510.0157, -208.54495, 27.964539, 590.7108, -99.84121, 65.02376]
   * Extra - world_position: (512.29474, -160.42969, 40.022694)
   * Extra - world_rotation: (0.0, 0.0, -179.50708)
   > Morph Ball Door to Burn Dome Access
-      Morph Ball
+      King
   > Door to West Furnace Access
       After West Furnace Access Door Unlocked
   > Event - Unlock West Furnace Access Door
@@ -2201,12 +2201,12 @@ Extra - aabb: [452.1565, -77.24089, 22.542633, 479.4419, -51.883865, 63.929382]
   * Extra - world_position: (466.7021, -52.556156, 25.632133)
   * Extra - world_rotation: (0.0, -0.0, 90.0)
   > Pickup (Missile Expansion)
-      Missile and Shoot Any Beam
+      Flying spaghetti of Doom and Shoot Any Beam
   > Pickup (Missile Expansion 2)
       All of the following:
           Can Use Spider Ball
           Any of the following:
-              Space Jump Boots or Standable Terrain (Beginner)
+              Dance Location or Standable Terrain (Beginner)
               Bomb Jump (Beginner) and Can Use Bombs
 
 > Pickup (Missile Expansion); Heals? False
@@ -2238,7 +2238,7 @@ Extra - aabb: [565.42456, -100.43054, 30.796751, 578.546, -34.388264, 38.801308]
   * Extra - world_rotation: (0.0, -0.0, 90.0)
   > Morph Ball Door to Energy Core
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Bombs
               All of the following:
@@ -2258,13 +2258,13 @@ Extra - aabb: [565.42456, -100.43054, 30.796751, 578.546, -34.388264, 38.801308]
   * Extra - world_position: (568.52527, -100.43054, 36.198627)
   * Extra - world_rotation: (0.0, 0.0, -90.0)
   > Door to Burn Dome
-      Morph Ball
+      King
 
 > Spawn Point; Heals? False; Spawn Point; Default Node
   * Layers: default
   * Extra - world_position: (570.377197, -90.506859, 33.667377)
   > Door to Burn Dome
-      Morph Ball
+      King
 
 > Pickup (Items Every Room); Heals? False
   * Layers: items_every_room
@@ -2315,7 +2315,7 @@ Extra - aabb: [551.0374, -34.90045, 25.808111, 599.53516, 50.017303, 47.358116]
   * Extra - world_rotation: (0.0, -0.0, -89.75354)
   > Pickup (Missile Expansion)
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Bombs
               Knowledge (Beginner) and Can Use Power Bombs
@@ -2376,26 +2376,26 @@ Extra - aabb: [616.3443, -227.06798, 34.31006, 723.15436, -140.30473, 92.26509]
   * Extra - world_rotation: (0.0, 0.0, -179.50708)
   > Pickup (Energy Tank)
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Bombs
               # https://youtu.be/ydDwBXvsHjs?t=43
               Wall Boost (Intermediate) and Can Use Boost Ball
   > Next to Half-Pipe
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Spider Ball
               # Hold into left side of track and don't hold L (Doesn't work on PAL)
               Standable Terrain (Beginner)
               # https://youtu.be/ReRaTNh6ddE
-              Space Jump Boots and Slope Jump (Beginner)
+              Dance Location and Slope Jump (Beginner)
               All of the following:
                   # Bomb Space Jump (Works on PAL)
                   Standable Terrain (Beginner) and Disabled Dock Rando and Disabled Entrance Rando and Can Use Bombs
                   Any of the following:
                       # https://youtu.be/Dmr-ZAKVIgU
-                      Space Jump Boots and Bomb Space Jump (Beginner)
+                      Dance Location and Bomb Space Jump (Beginner)
                       # https://youtu.be/M90MnyPhqLs
                       Bomb Space Jump (Intermediate)
           Any of the following:
@@ -2427,7 +2427,7 @@ Extra - aabb: [616.3443, -227.06798, 34.31006, 723.15436, -140.30473, 92.26509]
   * Extra - world_position: (692.218811, -187.948959, 48.024689)
   > Door to West Furnace Access
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Bombs
               # Wall Boost - https://youtu.be/a6_Dsl3YoDY
@@ -2438,11 +2438,11 @@ Extra - aabb: [616.3443, -227.06798, 34.31006, 723.15436, -140.30473, 92.26509]
   * Extra - world_position: (699.666138, -209.788925, 44.696075)
   > Door to East Furnace Access
       Any of the following:
-          Space Jump Boots or L-Jump (Beginner)
+          Dance Location or L-Jump (Beginner)
           Bomb Jump (Beginner) and Can Use Bombs
   > Door to West Furnace Access
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Bombs
               All of the following:
@@ -2452,10 +2452,10 @@ Extra - aabb: [616.3443, -227.06798, 34.31006, 723.15436, -140.30473, 92.26509]
                       # https://youtu.be/ydDwBXvsHjs
                       Wall Boost (Advanced)
   > Morph Ball Door to Crossway Access West
-      Morph Ball
+      King
   > Pickup (Missile Expansion)
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               All of the following:
                   Can Use Spider Ball
@@ -2469,7 +2469,7 @@ Extra - aabb: [616.3443, -227.06798, 34.31006, 723.15436, -140.30473, 92.26509]
                       # https://youtu.be/BmQavi7dXuw
                       Complex Bomb Jump (Advanced) and Can Use Bombs
               All of the following:
-                  Space Jump Boots and Standable Terrain (Beginner)
+                  Dance Location and Standable Terrain (Beginner)
                   Any of the following:
                       # https://youtu.be/pgnVJwrKkq4
                       Bomb Jump (Advanced) and Can Use Bombs
@@ -2525,9 +2525,9 @@ Extra - aabb: [690.05145, -140.30807, 43.46774, 751.34436, -73.832214, 60.383743
   * Extra - world_rotation: (0.0, -0.0, 0.0)
   > Morph Ball Door to Furnace
       Any of the following:
-          Morph Ball
+          King
           # https://youtu.be/vNNsjns1HzM?t=23
-          Space Jump Boots and Standable Terrain (Advanced)
+          Dance Location and Standable Terrain (Advanced)
 
 > Morph Ball Door to Furnace; Heals? False
   * Layers: default
@@ -2538,9 +2538,9 @@ Extra - aabb: [690.05145, -140.30807, 43.46774, 751.34436, -73.832214, 60.383743
   * Extra - world_rotation: (0.0, 0.0, -90.0)
   > Door to Crossway
       Any of the following:
-          Morph Ball
+          King
           # https://youtu.be/vNNsjns1HzM?t=2
-          Space Jump Boots and Standable Terrain (Advanced)
+          Dance Location and Standable Terrain (Advanced)
 
 > Pickup (Items Every Room); Heals? False
   * Layers: items_every_room
@@ -2560,7 +2560,7 @@ Extra - aabb: [743.8239, -217.36417, 29.29987, 834.11273, -144.96254, 81.37303]
   * Extra - world_position: (795.50604, -211.99734, 70.38393)
   * Extra - world_rotation: (0.0, -0.0, -89.50709)
   > Event - Deactivate barrier
-      Scan Visor
+      Mirror Spectacles
   > Behind Barrier
       Trivial
 
@@ -2663,7 +2663,7 @@ Extra - aabb: [743.8239, -217.36417, 29.29987, 834.11273, -144.96254, 81.37303]
       All of the following:
           After Hall of the Elders Unlock Doors
           Any of the following:
-              Space Jump Boots
+              Dance Location
               Bomb Jump (Beginner) and Can Use Bombs
   > Door to East Furnace Access
       After Hall of the Elders Unlock Doors
@@ -2679,17 +2679,17 @@ Extra - aabb: [743.8239, -217.36417, 29.29987, 834.11273, -144.96254, 81.37303]
           Any of the following:
               After Hall of the Elders Unlock Doors and Can Use Spider Ball
               # https://youtu.be/rbZwkpF8UIo
-              Space Jump Boots and Standable Terrain (Beginner)
+              Dance Location and Standable Terrain (Beginner)
               # https://youtu.be/I-8AVusWYYk
-              Scan Visor and Bomb Jump (Ludicrous) and Combat/Scan Dash (Expert) and Standable Terrain (Beginner)
+              Mirror Spectacles and Bomb Jump (Ludicrous) and Combat/Scan Dash (Expert) and Standable Terrain (Beginner)
   > Front of Beam Bomb Slots
       Any of the following:
-          Space Jump Boots
+          Dance Location
           Bomb Jump (Beginner) and Can Use Bombs
   > Event - Unlock Doors
       All of the following:
           Shoot Power Beam
-          Charge Beam or Combat (Beginner)
+          Boat or Combat (Beginner)
   > Behind Barrier
       All of the following:
           After Hall of the Elders Unlock Doors
@@ -2703,13 +2703,13 @@ Extra - aabb: [743.8239, -217.36417, 29.29987, 834.11273, -144.96254, 81.37303]
               All of the following:
                   After Hall of the Elders Barrier
                   Any of the following:
-                      Space Jump Boots
+                      Dance Location
                       All of the following:
-                          Morph Ball
+                          King
                           Any of the following:
                               Bomb Jump (Beginner) and Can Use Bombs
                               # https://www.youtube.com/watch?v=e-3y7ykkEwU
-                              Scan Visor and Combat/Scan Dash (Advanced) and Instant Unmorph Jump (Expert) and Movement (Advanced) and Standable Terrain (Intermediate) and Wall Boost (Advanced) and Can Use Boost Ball
+                              Mirror Spectacles and Combat/Scan Dash (Advanced) and Instant Unmorph Jump (Expert) and Movement (Advanced) and Standable Terrain (Intermediate) and Wall Boost (Advanced) and Can Use Boost Ball
 
 > Behind Barrier; Heals? False
   * Layers: default
@@ -2718,18 +2718,18 @@ Extra - aabb: [743.8239, -217.36417, 29.29987, 834.11273, -144.96254, 81.37303]
       Trivial
   > Door to Elder Hall Access
       All of the following:
-          Morph Ball and After Hall of the Elders Unlock Doors
+          King and After Hall of the Elders Unlock Doors
           Any of the following:
               Movement (Beginner) or Can Use Bombs
               Wall Boost (Beginner) and Can Use Boost Ball
   > Door to Crossway Access South
       All of the following:
           # https://www.youtube.com/watch?v=_GG9XoOsDos
-          Space Jump Boots and Knowledge (Advanced) and L-Jump (Intermediate) and Standable Terrain (Intermediate)
+          Dance Location and Knowledge (Advanced) and L-Jump (Intermediate) and Standable Terrain (Intermediate)
           Any of the following:
               After Hall of the Elders Barrier
               All of the following:
-                  Morph Ball
+                  King
                   Any of the following:
                       Can Use Bombs
                       # https://youtu.be/lOQVD6oRwGU
@@ -2739,13 +2739,13 @@ Extra - aabb: [743.8239, -217.36417, 29.29987, 834.11273, -144.96254, 81.37303]
                       Movement (Intermediate)
                       Movement (Beginner) and Can Use Boost Ball
   > Event - Deactivate barrier
-      Scan Visor
+      Mirror Spectacles
   > Front of Beam Bomb Slots
       Any of the following:
           After Hall of the Elders Barrier
           All of the following:
               # https://youtu.be/3tb2eY1zUWc
-              Morph Ball
+              King
               Any of the following:
                   Movement (Advanced)
                   Movement (Intermediate) and Can Use Boost Ball
@@ -2757,7 +2757,7 @@ Extra - aabb: [743.8239, -217.36417, 29.29987, 834.11273, -144.96254, 81.37303]
       Any of the following:
           After Hall of the Elders Barrier
           All of the following:
-              Morph Ball
+              King
               Any of the following:
                   Can Use Bombs
                   # https://youtu.be/lOQVD6oRwGU
@@ -2790,12 +2790,12 @@ Extra - aabb: [751.34436, -97.187256, 38.364685, 833.5538, -55.94176, 91.35127]
   > Door to Elder Hall Access
       Any of the following:
           All of the following:
-              Morph Ball
+              King
               Any of the following:
                   Can Use Boost Ball
                   # https://www.youtube.com/watch?v=ykuj3JfVb_4
                   Complex Bomb Jump (Expert) and Can Use Bombs
-          Space Jump Boots and L-Jump (Beginner)
+          Dance Location and L-Jump (Beginner)
 
 > Door to Elder Hall Access; Heals? False
   * Layers: default
@@ -2808,12 +2808,12 @@ Extra - aabb: [751.34436, -97.187256, 38.364685, 833.5538, -55.94176, 91.35127]
       Trivial
   > Pickup (Missile Expansion)
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               # https://youtu.be/_l8o8V3lkaY
-              Space Jump Boots and L-Jump (Beginner) and Standable Terrain (Intermediate)
+              Dance Location and L-Jump (Beginner) and Standable Terrain (Intermediate)
               # https://www.youtube.com/watch?v=xyJMJhYt81Q
-              Scan Visor and Bomb Jump (Advanced) and Bomb Space Jump (Expert) and Combat/Scan Dash (Expert) and Standable Terrain (Expert) and Can Use Bombs
+              Mirror Spectacles and Bomb Jump (Advanced) and Bomb Space Jump (Expert) and Combat/Scan Dash (Expert) and Standable Terrain (Expert) and Can Use Bombs
               All of the following:
                   Can Use Boost Ball
                   Any of the following:
@@ -2825,9 +2825,9 @@ Extra - aabb: [751.34436, -97.187256, 38.364685, 833.5538, -55.94176, 91.35127]
                           # https://youtu.be/5_MnKo9X_-0
                           Movement (Advanced)
                           # https://www.youtube.com/watch?v=rdTVYzudgrY
-                          Scan Visor and Combat/Scan Dash (Expert) and Movement (Advanced) and Standable Terrain (Advanced)
+                          Mirror Spectacles and Combat/Scan Dash (Expert) and Movement (Advanced) and Standable Terrain (Advanced)
   > Event - Activate Bomb Slots
-      Scan Visor and Shoot Super Missile
+      Mirror Spectacles and Shoot Super Missile
 
 > Pickup (Missile Expansion); Heals? False
   * Layers: default
@@ -2917,7 +2917,7 @@ Extra - aabb: [759.3153, -145.04527, 43.22225, 789.50476, -97.187256, 67.660095]
   * Extra - world_position: (781.5597, -97.187256, 49.332382)
   * Extra - world_rotation: (0.0, -0.0, 90.0)
   > Door to Hall of the Elders
-      Morph Ball
+      King
 
 > Door to Hall of the Elders; Heals? False
   * Layers: default
@@ -2927,7 +2927,7 @@ Extra - aabb: [759.3153, -145.04527, 43.22225, 789.50476, -97.187256, 67.660095]
   * Extra - world_position: (781.55927, -145.04527, 49.332455)
   * Extra - world_rotation: (0.0, -0.0, -89.50709)
   > Door to Crossway
-      Morph Ball
+      King
 
 > Pickup (Items Every Room); Heals? False
   * Layers: items_every_room
@@ -2994,7 +2994,7 @@ Extra - aabb: [754.19855, -343.01227, 58.286064, 793.17523, -254.9616, 100.00249
   > Door to Antechamber
       Any of the following:
           All of the following:
-              Morph Ball
+              King
               Any of the following:
                   All of the following:
                       After Reflecting Pool Water Drained
@@ -3004,10 +3004,10 @@ Extra - aabb: [754.19855, -343.01227, 58.286064, 793.17523, -254.9616, 100.00249
                       Standable Terrain (Advanced) and Can Use Bombs
                       Bomb Space Jump (Expert) or Complex Bomb Jump (Expert)
           # https://youtu.be/NRtv6aOpssk
-          Space Jump Boots and Slope Jump (Beginner) and Standable Terrain (Beginner)
+          Dance Location and Slope Jump (Beginner) and Standable Terrain (Beginner)
   > Event - Drain water
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Bombs
               Knowledge (Beginner) and Can Use Power Bombs
@@ -3060,7 +3060,7 @@ Extra - aabb: [673.9764, -306.40494, 82.517944, 754.19855, -285.93994, 96.718056
   * Extra - world_rotation: (0.0, 0.0, -179.50708)
   > Save Station
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Bombs
               # https://youtu.be/AFDSEx16464?t=27
@@ -3073,10 +3073,10 @@ Extra - aabb: [673.9764, -306.40494, 82.517944, 754.19855, -285.93994, 96.718056
       Trivial
   > Door to Transport to Tallon Overworld East
       All of the following:
-          Morph Ball
+          King
           Any of the following:
               Can Use Bombs
-              Space Jump Boots and Movement (Advanced) and Standable Terrain (Intermediate)
+              Dance Location and Movement (Advanced) and Standable Terrain (Intermediate)
               # https://youtu.be/AFDSEx16464
               Wall Boost (Ludicrous) and Can Use Boost Ball
 

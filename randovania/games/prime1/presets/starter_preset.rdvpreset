@@ -23,88 +23,88 @@
         },
         "standard_pickup_configuration": {
             "pickups_state": {
-                "Charge Beam": {
+                "Boat": {
                     "num_shuffled_pickups": 2
                 },
-                "Power Beam": {
+                "Energy Ray": {
                     "num_included_in_starting_pickups": 1
                 },
-                "Wave Beam": {
+                "Surge Light Cannon": {
                     "num_shuffled_pickups": 1
                 },
-                "Ice Beam": {
+                "Snow": {
                     "num_shuffled_pickups": 1
                 },
-                "Plasma Beam": {
+                "Quantum Ray of Light": {
                     "num_shuffled_pickups": 1
                 },
-                "Missile Launcher": {
+                "Flying Spaghetti of Doom": {
                     "num_shuffled_pickups": 1,
                     "included_ammo": [
                         5
                     ]
                 },
-                "Grapple Beam": {
+                "Clutch Lightstick": {
                     "num_shuffled_pickups": 1
                 },
-                "Combat Visor": {
+                "Fighter": {
                     "num_included_in_starting_pickups": 1
                 },
-                "Scan Visor": {
+                "Mirror Spectacles": {
                     "num_included_in_starting_pickups": 1
                 },
-                "Thermal Visor": {
+                "Heat Sight Glasses": {
                     "num_shuffled_pickups": 1
                 },
-                "X-Ray Visor": {
+                "Zebra-Glass Gazer": {
                     "num_shuffled_pickups": 1
                 },
-                "Space Jump Boots": {
+                "Dance Location": {
                     "num_shuffled_pickups": 1
                 },
-                "Energy Tank": {
+                "Power Shoe": {
                     "num_shuffled_pickups": 14
                 },
-                "Morph Ball": {
+                "King": {
                     "num_shuffled_pickups": 1
                 },
-                "Morph Ball Bomb": {
+                "Honey Bullet": {
                     "num_shuffled_pickups": 1
                 },
-                "Boost Ball": {
+                "Elevate Sphere": {
                     "num_shuffled_pickups": 1
                 },
-                "Spider Ball": {
+                "Grumpy": {
                     "num_shuffled_pickups": 1
                 },
-                "Power Bomb": {
+                "Chief Explosive of Authority": {
                     "num_shuffled_pickups": 1,
                     "included_ammo": [
                         4
                     ]
                 },
-                "Power Suit": {
+                "Electrical Garb": {
                     "num_included_in_starting_pickups": 1
                 },
-                "Varia Suit": {
+                "Bodies T-Shirt": {
                     "num_shuffled_pickups": 1
                 },
-                "Gravity Suit": {
+                "Weighty Garment of Attraction": {
                     "num_shuffled_pickups": 1
                 },
-                "Phazon Suit": {
+                "Folding Kit": {
                     "num_shuffled_pickups": 1
                 },
-                "Super Missile": {
+                "Mega Dart": {
                     "num_shuffled_pickups": 1
                 },
-                "Wavebuster": {
+                "Golf": {
                     "num_shuffled_pickups": 1
                 },
-                "Ice Spreader": {
+                "Icicle": {
                     "num_shuffled_pickups": 1
                 },
-                "Flamethrower": {
+                "Fire-spitting Gadget of Destiny": {
                     "num_shuffled_pickups": 1
                 }
             },
@@ -114,35 +114,35 @@
         },
         "ammo_pickup_configuration": {
             "pickups_state": {
-                "Missile Expansion": {
+                "Research": {
                     "ammo_count": [
                         5
                     ],
                     "pickup_count": 49,
                     "requires_main_item": false
                 },
-                "Power Bomb Expansion": {
+                "Amplification of Boom": {
                     "ammo_count": [
                         1
                     ],
                     "pickup_count": 4,
                     "requires_main_item": false
                 },
-                "Energy Refill": {
+                "Victory": {
                     "ammo_count": [
                         20
                     ],
                     "pickup_count": 0,
                     "requires_main_item": false
                 },
-                "Missile Refill": {
+                "Muscle": {
                     "ammo_count": [
                         5
                     ],
                     "pickup_count": 0,
                     "requires_main_item": false
                 },
-                "Power Bomb Refill": {
+                "Practice of Electrical Voting": {
                     "ammo_count": [
                         1
                     ],

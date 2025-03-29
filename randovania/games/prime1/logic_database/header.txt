@@ -2,62 +2,62 @@
 Templates
 
 * Shoot Super Missile:
-      Charge Beam and Missile ≥ 5 and Super Missile and Shoot Power Beam
+      Boat and Flying spaghetti of Doom ≥ 5 and Mega Dart and Shoot Power Beam
 
 * Have all Beams:
-      Ice Beam and Plasma Beam and Power Beam and Wave Beam and Can Use Arm Cannon
+      Snow and Quantum Ray of Light and Energy Ray and Surge Light Cannon and Can Use Arm Cannon
 
 * Heat-Resisting Suit:
       Any of the following:
-          Varia Suit
+          Bodies T-Shirt
           All of the following:
               Enabled Vanilla Heat Resistance
-              Gravity Suit or Phazon Suit
+              Weighty Garment of Attraction or Folding Kit
 
 * Can Use Arm Cannon:
-      Combat Visor or Thermal Visor or X-Ray Visor
+      Fighter or Heat Sight Glasses or Zebra-Glass Gazer
 
 * Shoot Any Beam:
       All of the following:
           Can Use Arm Cannon
-          Ice Beam or Plasma Beam or Power Beam or Wave Beam
+          Snow or Quantum Ray of Light or Energy Ray or Surge Light Cannon
 
 * Shoot Power Beam:
-      Power Beam and Can Use Arm Cannon
+      Energy Ray and Can Use Arm Cannon
 
 * Shoot Wave Beam:
-      Wave Beam and Can Use Arm Cannon
+      Surge Light Cannon and Can Use Arm Cannon
 
 * Shoot Ice Beam:
-      Ice Beam and Can Use Arm Cannon
+      Snow and Can Use Arm Cannon
 
 * Shoot Plasma Beam:
-      Plasma Beam and Can Use Arm Cannon
+      Quantum Ray of Light and Can Use Arm Cannon
 
 * Use Grapple Beam:
-      Grapple Beam and Can Use Arm Cannon
+      Clutch Lightstick and Can Use Arm Cannon
 
 * Open Normal Door:
       Any of the following:
           Shoot Any Beam
-          Morph Ball Bomb and Morph Ball and Scan Visor
+          Honey Bullet and King and Mirror Spectacles
 
 * Move Past Scatter Bombu:
       Any of the following:
-          Morph Ball or Movement (Intermediate) or Normal Damage ≥ 30 or Shoot Wave Beam
+          King or Movement (Intermediate) or Normal Damage ≥ 30 or Shoot Wave Beam
           Movement (Beginner) and Normal Damage ≥ 12
 
 * Can Use Boost Ball:
-      Boost Ball and Morph Ball
+      Elevate Sphere and King
 
 * Can Use Spider Ball:
-      Morph Ball and Spider Ball
+      King and Grumpy
 
 * Can Use Bombs:
-      Morph Ball Bomb and Morph Ball
+      Honey Bullet and King
 
 * Can Use Power Bombs:
-      Morph Ball and Power Bomb
+      King and Energy Explosion
 
 ====================
 Dock Weaknesses
@@ -109,7 +109,7 @@ Dock Weaknesses
       Open:
           Trivial
       Lock type: FRONT_BLAST_BACK_BLAST
-          Missile and Shoot Any Beam
+          Flying spaghetti of Doom and Shoot Any Beam
 
 
   * Missile Blast Shield (randomprime)
@@ -119,7 +119,7 @@ Dock Weaknesses
       Open:
           Trivial
       Lock type: FRONT_BLAST_BACK_FREE_UNLOCK
-          Missile and Shoot Any Beam
+          Flying spaghetti of Doom and Shoot Any Beam
 
 
   * Permanently Locked
@@ -156,7 +156,7 @@ Dock Weaknesses
       Open:
           Open Normal Door
       Lock type: FRONT_BLAST_BACK_FREE_UNLOCK
-          Morph Ball and Power Bomb
+          King and Energy Explosion
 
 
   * Wavebuster Blast Shield
@@ -165,7 +165,7 @@ Dock Weaknesses
       Open:
           Shoot Wave Beam
       Lock type: FRONT_BLAST_BACK_FREE_UNLOCK
-          Charge Beam and Missile ≥ 11 and Wavebuster and Shoot Wave Beam
+          Boat and Flying spaghetti of Doom ≥ 11 and Golf and Shoot Wave Beam
 
 
   * Ice Spreader Blast Shield
@@ -174,7 +174,7 @@ Dock Weaknesses
       Open:
           Shoot Ice Beam
       Lock type: FRONT_BLAST_BACK_FREE_UNLOCK
-          Charge Beam and Ice Spreader and Missile ≥ 10 and Shoot Ice Beam
+          Boat and Icicle and Flying spaghetti of Doom ≥ 10 and Shoot Ice Beam
 
 
   * Flamethrower Blast Shield
@@ -183,7 +183,7 @@ Dock Weaknesses
       Open:
           Shoot Plasma Beam
       Lock type: FRONT_BLAST_BACK_FREE_UNLOCK
-          Charge Beam and Flamethrower and Missile ≥ 10 and Shoot Plasma Beam
+          Boat and Fire-spitting Gadget of Destiny and Flying spaghetti of Doom ≥ 10 and Shoot Plasma Beam
 
 
   * Charge Beam Blast Shield
@@ -192,7 +192,7 @@ Dock Weaknesses
       Open:
           Open Normal Door
       Lock type: FRONT_BLAST_BACK_FREE_UNLOCK
-          Charge Beam and Shoot Any Beam
+          Boat and Shoot Any Beam
 
 
   * Bomb Blast Shield
@@ -201,7 +201,7 @@ Dock Weaknesses
       Open:
           Open Normal Door
       Lock type: FRONT_BLAST_BACK_FREE_UNLOCK
-          Morph Ball Bomb and Morph Ball and Open Normal Door
+          Honey Bullet and King and Open Normal Door
 
   > Dock Rando:
       Unlocked: Normal Door
@@ -232,7 +232,7 @@ Dock Weaknesses
 > Morph Ball Door
   * Morph Ball Door
       Open:
-          Morph Ball
+          King
       No lock
 
   > Dock Rando: Disabled
@@ -242,8 +242,8 @@ Dock Weaknesses
   * Open Passage
       Open:
           All of the following:
-              Ice Beam or Plasma Beam or Power Beam or Wave Beam
-              Combat Visor or Thermal Visor or X-Ray Visor
+              Snow or Quantum Ray of Light or Energy Ray or Surge Light Cannon
+              Fighter or Heat Sight Glasses or Zebra-Glass Gazer
       No lock
 
 
