@@ -167,7 +167,7 @@ def _migrate_v5(preset: dict, game: RandovaniaGame) -> None:
         "Cosmic Leap Footwear",
         "Gravity of Gravity",
         "Hyper Projectile of Doom",
-        "Solar Explosion Flambé",
+        "Solar Explosion Flambe",
         "ShadowBamf",
         "Hedgehog Blare",
         "Lavender Lingo Wizard",

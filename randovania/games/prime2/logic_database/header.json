@@ -46,7 +46,7 @@
                 }
             },
             "Sunburst": {
-                "long_name": "Solar explosion flambé",
+                "long_name": "Solar Explosion Flambe",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 6
