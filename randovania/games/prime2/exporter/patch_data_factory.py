@@ -1000,8 +1000,10 @@ def echoes_pickup_details_to_patcher(
         original_model = model
 
     hud_text = details.collection_text
-    if hud_text == ["Energy Transfer Module acquired!"] and (rng.randint(0, _EASTER_EGG_RUN_VALIDATED_CHANCE) == 0):
-        hud_text = ["Run validated!"]
+    if hud_text == ["Module of Variables Energized obtained in a whimsical exchange!"] and (
+        rng.randint(0, _EASTER_EGG_RUN_VALIDATED_CHANCE) == 0
+    ):
+        hud_text = ["Dash confirmed!"]
 
     multiworld_tuple = ((multiworld_item, details.index.index + 1),)
 
@@ -1072,7 +1074,7 @@ def create_echoes_useless_pickup(resource_database: ResourceDatabase) -> PickupE
     )
     return dataclasses.replace(
         etm,
-        name="Energy Transfer Module",
+        name="Module of Variables Energized",
         progression=((resource_database.get_item(echoes_items.USELESS_PICKUP_ITEM), 1),),
     )
 

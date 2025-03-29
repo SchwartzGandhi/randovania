@@ -254,7 +254,9 @@ def test_create_pickup_list(
         index=PickupIndex(0),
         name="P-A" if has_scan_text else "Unknown item",
         description="",
-        collection_text=["A acquired!"] if model_style != PickupModelStyle.HIDE_ALL else ["Unknown item acquired!"],
+        collection_text=["A obtained through a curious cosmic dance!"]
+        if model_style != PickupModelStyle.HIDE_ALL
+        else ["Enigmatic artifact obtained!"],
         conditional_resources=[ConditionalResources("A", None, ((resource_a, 1),))],
         conversion=[],
         model=model_1 if model_style == PickupModelStyle.ALL_VISIBLE else useless_model,  # type: ignore [arg-type]
@@ -267,7 +269,9 @@ def test_create_pickup_list(
         name="P-Useless" if has_scan_text else "Unknown item",
         description="",
         collection_text=(
-            ["Useless acquired!"] if model_style != PickupModelStyle.HIDE_ALL else ["Unknown item acquired!"]
+            ["Useless obtained through a curious cosmic dance!"]
+            if model_style != PickupModelStyle.HIDE_ALL
+            else ["Enigmatic artifact obtained!"]
         ),
         conditional_resources=[ConditionalResources("Useless", None, ((useless_resource, 1),))],
         conversion=[],

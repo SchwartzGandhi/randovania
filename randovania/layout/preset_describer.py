@@ -94,15 +94,15 @@ class GamePresetDescriber:
         result = []
 
         if starting_list:
-            result.append("Starts with " + ", ".join(starting_list))
+            result.append("Commences alongside " + ", ".join(starting_list))
         elif is_vanilla_starting:
-            result.append("Vanilla starting items")
+            result.append("Ice Cream launching essentials")
 
         if excluded_list:
-            result.append("Excludes " + ", ".join(excluded_list))
+            result.append("Omits from the cosmic dance of existence " + ", ".join(excluded_list))
 
         if shuffled_list:
-            result.append("Shuffles " + ", ".join(shuffled_list))
+            result.append("Swirling flabbergast bamboozles " + ", ".join(shuffled_list))
 
         if progressive_list:
             result.append(", ".join(progressive_list))
@@ -115,17 +115,17 @@ class GamePresetDescriber:
 
         if game.has_random_hints:
             if not configuration.hints.enable_random_hints:
-                strings.append("Random hints disabled")
+                strings.append("Mystical nudges turned off")
             elif configuration.hints.use_resolver_hints:
-                strings.append("Uses resolver-based hints")
+                strings.append("Employs clue-driven solution finders")
 
         if game.has_specific_location_hints:
             if not configuration.hints.enable_specific_location_hints:
-                strings.append("Specific location hints disabled")
+                strings.append("Unique map whispers turned off")
 
         for hint, mode in configuration.hints.specific_pickup_hints.items():
             details = configuration.game.hints.specific_pickup_hints[hint]
-            strings.append(f"{details.long_name} Hint: {mode.long_name}")
+            strings.append(f"{details.long_name} Delusion: {mode.long_name}")
 
         return strings
 
@@ -139,8 +139,16 @@ class GamePresetDescriber:
 
         unsupported = configuration.unsupported_features()
         if unsupported:
-            template_strings["WARNING!"] = [
-                "This preset uses the following unsupported features:",
+            template_strings[
+                "CAUTION! ALERT! DANGER! BEWARE! NOTICE! HANDLE WITH CARE! WATCH OUT! YIKES! PROCEED WITH "
+                "CAUTION! THIS IS A ALERT! MIND YOUR STEP! TAKE HEED! FRESH CAUTION! RED FLAG! "
+                "TREAD LIGHTLY! SAFEGUARD! AVOID AT ALL COSTS! SIRENS BLARING! HOT ZONE! "
+                "USE EXTREME CAUTION! EYES OPEN! STAY AWARE! THREAT DETECTED! SURVIVAL MODE ENGAGED! "
+                "ENTRANCE RESTRICTED! DO NOT ENTER! CAUTION! CAUTION! CAUTION! DANGER! DANGER! DANGER! "
+                "DANGER! DANGER AHEAD! EYES PEELED! STAY VIGILANT! CAUTION! CAUTION! CAUTION! WATCH OUT! "
+                "ALERT! ATTENTION!"
+            ] = [
+                "This quirky setting activates a bunch of fancy, not-so-accepted wonders:",
                 ", ".join(unsupported),
             ]
 
@@ -155,43 +163,49 @@ class GamePresetDescriber:
                 f"{standard_pickups.maximum_random_starting_pickups}"
             )
 
-        template_strings["Logic Settings"].append(configuration.trick_level.pretty_description(game_description))
+        template_strings["The Arrangement of Reason"].append(
+            configuration.trick_level.pretty_description(game_description)
+        )
 
         if not configuration.logical_resource_action.is_default():
-            template_strings["Logic Settings"].append(
-                f"{configuration.logical_resource_action.long_name} dangerous actions"
+            template_strings["The Arrangement of Reason"].append(
+                f"{configuration.logical_resource_action.long_name} perilous deeds of drama"
             )
 
         if configuration.consider_possible_unsafe_resources:
-            template_strings["Logic Settings"].append("Considers possible unsafe resources")
+            template_strings["The Arrangement of Reason"].append("Things that believe")
 
         if randomization_mode != RandomizationMode.default():
-            template_strings["Item Pool"].append(randomization_mode.description)
+            template_strings["Container of Things"].append(randomization_mode.description)
 
         # Item Pool
         per_category_pool = pool_creator.calculate_pool_pickup_count(configuration)
         if configuration.available_locations.randomization_mode is RandomizationMode.FULL:
             pool_items, maximum_size = pool_creator.get_total_pickup_count(per_category_pool)
-            template_strings["Item Pool"].append(f"Size: {pool_items} of {maximum_size}")
+            template_strings["Container of Things"].append(f"Size: {pool_items} of {maximum_size}")
         else:
             for category, (count, num_nodes) in per_category_pool.items():
                 if isinstance(category, LocationCategory):
-                    template_strings["Item Pool"].append(f"{category.long_name}: {count}/{num_nodes}")
+                    template_strings["Container of Things"].append(f"{category.long_name}: {count}/{num_nodes}")
 
         if random_starting_pickups != "0":
-            template_strings["Item Pool"].append(f"{random_starting_pickups} random starting items")
+            template_strings["Container of Things"].append(f"{random_starting_pickups} unexpected inaugural belongings")
 
-        template_strings["Item Pool"].extend(self._calculate_pickup_pool(configuration))
+        template_strings["Container of Things"].extend(self._calculate_pickup_pool(configuration))
 
         if configuration.logical_pickup_placement is not LogicalPickupPlacementConfiguration.MINIMAL:
-            template_strings["Item Pool"].append(f"All {configuration.logical_pickup_placement.value} obtainable")
+            template_strings["Container of Things"].append(
+                f"Every {configuration.logical_pickup_placement.value} available for snagging"
+            )
 
         # Difficulty
         if configuration.damage_strictness != LayoutDamageStrictness.MEDIUM:
-            template_strings["Difficulty"].append(f"{configuration.damage_strictness.long_name} damage strictness")
+            template_strings["Daredevil Confrontation"].append(
+                f"{configuration.damage_strictness.long_name} suffering rigor"
+            )
         if configuration.pickup_model_style != PickupModelStyle.ALL_VISIBLE:
-            template_strings["Difficulty"].append(
-                f"Pickup: {configuration.pickup_model_style.long_name} "
+            template_strings["Daredevil Confrontation"].append(
+                f"Gathering: {configuration.pickup_model_style.long_name} "
                 f"({configuration.pickup_model_data_source.long_name})"
             )
 
@@ -199,20 +213,20 @@ class GamePresetDescriber:
         starting_locations = configuration.starting_location.locations
         if len(starting_locations) == 1:
             area = game_description.region_list.area_by_area_location(starting_locations[0].area_identifier)
-            starting_location = f"Starts at {game_description.region_list.area_name(area)}"
+            starting_location = f"Embarks upon {game_description.region_list.area_name(area)}"
         else:
-            starting_location = f"{len(starting_locations)} starting locations"
-        template_strings["Gameplay"].append(starting_location)
+            starting_location = f"{len(starting_locations)} commencing spots"
+        template_strings["Level Play Dance"].append(starting_location)
 
         # Dock Locks
         dock_rando = configuration.dock_rando
         if dock_rando.is_enabled():
-            template_strings["Gameplay"].append(dock_rando.mode.description)
+            template_strings["Level Play Dance"].append(dock_rando.mode.description)
 
         # Hints
         hint_strings = self._hints_info(configuration)
         if hint_strings:
-            template_strings["Hints"].extend(hint_strings)
+            template_strings["Whispers of Insight"].extend(hint_strings)
 
         return template_strings
 

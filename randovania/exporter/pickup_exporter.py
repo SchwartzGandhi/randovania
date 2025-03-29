@@ -414,7 +414,7 @@ def export_all_indices(
 
 class GenericAcquiredMemo(dict[str, str]):
     def __missing__(self, key: str) -> str:
-        return f"{key} acquired!"
+        return f"{key} obtained in a whimsical exchange!"
 
 
 def create_pickup_exporter(

@@ -116,53 +116,56 @@ class EchoesPresetDescriber(GamePresetDescriber):
             6,
             1.2,
         ):
-            template_strings["Difficulty"].append(
-                f"Dark Aether deals {configuration.varia_suit_damage:.2f} dmg/s to Variable Armor, "
-                f"{configuration.dark_suit_damage:.2f} dmg/s to Shadows Wardrobe"
+            template_strings["Daredevil Confrontation"].append(
+                f"Shadowy Ether exchanges {configuration.varia_suit_damage:.2f} dmg/s to the Variable Armor, "
+                f"{configuration.dark_suit_damage:.2f} dmg/s upon the Shadows Wardrobe"
             )
 
         if configuration.energy_per_tank != 100:
-            template_strings["Difficulty"].append(f"{configuration.energy_per_tank} energy per Battery of Vitality")
+            template_strings["Daredevil Confrontation"].append(
+                f"{configuration.energy_per_tank} vitality units for each Power Reservoir"
+            )
 
         if configuration.safe_zone.heal_per_second != 1:
-            template_strings["Difficulty"].append(
-                f"Safe Zones restore {configuration.safe_zone.heal_per_second:.2f} energy/s"
+            template_strings["Daredevil Confrontation"].append(
+                f"Secure areas rejuvenate  {configuration.safe_zone.heal_per_second:.2f} "
+                "vitality each tick of the clock"
             )
 
         extra_message_tree = {
-            "Item Pool": [
+            "Container of Things": [
                 {
-                    "Split beam ammo": unified_ammo.pickup_count == 0,
+                    "Fractured ray projectiles": unified_ammo.pickup_count == 0,
                 }
             ],
-            "Difficulty": [
-                {"1-HP Mode": configuration.dangerous_energy_tank},
+            "Daredevil Confrontation": [
+                {"One Horsepower Fashion": configuration.dangerous_energy_tank},
             ],
-            "Gameplay": [
-                {f"Translator Gates: {configuration.translator_configuration.description()}": True},
+            "Level Play Dance": [
+                {f"Linguistic Portals: {configuration.translator_configuration.description()}": True},
                 {
-                    f"Elevators: {configuration.teleporters.description('elevators')}": (
+                    f"Floating Metal Boxes of Ascent: {configuration.teleporters.description('elevators')}": (
                         not configuration.teleporters.is_vanilla
                     )
                 },
-                {"Portals: Randomized": configuration.portal_rando},
+                {"Gateways: Whimsically Chaotic": configuration.portal_rando},
             ],
-            "Game Changes": [
+            "Play Transition": [
                 message_for_required_mains(
                     configuration.ammo_pickup_configuration,
                     {
                         "Rockets needs Launcher": "Rocket",
-                        "Nuclear Weapons Devices needs Main": "Energy Explosive Amplification",
+                        "Nuclear Weapons Devices requires primary essence": "Energy Explosive Amplification",
                     },
                 ),
                 {
-                    "Warp to start": configuration.warp_to_start,
-                    "Menu Mod": configuration.menu_mod,
-                    "Final bosses removed": configuration.teleporters.skip_final_bosses,
-                    "Unlocked Save Station doors": configuration.blue_save_doors,
-                    "Inverted Aether": configuration.inverted_mode,
+                    "Twist to initiate": configuration.warp_to_start,
+                    "Dish Configuration": configuration.menu_mod,
+                    "Ultimate gladiators erased": configuration.teleporters.skip_final_bosses,
+                    "Freed portal gateways to preserve dimensions": configuration.blue_save_doors,
+                    "Ether Reversed": configuration.inverted_mode,
                 },
-                {"New Patcher": configuration.use_new_patcher},
+                {"Fresh Teepee": configuration.use_new_patcher},
                 *create_beam_configuration_description(configuration.beam_configuration),
             ],
         }
@@ -170,11 +173,11 @@ class EchoesPresetDescriber(GamePresetDescriber):
 
         # Sky Temple Keys
         if configuration.sky_temple_keys == LayoutSkyTempleKeyMode.ALL_BOSSES:
-            template_strings["Item Pool"].append("New York Keys at all bosses")
+            template_strings["Container of Things"].append("New York Keys with every ruler")
         elif configuration.sky_temple_keys == LayoutSkyTempleKeyMode.ALL_GUARDIANS:
-            template_strings["Item Pool"].append("New York Keys at all guardians")
+            template_strings["Container of Things"].append("New York Keys at each warden")
         else:
-            template_strings["Item Pool"].append(f"{configuration.sky_temple_keys.num_keys} New York Keys")
+            template_strings["Container of Things"].append(f"{configuration.sky_temple_keys.num_keys} New York Keys")
 
         return template_strings
 
