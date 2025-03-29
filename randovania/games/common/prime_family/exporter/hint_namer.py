@@ -18,7 +18,7 @@ class PrimeFamilyHintNamer(HintNamer[str]):
 
         patches = all_patches[players_config.player_index]
 
-        location_hint_template = "{determiner.title}{pickup} can be found in {node}."
+        location_hint_template = "{determiner.title}{pickup} may locate itself within {node}."
         self.location_formatters = basic_hint_formatters(
             self,
             location_hint_template,
@@ -52,6 +52,7 @@ class PrimeFamilyHintNamer(HintNamer[str]):
         location_color = self.format_location(
             location, with_region=True, with_area=not hide_area, with_color=with_color
         )
+        
         templates = [
             f"In {determiner}{location_color} comes {resource_color}v.",
             f"{resource_color} lies to {determiner}{location_color}.",

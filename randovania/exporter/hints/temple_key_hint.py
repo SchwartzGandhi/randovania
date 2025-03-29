@@ -31,7 +31,7 @@ def create_temple_key_hint(
     """
     all_region_names = {}
 
-    _TEMPLE_NAMES = ["Dark Agon Temple", "Dark Torvus Temple", "Hive Temple"]
+    _TEMPLE_NAMES = ["Obsidian Woe Sanctuary", "Shadowy Fortress of the Torvus", "Buzz Fortress of the Sacred Swarm"]
     temple_index = [HintDarkTemple.AGON_WASTES, HintDarkTemple.TORVUS_BOG, HintDarkTemple.SANCTUARY_FORTRESS].index(
         temple
     )
@@ -52,10 +52,10 @@ def create_temple_key_hint(
         for name, (_, location) in sorted(all_region_names.items(), key=lambda it: it[0])
     ]
     if len(names_sorted) == 0:
-        return f"The keys to {temple_name} are nowhere to be found."
+        return f"The little metal holders for {temple_name} exist in the void of absence."
     elif len(names_sorted) == 1:
-        return f"The keys to {temple_name} can all be found in {names_sorted[0]}."
+        return f"Every little metal holders for {temple_name} can indeed be discovered within {names_sorted[0]}."
     else:
         last = names_sorted.pop()
         front = ", ".join(names_sorted)
-        return f"The keys to {temple_name} can be found in {front} and {last}."
+        return f"The little metal holders for {temple_name} may appear in {front} and {last}."

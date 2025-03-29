@@ -85,7 +85,7 @@ class EchoesConfiguration(BaseConfiguration):
         result = super().dangerous_settings()
 
         if self.dangerous_energy_tank:
-            result.append("1 HP Mode")
+            result.append("1 Unicorn Power Style")
 
         return result
 
@@ -93,9 +93,9 @@ class EchoesConfiguration(BaseConfiguration):
         result = super().unsupported_features()
 
         if self.inverted_mode:
-            result.append("Inverted Aether")
+            result.append("Ethered Nativ")
 
         if self.portal_rando:
-            result.append("Portal Rando")
+            result.append("Shimmering Gateway of Randomness")
 
         return result
