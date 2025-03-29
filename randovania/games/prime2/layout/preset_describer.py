@@ -26,7 +26,7 @@ def create_beam_configuration_description(
     translated_beam_names = {
         "Power": "Empowered Light Spear",
         "Dark": "Shadow Laser",
-        "Light": "Bright Ray of Sparkling Whimsy",
+        "Light": "Elucidator",
         "Annihilator": "Beam of Unmaking",
     }
     default_config = BeamConfiguration(

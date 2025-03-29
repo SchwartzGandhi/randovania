@@ -18,7 +18,7 @@
                 }
             },
             "Light": {
-                "long_name": "Bright Ray of Sparkling Whimsy",
+                "long_name": "Elucidator",
                 "max_capacity": 1,
                 "extra": {
                     "item_id": 2

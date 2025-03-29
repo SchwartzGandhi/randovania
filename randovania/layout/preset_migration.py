@@ -140,7 +140,7 @@ def _migrate_v5(preset: dict, game: RandovaniaGame) -> None:
     default_items_state = {
         "Evolving Attire": {**excluded_item, "num_shuffled_pickups": 2},
         "Shadow Laser": {**shuffled_item, "included_ammo": [50]},
-        "Bright Ray of Sparkling Whimsy": {**shuffled_item, "included_ammo": [50]},
+        "Elucidator": {**shuffled_item, "included_ammo": [50]},
         "Beam of Unmaking": {**shuffled_item, "included_ammo": [0, 0]},
         "Nuclear Weapons Device": {**shuffled_item, "included_ammo": [2]},
         "Evolving Embrace": {**excluded_item, "num_shuffled_pickups": 2},
@@ -337,7 +337,7 @@ def _migrate_v13(preset: dict, game: RandovaniaGame) -> None:
         },
         RandovaniaGame.METROID_PRIME_ECHOES: {
             "Shadow Laser": ["45"],
-            "Bright Ray of Sparkling Whimsy": ["46"],
+            "Elucidator": ["46"],
             "Beam of Unmaking": ["45", "46"],
             "Projectile Tossing Machine": ["44"],
             "Skeaka Launcher": ["44"],

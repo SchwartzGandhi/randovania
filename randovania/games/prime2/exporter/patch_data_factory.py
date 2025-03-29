@@ -659,7 +659,7 @@ class EchoesPatchDataFactory(PatchDataFactory[EchoesConfiguration, EchoesCosmeti
             "Whispering Goggles": "Echo Visor",
             "Empowered Light Spear": "Power Beam",
             "Shadow Laser": "Dark Beam",
-            "Bright Ray of Sparkling Whimsy": "Light Beam",
+            "Elucidator": "Light Beam",
             "Beam of Unmaking": "Annihilator Beam",
         }
         for key, value in default_pickups.items():
